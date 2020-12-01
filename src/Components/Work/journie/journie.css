@@ -1,0 +1,91 @@
+.journie{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.jour{
+    font-size: 100px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.arrow-down{
+    padding:0px;
+    margin:0px;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 300px;
+}
+
+
+@media only screen and (max-width: 1300px) {
+    .journie{
+        margin-top: 500px;
+    }
+    
+    .jour{
+        font-size: 110px;
+        text-align: center;
+    }
+
+    .arrow-down{
+        margin-top: 200px;
+    }
+
+    .img-ad{
+        width: 70px;
+        height: auto;
+    }
+    
+}
+
+@media only screen and (max-width: 800px) {
+    
+    .journie{
+        margin-top: 300px;
+    }
+    
+    .jour{
+        font-size: 60px;
+        text-align: center;
+    }
+
+    .arrow-down{
+        margin-top: 200px;
+    }
+
+    .img-ad{
+        width: 60px;
+        height: auto;
+    }
+
+    
+}
+
+@media only screen and (max-width: 500px) {
+    
+    .journie{
+        margin-top: 80px;
+    }
+    
+    .jour{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .arrow-down{
+        margin-top: 200px;
+    }
+
+    .img-ad{
+        width: 40px;
+        height: auto;
+    }
+
+    .p-arrow{
+        width: 40px;
+    }
+
+    
+}

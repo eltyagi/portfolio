@@ -1,0 +1,225 @@
+
+.Home{
+  margin-top: 100px;
+}
+  
+  .name{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 180px;
+    margin: 0px;
+    padding: 0px;
+    
+  }
+  
+  .name{
+    margin-left: 100px;
+  }
+  
+  .sname{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 180px;
+    padding-left: 10px;
+  }
+  .vl{
+    border-left: 6px solid rgb(0, 0, 0);
+    height: 180px;
+  }
+  ul,li{
+    list-style-type: none;
+  
+  }
+  .desig-list{
+    font-size: 40px;
+    font-family: 'Cormorant Garamond', serif;
+    margin:0px;
+    padding:0px;
+    margin-right: 20px;
+    text-align: right;
+  }
+  
+  .name-p2{
+    padding-left: 180px;
+  }
+  
+  .projects{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: baseline;
+    margin-top: 50px;
+    margin-right: 220px;
+    width: 300px;
+  }
+  
+  .proj-no{
+    font-size: 20px;
+    font-family: 'Play', sans-serif;
+    margin: 5px;
+    background: #fff;
+  }
+  
+  /*.proj-no:hover{
+    background-color: #000000;
+    transition: background-color 1s ease-in-out;
+    color: white;
+    border-radius: 40px;
+  
+  }*/
+  
+  .proj-unit{
+    text-align: center;
+  }
+  
+  .proj-unit .proj-name{
+    visibility: hidden;
+    margin: 0px;
+    padding: 0px;
+    width: 100px;
+    opacity: 0;
+  }
+  
+  .proj-unit:hover .proj-name{
+    visibility: visible;
+    transition: opacity 0.5s ease-in;
+    opacity: 1;
+  }
+
+
+
+  /*Responsive*/
+
+  @media only screen and (max-width: 1440px) {
+    .name,.sname{
+      font-size: 140px;
+    }
+    .name{
+      margin-left: 100px
+    }
+   .name-p2{
+      padding-left: 80px;
+   }
+    .desig-list{
+      font-size: 32px;
+    }
+  
+    .vl{
+      height: 140px;
+    }
+
+    .projects{
+      margin-left: 120px;
+    }
+  }
+
+
+  @media only screen and (max-width: 1350px) {
+    .name,.sname{
+      font-size: 120px;
+    }
+    .name{
+      margin-left: 100px;
+      margin-top: 100px;
+    }
+   .name-p2{
+      padding-left: 80px;
+   }
+    .desig-list{
+      font-size: 25px;
+    }
+  
+    .vl{
+      height: 120px;
+    }
+
+    .projects{
+      margin-left: 220px;
+      margin-top: 80px;
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+    .name,.sname{
+      font-size: 100px;
+    }
+    .name{
+      margin-left: 60px;
+      margin-top: 70px;
+    }
+   .name-p2{
+      padding-left: 40px;
+   }
+    .desig-list{
+      font-size: 22px;
+    }
+  
+    .vl{
+      height: 100px;
+    }
+
+    .projects{
+      margin-left: 150px;
+    }
+
+  }
+
+  
+  @media only screen and (max-width: 600px) {
+    .name,.sname{
+      font-size: 70px;
+    }
+    .name{
+      margin-left: 60px;
+      margin-top: 30px;
+    }
+   .name-p2{
+      padding-left: 40px;
+   }
+    .desig-list{
+      font-size: 15px;
+    }
+  
+    .vl{
+      height: 70px;
+    }
+    
+    .projects{
+      margin-left: 50px;
+      margin-top: 2px;
+    }
+
+  }
+  
+
+
+  @media only screen and (max-width: 500px) {
+    .name,.sname{
+      font-size: 60px;
+    }
+    .name{
+      margin-left: 20px;
+    }
+   .name-p2{
+      padding-left: 10px;
+   }
+    .desig-list{
+      font-size: 14px;
+    }
+  
+    .vl{
+      height: 60px;
+    }
+
+    .projects{
+      margin-left: 40px;
+      margin-top: 5px;
+    }
+
+    .proj-no{
+      font-size: 15px;
+      margin: 2px;
+    }
+  
+  }
+  
+  
+  

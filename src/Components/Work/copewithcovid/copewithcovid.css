@@ -1,0 +1,106 @@
+.copewithcovid{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.cwc{
+    font-size: 100px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+img{
+    padding: 0px;
+    margin: 0px;
+}
+
+.arrow-down{
+    padding:0px;
+    margin:0px;
+    margin-top: 600px;
+    margin-bottom: 100px;  
+    text-align: center;
+}
+
+.arrow-left{
+    text-align: left;
+}
+
+.arrow-right{
+    text-align: right;
+}
+
+.img-ad{
+    width: 70px;
+    height: auto;
+}
+
+
+
+@media only screen and (max-width: 1300px) {
+    .copewithcovid{
+        margin-top: 300px;
+    }
+    
+    .cwc{
+        font-size: 110px;
+        text-align: center;
+    }
+
+    .arrow-down{
+        margin-top: 200px;
+    }
+
+    .img-ad{
+        width: 70px;
+        height: auto;
+    }
+    
+}
+
+@media only screen and (max-width: 800px) {
+    
+    .copewithcovid{
+        margin-top: 10px;
+    }
+    
+    .cwc{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .arrow-down{
+        margin-top: 200px;
+    }
+
+    .img-ad{
+        width: 40px;
+        height: auto;
+    }
+
+    
+}
+
+@media only screen and (max-width: 500px) {
+    
+    .copewithcovid{
+        margin-top: 10px;
+    }
+    
+    .cwc{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .arrow-down{
+        margin-top: 200px;
+    }
+
+    .img-ad{
+        width: 40px;
+        height: auto;
+    }
+
+    
+}

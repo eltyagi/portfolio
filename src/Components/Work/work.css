@@ -1,0 +1,189 @@
+.vl-op1{
+    border-left: 1px solid rgb(0, 0, 0);
+    height: 110px;
+  }
+  
+  .vl-op2{
+    border-left: 1px solid rgb(0, 0, 0);
+    height: 110px;
+  }
+
+  .vl-op3{
+    border-left: 1px solid rgb(0, 0, 0);
+    height: 110px;
+  }
+
+  .vl-op4{
+    border-left: 1px solid rgb(0, 0, 0);
+    height: 70px;
+  }
+
+  .exp-block{
+    width: 50%;
+    margin-left: 110px;
+  }
+
+  .skill-block{
+    width: 20%;
+    margin-top: 30px;
+  }
+
+  .arrow{
+    width: 20%;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 150px;
+    margin-left: 150px;
+  }
+
+  .exp-title{
+    font-size: 70px;
+    font-family: 'Cormorant Garamond', serif;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 110px;
+  }
+
+  .skill-title{
+    font-size: 50px;
+    font-family: 'Cormorant Garamond', serif;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 30px;
+  }
+
+  .exp-op{
+    width: 250px;
+    margin: 30px;
+  }
+
+  .skill-op{
+    width: 250px;
+    margin-left: 30px;
+  }
+  
+
+  .exp-op-title{
+    font-size: 30px;
+    font-family: 'Cormorant Garamond', serif;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .op-content{
+    font-size: 20px;
+    font-family: 'Cormorant Garamond', serif;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 10px;
+  }
+
+  .op-surface{
+    margin:0px;
+    padding:0px;
+  }
+
+
+  /*Responsive*/
+
+  
+  @media only screen and (max-width: 500px) {
+    .exp-title{
+      font-size: 30px;
+      margin-left: 50px;
+    }
+
+    .exp-op{
+      margin-left: 30px;
+      margin-top: 10px;
+    }
+
+    .skill-op{
+      margin-left: 5px;
+    }
+
+    .exp-block {
+      margin-left: 5px;
+      margin-top: 50px;
+    }
+
+    .skill-block{
+      margin-top: 60px;
+    }
+
+    .exp-op-title{
+        font-size: 15px;
+      }
+
+  
+    .op-surface{
+      font-size: 10px;
+    }
+
+    .vl-op1{
+     
+      height: 55px;
+    }
+    
+    .vl-op2{
+      
+      height: 55px;
+    }
+  
+    .vl-op3{
+      
+      height: 55px;
+    }
+  
+    .vl-op4{
+      
+      height: 30px;
+    }
+
+    .arrow{
+      margin-top: 150px;
+      margin-left: 50px;
+    }
+  
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    .exp-title{
+      margin-left: 50px;
+    }
+
+    .exp-op-title{
+      font-size: 20px;
+    }
+
+    .exp-op{
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+
+    .op-surface{
+      font-size: 15px;
+    }
+
+    .skill-op{
+      margin-left: 0px;
+    }
+
+    .exp-block {
+      margin-left: 5px;
+      margin-top: 50px;
+    }
+
+    .skill-block{
+      margin-top: 60px;
+    }
+
+    .arrow{
+      margin-top: 150px;
+      margin-left: 50px;
+    }
+  
+  }
+  
+  

@@ -1,0 +1,114 @@
+.about{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.self{
+    margin-left: 150px;
+    height: 500px;
+    width: auto;
+}
+
+.about-me{
+    width: 600px;
+    margin-left: 30px;
+}
+
+.about-title{
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 100;
+    font-size: 70px;
+    line-height: 85px;
+    margin: 0px;
+    padding: 0px;
+}
+.about-1{
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    color: black;
+    margin-top: 20px;
+}
+
+
+@media only screen and (max-width: 1440px) {
+    .name,.sname{
+      font-size: 140px;
+    }
+    .name{
+      margin-left: 100px
+    }
+   .name-p2{
+      padding-left: 80px;
+   }
+    .desig-list{
+      font-size: 32px;
+    }
+  
+    .vl{
+      height: 140px;
+    }
+
+    .projects{
+      margin-left: 120px;
+    }
+  }
+
+  @media only screen and (max-width: 1200px) {
+    
+    .about-title{
+        margin-left: 140px;
+        font-size: 50px;
+    }
+
+    .about-1{
+        margin-left: 140px;
+        font-size: 15px;
+    }
+
+    .self{
+        margin-left: 140px;
+        height: 600px;
+        width: auto;
+    }
+        
+
+  }
+
+
+  @media only screen and (max-width: 800px) {
+    
+    .about-title{
+        margin-left: 80px;
+    }
+
+    .about-1{
+        margin-left: 80px;
+    }
+        
+
+  }
+
+
+  @media only screen and (max-width: 500px) {
+    .self{
+        margin-left: 40px;
+        height: 300px;
+        width: auto;
+    }
+    
+    .about-title{
+        font-weight: 100;
+        font-size: 30px;
+    }
+
+    .about-1{
+        font-size: 10px;
+        margin-right: 10px;
+    }
+        
+    
+  }
+  
