@@ -13,23 +13,28 @@ class aboutR3 extends React.Component{
         return(
             <div className = 'aboutR3' style = {{display: 'flex', flexWrap: 'wrap'}}>
                 <div className = 'description-R3'>
-                    <h2><b>MOPP Open Time Prediction</b></h2>
+                    <h2><b>MOPP Open Time Prediction</b></h2><br/><br/>
                     <p>A hierarchal adaptive neuro-fuzzy inference system (HANFIS) model is proposed 
                         to predict worst case MOPP open times for surfaces covered with 
                         chemical agent resistant coating (CARC). The model can provide 
                         decision support for commanders when determining MOPP open or 
-                        unmasking time. From the HANFIS simulation results it was concluded 
+                        unmasking time. 
+                        
+                        <br/><br/>From the HANFIS simulation results it was concluded 
                         that the model can accurately predict MOPP open times according to data present 
-                        in military field manuals. 
+                        in military field manuals.
+                        <br/><br/> 
                     </p>
                     <p>
                         <b>Tech-Stack</b><br/> 
+                        <br/><br/>
                         MATLAB & Simulink, Python<br/>
                         Soft-Computing, Neuro-Fuzzy Systems<br/>
                         Expert Systems, Descision Support<br/>
                     </p>
-                    <br></br>
+                    <br/><br/>
                     <b>Accolades</b><br/> 
+                    <br/><br/>
                         Published in International Journal of Fuzzy Systems Application (SCOPUS, eSCI)<br/>
                 </div>
 

@@ -1,6 +1,6 @@
 
 .description-j{
-    width: 340px;
+    width: 400px;
     margin: 0px;
     padding: 0px;
     margin: 100px;
@@ -48,6 +48,7 @@
     .description-j{
         font-size: 15px;
         margin: 10px;
+        width: 340;
     }
 
     .img-ss{

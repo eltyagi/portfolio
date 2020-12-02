@@ -18,29 +18,44 @@ class aboutR1 extends React.Component{
                     <p>ECA utilizes explosives science and engineering to determine
                         potential hazards to targets through objective
                         processes and scientific evidence.<br/> 
-                        <br></br>
+                        <br/><br/>
                         This project proposes the implementation of adaptive neuro-fuzzy inference
                         system (ANFIS) for accurate and
                         effective explosion consequence analysis on brick structures over a range of twenty
-                        meters. <br/>
+                        meters. <br/><br/>
                     </p>
+
+                    <p>
+                        <a href = "https://github.com/Lakshya3190/Adaptive-Neuro-Fuzzy-Inference-System-for-Consequence-Analysis">
+                            <u><b>View Project Repository</b></u>
+                        </a>
+                        <br/><br/>
+                    </p>
+
+                    <p>
+                        <a href = "https://ieeexplore.ieee.org/document/9058024">
+                            <u><b>View Publication</b></u>
+                        </a>
+                        <br/><br/>
+                    </p>
+
+
+
                     <p>
                         <b>Tech-Stack</b><br/> 
                         MATLAB and SIMULINK<br/>
                         Neural Networkds<br/>
                         Fuzzy Inference Systems<br/>
-                        <br></br>
+                        <br/><br/>
                         <b>Accolades</b><br/> 
-                        Published in 10TH International Conference on Cloud Computing, Data Science & Engineering.<br/>
+                        Published in 10TH International Conference on Cloud Computing, Data Science & Engineering.<br/><br/><br/><br/><br/><br/><br/><br/>
                         
                     </p>
                 </div>
 
                 
 
-                <div className = 'ss-eca'>
-                    <img alt = '' className = 'img-ss-r1' src = {sim}/>
-                </div>
+                
 
 
 

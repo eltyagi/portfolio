@@ -10,6 +10,11 @@
     font-family: 'Cormorant Garamond', serif;
 }
 
+.arrow-j{
+    margin: 0px;
+    margin-top: 30px;
+}
+
 .arrow-down{
     padding:0px;
     margin:0px;
@@ -47,7 +52,7 @@
     }
     
     .jour{
-        font-size: 60px;
+        font-size: 100px;
         text-align: center;
     }
 
@@ -70,7 +75,7 @@
     }
     
     .jour{
-        font-size: 30px;
+        font-size: 70px;
         text-align: center;
     }
 

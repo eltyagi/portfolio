@@ -14,20 +14,29 @@ class aboutR2 extends React.Component{
             <div className = 'aboutR2'>
                 <div className = 'description-R2'>
                     <h2><b>ECA Through SVM</b></h2>
-                    <p>This
-                    paper proposes the implementation of support vector
+                    <p>
+                    This paper proposes the implementation of support vector
                     machines, a supervised machine learning algorithm in
                     decision support for accurate and effective explosion
                     consequence analysis. 
+                    <br/><br/>
                     </p>
+
                     <p>
-                        <b>Tech-Stack</b><br/> 
+                        <a href = "https://ieeexplore.ieee.org/document/9197866">
+                            <u><b>View Publication</b></u>
+                        </a>
+                        <br/><br/>
+                    </p>
+
+                    <p>
+                        <b>Tech-Stack</b><br/><br/>
                         MATLAB & Simulink<br/>
                         Machine Learning, Scikit-Learn<br/>
                         Support Vector Machines<br/>
                     </p>
                     <br></br>
-                    <b>Accolades</b><br/> 
+                    <b>Accolades</b><br/><br/>
                         Published in IEEE 8th INTERNATIONAL CONFERENCE on Reliability, Infocom Technologies and Optimization (ICRITO'2020)<br/>
                 </div>
 

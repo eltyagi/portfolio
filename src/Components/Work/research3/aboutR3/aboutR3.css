@@ -1,5 +1,5 @@
 .description-R3{
-    width: 340px;
+    width: 400px;
     margin: 0px;
     padding: 0px;
     margin: 100px;
@@ -43,6 +43,7 @@
     .description-R3{
         font-size: 15px;
         margin: 40px;
+        width: 340px;
     }
 
     .img-ss{

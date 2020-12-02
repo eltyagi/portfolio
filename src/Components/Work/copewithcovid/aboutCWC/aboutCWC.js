@@ -16,33 +16,56 @@ class aboutCWC extends React.Component{
             <div className = 'aboutCWC'>
                 <div className = 'description-cwc'>
                     <h2><b>Cope with Covid</b></h2>
-                    <p>Cope with Covid is a web-applicaiton developed to enable interaction
-                        between medium/small businesses and residents of a locality/society. 
+
+                    <p>
+                        <b>The Story</b>
+                        <br/><br/>
+
+                        Peak of COVID-19 Lockdown was rampant with out-of-stock supplies,
+                        crunched E-Commerce sites and lack of customers for small businesses.
+                        While sites like <i>Amazon</i> and <i>Big Basket</i> failed to deliver,
+                        small business were stocked with supplies but had no customers due to the lockdown.
+                        <br/><br/>
+                        Cope With Covid was developed to meet grocery requirements of residents within a 
+                        5km radius while enabling small business owners to post and publicise their stocks.
+                        <br/><br/>
+
+                        Cope with Covid was developed as a web-application with a stock portal, Covid-19
+                        dashboard and a Vulnerability analysis. 
+                        <br/><br/>
+
+                        
                     </p>
+
+                    <p className = 'link pointer dim'>
+                    <a href = "https://github.com/Lakshya3190/cope-with-covid"> 
+                            <p><b><u>View Project Repository</u></b></p>
+                    </a>
+                    </p>
+                        <br/><br/>
+                    
                     <p>
                         <b>Accolades</b><br/> 
-                        1st Position, hackCOVID hackathon (out of 4,500 submissions)<br/>
-                        Shortlisted for Pre-Incubation by a leading B-School
+                        x Awarded 1st Position, hackCOVID hackathon (out of 4,500 submissions)<br/>
+                        x Shortlisted for Pre-Incubation by a leading B-School.
+                        <br/><br/>
                     </p>
                     <p>
                         <b>Tech-Stack</b><br/> 
                         FrontEnd: ReactJS<br/>
                         BackEnd: NodeJS, Heroku<br/>
                         Database: PostgreSQL<br/>
+                        <br/>
                     </p>
                     <p>
                         <b>Features</b><br/> 
                         Dynamic Covid-19 Dashboard<br/>
                         Product & Services Portal<br/>
                         Vulnerability Analysis<br/>
+                        <br/>
                     </p>
                 </div>
 
-                <div className = 'ss-cwc grow pointer '>
-                        <p>
-                            <img className = 'img-ss' src = {cwcss}/>
-                        </p>
-                </div>
 
 
 

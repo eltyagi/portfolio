@@ -27,10 +27,10 @@ class research2 extends React.Component{
             <div>
             <div className = 'research2'>
                <div>
-                        <p className = 'arrow grow pointer dim'>
+                        <p className = 'arrow-r2 grow pointer dim'>
                         <Animated animationIn="fadeInRight" animationInDelay = {1300} animationOut="fadeInOut" animationInDuration={1000} animationOutDuration={1000} isVisible={true}>
                             <Link to = "/work/research1" style={{ textDecoration: 'none', color: 'black' }}>
-                                <img src = {al} width = '150px' height = 'auto'/>
+                                <img src = {al} width = '70px' height = 'auto'/>
                             </Link>
                         </Animated>
                         </p>
@@ -43,10 +43,10 @@ class research2 extends React.Component{
 
 
                <div>
-                    <p className = 'arrow grow pointer dim'>
+                    <p className = 'arrow-r2 grow pointer dim'>
                     <Animated animationIn="fadeInLeft" animationInDelay = {1300} animationOut="fadeInOut" animationInDuration={1000} animationOutDuration={1000} isVisible={true}>
                         <Link to = "/work/research3" style={{ textDecoration: 'none', color: 'black' }}>
-                            <img src = {ar} width = '150px' height = 'auto'/>
+                            <img src = {ar} width = '70px' height = 'auto'/>
                         </Link>
                     </Animated>
                     </p>

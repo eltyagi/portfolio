@@ -1,5 +1,5 @@
 .research1{
-    margin-top: 80px;
+    margin-top: 180px;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -26,7 +26,7 @@
     }
     
     .res1{
-        font-size:80px;
+        font-size:100px;
         text-align: center;
     }
 
@@ -48,7 +48,7 @@
     }
     
     .res1{
-        font-size: 40px;
+        font-size: 80px;
         text-align: center;
     }
 
@@ -67,11 +67,11 @@
 @media only screen and (max-width: 500px) {
     
     .research1{
-        margin-top: 5px;
+        margin-top: 70px;
     }
     
     .res1{
-        font-size: 20px;
+        font-size: 50px;
         text-align: center;
     }
 

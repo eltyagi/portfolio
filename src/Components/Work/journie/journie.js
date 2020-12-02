@@ -27,7 +27,7 @@ class journie extends React.Component{
             <div>
             <div className = 'journie'>
                <div>
-                        <p className = 'arrow-left grow pointer dim'>
+                        <p className = 'arrow-j grow pointer dim'>
                         <Animated animationIn="fadeInRight" animationInDelay = {1300} animationOut="fadeInOut" animationInDuration={1000} animationOutDuration={1000} isVisible={true}>
                             <Link to = "/work/copewithcovid" style={{ textDecoration: 'none', color: 'black' }}>
                                 <img className = 'p-arrow' src = {al} width = '70px' height = 'auto'/>
@@ -43,7 +43,7 @@ class journie extends React.Component{
 
 
                <div>
-                    <p className = 'arrow-right grow pointer dim'>
+                    <p className = 'arrow-j grow pointer dim'>
                     <Animated animationIn="fadeInLeft" animationInDelay = {1300} animationOut="fadeInOut" animationInDuration={1000} animationOutDuration={1000} isVisible={true}>
                         <Link to = "/work/research1" style={{ textDecoration: 'none', color: 'black' }}>
                             <img className = 'p-arrow' src = {ar} width = '70px' height = 'auto'/>

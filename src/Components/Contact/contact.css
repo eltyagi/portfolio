@@ -4,3 +4,53 @@
     margin-left: 130px;
     margin-top: 130px;
 }
+
+.logos{
+    margin: 30px;
+    margin-left: 110px;
+}
+
+.logo-img{
+    margin: 20px;
+}
+
+.logo-overlay{
+    text-align: center;
+  }
+
+.logo-op .logo-overlay{
+    visibility: hidden;
+    margin: 0px;
+    padding: 0px;
+    width: 100px;
+    opacity: 0;
+  }
+  
+  .logo-op:hover .logo-overlay{
+    visibility: visible;
+    transition: opacity 0.5s ease-in;
+    opacity: 1;
+  }
+
+
+  @media only screen and (max-width: 500px) {
+    .email{
+        font-size: 30px;
+        margin-left: 20px;
+    }
+
+    .logos{
+        width: 20px;
+        flex-wrap: wrap;
+        margin:0px;
+        margin-left: 20px;
+    }
+
+    .logo-img{
+        width: 25px;
+        height: auto;
+        margin: 0px;
+    }
+
+  }
+  

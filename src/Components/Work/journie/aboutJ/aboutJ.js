@@ -15,10 +15,29 @@ class aboutJ extends React.Component{
             <div className = 'aboutJ'>
                 <div className = 'description-j'>
                     <h2><b>Journie</b></h2>
-                    <p>Journie’ is a productivity application optimize writing and organizing journals, sharing important
-                        events and encouraging productivity. It is a cross-platform
-                        application with MacOS & Windows support.
+                    <b>The Story</b>
+                    <br/><br/>
+                    <p>
+                        I am a productivity freak, my time in basic military training has taught me just how much
+                        one can achieve in a day. Therefore, I use my time well and make an attempt to make the most
+                        out of my day.
+                        <br/><br/>
+                        Naturally, I looked for software alternatives to creating a productivity journal. Unfortunately,
+                        I found them to be bland, rigid and ineffective in creating a personalized experience.
+                        <br/><br/>
+                        In an attempt to develop the ideal journal for myself, I started working on Journie. It's developed
+                        as a desktop application with cross-platform compatibility (Windows/MacOS) achieved through the amazing
+                        ElectronJS framework.
+                        <br/><br/>
                     </p>
+
+                    <p>
+                        <a href = "">
+                            <u><b>View Project Repository</b></u>
+                        </a>
+                        <br/><br/>
+                    </p>
+
                     <p>
                         <b>Tech-Stack</b><br/> 
                         FrontEnd: ReactJS<br/>
@@ -27,9 +46,7 @@ class aboutJ extends React.Component{
                     </p>
                 </div>
 
-                <div className = 'ss-jou'>
-                    <img className = 'img-ss' alt = '' src = {Jou}/>
-                </div>
+               
 
                 
 
