@@ -85,7 +85,7 @@ class Home extends React.Component {
 
               <div className = 'proj-unit'>
               <p className = 'proj-name f6'>Contact</p>
-              <p className = 'proj-no pointer grow'>09</p>
+              <p className = 'proj-no pointer grow'><Link to = "/contact" style={{ textDecoration: 'none', color: 'black' }}>09</Link></p>
               </div>
               
           </div>

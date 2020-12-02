@@ -84,7 +84,7 @@ class App extends React.Component {
 
                 <Animated animationIn="fadeInDown" animationOut="fadeInOut" animationInDuration={1600} animationOutDuration={1000} isVisible={true}>
                   <p className = 'nav-op pointer grow dim'>
-                    Resume
+                    <a href = "https://drive.google.com/file/d/1uOeGjI-ZS4RH6aomSnfJFjOUVP0empqL/view?usp=sharing">Resume</a>
                   </p>
                 </Animated>
 
