@@ -142,7 +142,7 @@ class App extends React.Component {
                 <div className = 'dropdown-content'>
                     <p onClick = {this.handleClick} className = 'pointer drop-op'><Link to = "/about" style={{ textDecoration: 'none', color: 'black' }}>About</Link></p>
                     <p onClick = {this.handleClick} className = 'pointer drop-op' ><Link to = "/experience" style={{ textDecoration: 'none', color: 'black' }}>Work</Link></p>
-                    <p className = 'pointer drop-op' >Resume</p>
+                    <p className = 'pointer drop-op' ><a href = "https://drive.google.com/file/d/1uOeGjI-ZS4RH6aomSnfJFjOUVP0empqL/view?usp=sharing">Resume</a></p>
                     <p onClick = {this.handleClick} className = 'pointer drop-op' ><Link to = "/contact" style={{ textDecoration: 'none', color: 'black' }}>Contact</Link></p>
 
                 </div>
