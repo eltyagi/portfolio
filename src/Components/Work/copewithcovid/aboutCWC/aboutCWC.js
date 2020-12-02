@@ -16,10 +16,9 @@ class aboutCWC extends React.Component{
             <div className = 'aboutCWC'>
                 <div className = 'description-cwc'>
                     <h2><b>Cope with Covid</b></h2>
-
+                    <b>The Story</b>
+                    <br/><br/>
                     <p>
-                        <b>The Story</b>
-                        <br/><br/>
 
                         Peak of COVID-19 Lockdown was rampant with out-of-stock supplies,
                         crunched E-Commerce sites and lack of customers for small businesses.
@@ -33,16 +32,14 @@ class aboutCWC extends React.Component{
                         Cope with Covid was developed as a web-application with a stock portal, Covid-19
                         dashboard and a Vulnerability analysis. 
                         <br/><br/>
-
-                        
                     </p>
 
-                    <p className = 'link pointer dim'>
-                    <a href = "https://github.com/Lakshya3190/cope-with-covid"> 
-                            <p><b><u>View Project Repository</u></b></p>
-                    </a>
-                    </p>
+                    <p>
+                        <a href = "https://github.com/Lakshya3190/cope-with-covid">
+                            <u><b>View Project Repository</b></u>
+                        </a>
                         <br/><br/>
+                    </p>
                     
                     <p>
                         <b>Accolades</b><br/> 
@@ -60,7 +57,7 @@ class aboutCWC extends React.Component{
                     <p>
                         <b>Features</b><br/> 
                         Dynamic Covid-19 Dashboard<br/>
-                        Product & Services Portal<br/>
+                        Product and Services Portal<br/>
                         Vulnerability Analysis<br/>
                         <br/>
                     </p>
