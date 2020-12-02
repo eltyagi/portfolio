@@ -59,7 +59,7 @@ class research2 extends React.Component{
                 <p className = 'arrow-down grow pointer dim'>
                 <Animated animationIn="fadeInDown" animationInDelay = {1300} animationOut="fadeInOut" animationInDuration={1000} animationOutDuration={1000} isVisible={true}>
                     <Link1 activeClass= 'active' to = 'aboutR2' smooth = {true} duration = {600} style={{ textDecoration: 'none', color: 'black' }}>
-                            <img src = {ad} width = '70px' height = 'auto'/>
+                            <img alt = '' className = 'img-ad' src = {ad} width = '70px' height = 'auto'/>
                     </Link1>
                 </Animated>
                 </p>

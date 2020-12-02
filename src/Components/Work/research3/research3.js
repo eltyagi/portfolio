@@ -38,7 +38,7 @@ class research3 extends React.Component{
                 </div>
 
                 <Animated animationIn="fadeInRight" animationInDelay = {500} animationOut="fadeInLeft" animationInDuration={1000} animationOutDuration={1000} isVisible={true}>
-                    <div className = 'res3'>MOPP Open Time Prediction</div>
+                    <div className = 'res3'>Hierarchal ANFIS</div>
                 </Animated>
 
 
@@ -46,7 +46,7 @@ class research3 extends React.Component{
                     <p className = 'arrow grow pointer dim'>
                     <Animated animationIn="fadeInLeft" animationInDelay = {1300} animationOut="fadeInOut" animationInDuration={1000} animationOutDuration={1000} isVisible={true}>
                         <Link to = "/work/copewithcovid" style={{ textDecoration: 'none', color: 'black' }}>
-                            <img src = {ar} width = '150px' height = 'auto'/>
+                            <img alt = "" src = {ar} width = '150px' height = 'auto'/>
                         </Link>
                     </Animated>
                     </p>
@@ -59,7 +59,7 @@ class research3 extends React.Component{
                 <p className = 'arrow-down grow pointer dim'>
                 <Animated animationIn="fadeInDown" animationInDelay = {1300} animationOut="fadeInOut" animationInDuration={1000} animationOutDuration={1000} isVisible={true}>
                     <Link1 activeClass= 'active' to = 'aboutR3' smooth = {true} duration = {600} style={{ textDecoration: 'none', color: 'black' }}>
-                            <img src = {ad} width = '70px' height = 'auto'/>
+                            <img alt = '' className = 'img-ad' src = {ad} width = '70px' height = 'auto'/>
                     </Link1>
                 </Animated>
                 </p>

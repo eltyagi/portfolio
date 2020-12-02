@@ -137,20 +137,15 @@ class App extends React.Component {
                 </Animated>
               </div>
 
-              <div className = ' res-nav-bar nav'>
-                <nav id="colorNav" className = 'colorNav'>
-                <ul>
-                    <li class="green">
-                        <a class="fa fa-bars"></a>
-                        <ul>
-                            <li><a><p className = 'pointer'><Link to = "/about" style={{ textDecoration: 'none', color: 'black' }}>About</Link></p></a></li>
-                            <li><a><p className = 'pointer' ><Link to = "/work" style={{ textDecoration: 'none', color: 'black' }}>Work</Link></p></a></li>
-                            <li><a><p className = 'pointer' >Resume</p></a></li>
-                            <li><a><p className = 'pointer' ><Link to = "/contact" style={{ textDecoration: 'none', color: 'black' }}>Contact</Link></p></a></li>
-                        </ul>
-                    </li>
-                </ul>
-                </nav>
+              <div className = 'res-nav-bar dropdown'>
+                <button className = 'dropbtn'>MENU</button>
+                <div className = 'dropdown-content'>
+                    <p onClick = {this.handleClick} className = 'pointer drop-op'><Link to = "/about" style={{ textDecoration: 'none', color: 'black' }}>About</Link></p>
+                    <p onClick = {this.handleClick} className = 'pointer drop-op' ><Link to = "/experience" style={{ textDecoration: 'none', color: 'black' }}>Work</Link></p>
+                    <p className = 'pointer drop-op' >Resume</p>
+                    <p onClick = {this.handleClick} className = 'pointer drop-op' ><Link to = "/contact" style={{ textDecoration: 'none', color: 'black' }}>Contact</Link></p>
+
+                </div>
               </div>          
         </div>
         <div>

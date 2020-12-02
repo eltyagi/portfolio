@@ -11,21 +11,24 @@ class aboutR2 extends React.Component{
 
     render(){
         return(
-            <div className = 'aboutR2' style = {{display: 'flex', flexWrap: 'wrap'}}>
-                <div className = 'description-R'>
-                    <h3><b>Explosion Consequence Analysis</b></h3>
-                    <p>Journie’ is intended to be a productivity application with smart features and an aim
-                        of optimizing the experience of writing and organizing journals, sharing important
-                        events and encouraging productivity. The application exists as a cross-platform
-                        software which will support Windows and Mac PC as a desktop application as well
-                        as a mobile application which will support android OS. 
+            <div className = 'aboutR2'>
+                <div className = 'description-R2'>
+                    <h2><b>ECA Through SVM</b></h2>
+                    <p>This
+                    paper proposes the implementation of support vector
+                    machines, a supervised machine learning algorithm in
+                    decision support for accurate and effective explosion
+                    consequence analysis. 
                     </p>
                     <p>
                         <b>Tech-Stack</b><br/> 
-                        FrontEnd: ReactJS<br/>
-                        BackEnd: NodeJS, ElectronJS<br/>
-                        Database: PostgreSQL, MongoDB<br/>
+                        MATLAB & Simulink<br/>
+                        Machine Learning, Scikit-Learn<br/>
+                        Support Vector Machines<br/>
                     </p>
+                    <br></br>
+                    <b>Accolades</b><br/> 
+                        Published in IEEE 8th INTERNATIONAL CONFERENCE on Reliability, Infocom Technologies and Optimization (ICRITO'2020)<br/>
                 </div>
 
                 

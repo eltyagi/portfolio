@@ -12,20 +12,25 @@ class aboutR3 extends React.Component{
     render(){
         return(
             <div className = 'aboutR3' style = {{display: 'flex', flexWrap: 'wrap'}}>
-                <div className = 'description-R'>
-                    <h3><b>Explosion Consequence Analysis</b></h3>
-                    <p>Journie’ is intended to be a productivity application with smart features and an aim
-                        of optimizing the experience of writing and organizing journals, sharing important
-                        events and encouraging productivity. The application exists as a cross-platform
-                        software which will support Windows and Mac PC as a desktop application as well
-                        as a mobile application which will support android OS. 
+                <div className = 'description-R3'>
+                    <h2><b>MOPP Open Time Prediction</b></h2>
+                    <p>A hierarchal adaptive neuro-fuzzy inference system (HANFIS) model is proposed 
+                        to predict worst case MOPP open times for surfaces covered with 
+                        chemical agent resistant coating (CARC). The model can provide 
+                        decision support for commanders when determining MOPP open or 
+                        unmasking time. From the HANFIS simulation results it was concluded 
+                        that the model can accurately predict MOPP open times according to data present 
+                        in military field manuals. 
                     </p>
                     <p>
                         <b>Tech-Stack</b><br/> 
-                        FrontEnd: ReactJS<br/>
-                        BackEnd: NodeJS, ElectronJS<br/>
-                        Database: PostgreSQL, MongoDB<br/>
+                        MATLAB & Simulink, Python<br/>
+                        Soft-Computing, Neuro-Fuzzy Systems<br/>
+                        Expert Systems, Descision Support<br/>
                     </p>
+                    <br></br>
+                    <b>Accolades</b><br/> 
+                        Published in International Journal of Fuzzy Systems Application (SCOPUS, eSCI)<br/>
                 </div>
 
                 

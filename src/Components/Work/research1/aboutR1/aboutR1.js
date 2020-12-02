@@ -13,7 +13,7 @@ class aboutR1 extends React.Component{
     render(){
         return(
             <div className = 'aboutR1'>
-                <div className = 'description-R'>
+                <div className = 'description-R1'>
                     <h2><b>Explosion Consequence Analysis</b></h2>
                     <p>ECA utilizes explosives science and engineering to determine
                         potential hazards to targets through objective
@@ -39,7 +39,7 @@ class aboutR1 extends React.Component{
                 
 
                 <div className = 'ss-eca'>
-                            <img alt = '' className = 'img-ss' src = {sim}/>
+                    <img alt = '' className = 'img-ss-r1' src = {sim}/>
                 </div>
 
 

@@ -20,41 +20,41 @@ class about extends React.Component{
                 </div>
                 </Animated>
                 <div className = 'about-me'>
-                <Animated animationIn="fadeInDown" animationOut="fadeOut" animationInDuration={2000} animationOutDuration={1000} isVisible={true}>
-                    <p className = 'about-title f1'>A bit about <i>myself!</i></p>
-                    <p className = 'about-1'>
-                        I'm Lakshya - Software developer and researcher based out of India. 
-                        I am a military geek, skilled engineer and
-                        with a knack for the outdoors, creative writing
-                        and productivity.
-                    </p>
-                </Animated>
+                    <Animated animationIn="fadeInDown" animationOut="fadeOut" animationInDuration={2000} animationOutDuration={1000} isVisible={true}>
+                        <p className = 'about-title f1'>A bit about <i>myself!</i></p>
+                        <p className = 'about-1'>
+                            I'm Lakshya - Software developer and researcher based out of India. 
+                            I am a military geek, skilled engineer and
+                            with a knack for the outdoors, creative writing
+                            and productivity.
+                        </p>
+                    </Animated>
 
-                <Animated animationIn="fadeInDown" animationOut="fadeOut" animationInDuration={2000} animationOutDuration={1000} isVisible={true}>
-                    <p className = 'about-1'><b>Domains</b><br/></p>
-                    <p className = 'about-1'>
-                    Software Development: ML, Web-Development [PERN Stack]<br/>
-                    Research Interests: Soft-Computing, Reinforcement Learning and AI<br/>
-                    </p>
-                </Animated>
+                    <Animated animationIn="fadeInDown" animationOut="fadeOut" animationInDuration={2000} animationOutDuration={1000} isVisible={true}>
+                        <p className = 'about-1'><b>Domains</b><br/></p>
+                        <p className = 'about-1'>
+                        Software Development: ML, Web-Development [PERN Stack]<br/>
+                        Research Interests: Soft-Computing, Reinforcement Learning and AI<br/>
+                        </p>
+                    </Animated>
 
-                <Animated animationIn="fadeInUp" animationOut="fadeOut" animationInDuration={2000} animationOutDuration={1000} isVisible={true}>
-                    <p className = 'about-1'><b>Accolades</b><br/></p>
-                    <p className = 'about-1'>
-                    3x Scholarship Awards<br/>   
-                    4x Research Publications<br/>
-                    2,500x Developers and Writers Mentored<br/>
-                    60,000x Online Content hits
-                    </p>
-                </Animated>
+                    <Animated animationIn="fadeInUp" animationOut="fadeOut" animationInDuration={2000} animationOutDuration={1000} isVisible={true}>
+                        <p className = 'about-1'><b>Accolades</b><br/></p>
+                        <p className = 'about-1'>
+                        3x Scholarship Awards<br/>   
+                        4x Research Publications<br/>
+                        2,500x Developers and Writers Mentored<br/>
+                        60,000x Online Content hits
+                        </p>
+                    </Animated>
 
-                <Animated animationIn="fadeInUp" animationOut="fadeOut" animationInDuration={2000} animationOutDuration={1000} isVisible={true}>
-                    <p className = 'about-1'><b>Avocations</b><br/></p>
-                    <p className = 'about-1'>
-                    Basketball<br/>   
-                    Muay Thai<br/>
-                    </p>
-                </Animated>
+                    <Animated animationIn="fadeInUp" animationOut="fadeOut" animationInDuration={2000} animationOutDuration={1000} isVisible={true}>
+                        <p className = 'about-1'><b>Avocations</b><br/></p>
+                        <p className = 'about-1'>
+                        Basketball<br/>   
+                        Muay Thai<br/>
+                        </p>
+                    </Animated>
 
                 </div>
                 

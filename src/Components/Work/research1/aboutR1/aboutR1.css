@@ -1,18 +1,13 @@
-.description-R{
-    width: 340px;
-    margin: 0px;
-    padding: 0px;
+.description-R1{
+    font-size: 110px;
     margin: 100px;
+    margin-bottom: 0px;
+    width: 340px;
     font-family: 'Cormorant Garamond', serif;
     font-size: larger;
 }
 
-.ss-eca{
-    margin: 0px;
-    padding: 0px;
-}
-
-.img-ss{
+.img-ss-r1{
     padding: 0px;
     margin: 0px;
     margin-top: 10px;
@@ -20,30 +15,9 @@
     height: auto;
 }
 
-@media only screen and (max-width: 1300px) {
-    .description-R{
-        font-size: 35px;
-    }
-
-    .img-ss{
-        width: auto;
-        height: 400px;
-    }
-}
-
-@media only screen and (max-width: 800px) {
-    .description-R{
-        font-size: 15px;
-    }
-
-    .img-ss{
-        width: auto;
-        height: 300px;
-    }
-}
 
 @media only screen and (max-width: 500px) {
-    .description-R{
+    .description-R1{
         font-size: 15px;
         margin: 10px;
     }

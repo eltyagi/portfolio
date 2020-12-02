@@ -35,7 +35,7 @@ class experience extends React.Component{
                                 <div className="vl-op2"></div>
                                 <div className = "op-content">
                                     <p className = 'op-surface f3'><b>Sept 2019 - Jan 2020</b></p>
-                                    <p className = 'op-surface f4'><b>x AFS, Bahrain</b></p>
+                                    <p className = 'op-surface f4 pointer dim'><a href = "https://www.mds-afs.com/"><b>x <u>AFS, Bahrain</u></b></a></p>
                                     <p className = 'op-surface f4'>x Docker, DevOps</p>
                                     <p className = 'op-surface f4'>x PostgreSQL, DBMS</p>
                                     <p className = 'op-surface f4'>x Web Development</p>
@@ -52,7 +52,7 @@ class experience extends React.Component{
                                 <div className="vl-op3"></div>
                                 <div className = "op-content">
                                     <p className = 'op-surface f3'><b>Jan 2018 - Present</b></p>
-                                    <p className = 'op-surface f4'><b>x Amity University, Noida</b></p>
+                                    <p className = 'op-surface f4 pointer dim'><a href = "https://www.amity.edu/"><b>x <u>Amity University, Noida</u></b></a></p>
                                     <p className = 'op-surface f4'>x 3 Conference Publications</p>
                                     <p className = 'op-surface f4'>x 1 Journal Publication</p>
                                     <p className = 'op-surface f4'>x ML, Soft Computing</p>
@@ -69,7 +69,7 @@ class experience extends React.Component{
                                     <div className="vl-op3"></div>
                                     <div className = "op-content">
                                         <p className = 'op-surface f3'><b>Apr 2019 - Present</b></p>
-                                        <p className = 'op-surface f4'><b>x MyCaptain, The Climbers</b></p>
+                                        <p className = 'op-surface f4 pointer dim'><a href = "https://www.mycaptain.in/"><b>x <u>MyCaptain, The Climbers</u></b></a></p>
                                         <p className = 'op-surface f4'>x Artificial Intelligence</p>
                                         <p className = 'op-surface f4'>x Content Writing and SEO</p>
                                         <p className = 'op-surface f4'>x 2,500 Mentees</p>
@@ -116,7 +116,7 @@ class experience extends React.Component{
                     
                     <div className = 'skill-block' style = {{display: 'flex', flexWrap: 'wrap'}}>
 
-                    <Animated animationIn="fadeInLeft" animationInDelay = {2000} animationOut="fadeInOut" animationInDuration={1000} animationOutDuration={1000} isVisible={true}>
+                        <Animated animationIn="fadeInLeft" animationInDelay = {2000} animationOut="fadeInOut" animationInDuration={1000} animationOutDuration={1000} isVisible={true}>
                             <div className = 'skill-op'>
                                 <p className = 'exp-op-title'><b>Languages</b></p>
                                     <div className="op" style = {{display: 'flex'}}>
@@ -168,7 +168,7 @@ class experience extends React.Component{
                                         </div>
                                     </div>
                             </div>
-                            </Animated>
+                        </Animated>
                     </div>
                     
 

@@ -28,7 +28,7 @@ class aboutJ extends React.Component{
                 </div>
 
                 <div className = 'ss-jou'>
-                    <img alt = '' src = {Jou}/>
+                    <img className = 'img-ss' alt = '' src = {Jou}/>
                 </div>
 
                 

@@ -1,5 +1,5 @@
 .description-cwc{
-    width: 340px;
+    width: 380px;
     margin: 0px;
     padding: 0px;
     margin: 100px;
@@ -34,7 +34,8 @@
 
 @media only screen and (max-width: 800px) {
     .description-cwc{
-        font-size: 15px;
+        font-size: 35px;
+        width: 400px;
     }
 
     .ss-cwc{
@@ -43,12 +44,13 @@
 
     .img-ss{
         width: auto;
-        height: 300px;
+        height: 600px;
     }
 }
 
 @media only screen and (max-width: 500px) {
     .description-cwc{
+        width: 340px;
         font-size: 15px;
         margin: 10px;
     }

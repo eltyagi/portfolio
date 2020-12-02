@@ -24,29 +24,31 @@ class copewithcovid extends React.Component{
 
     render(){
         return(
-        <div>
+        <div className = 'c-w-c'>
             <div className = 'copewithcovid'>
-               <div>
-                        <p className = 'arrow grow pointer dim'>
+               <div className = 'al'>
+                        <p className = 'arrow-cwc grow pointer dim'>
                         <Animated animationIn="fadeInRight" animationInDelay = {1300} animationOut="fadeInOut" animationInDuration={1000} animationOutDuration={1000} isVisible={true}>
                             <Link to = "/experience" style={{ textDecoration: 'none', color: 'black' }}>
-                                <img alt = "" src = {al} width = '150px' height = 'auto'/>
+                                <img className = 'img-ar' alt = "" src = {al} width = '90px' height = 'auto'/>
                             </Link>
                         </Animated>
                         </p>
                         
                 </div>
 
+                <div>
                 <Animated animationIn="fadeInRight" animationInDelay = {500} animationOut="fadeInLeft" animationInDuration={1000} animationOutDuration={1000} isVisible={true}>
-                    <div className = 'cwc'>Cope With Covid</div>
+                    <p className = 'cwc'>Cope With Covid</p>
                 </Animated>
+                </div>
 
 
-               <div>
-                    <p className = 'arrow grow pointer dim'>
+               <div className = 'ar'>
+                    <p className = 'arrow-cwc grow pointer dim'>
                     <Animated animationIn="fadeInLeft" animationInDelay = {1300} animationOut="fadeInOut" animationInDuration={1000} animationOutDuration={1000} isVisible={true}>
                         <Link to = "/work/journie" style={{ textDecoration: 'none', color: 'black' }}>
-                            <img alt = "" src = {ar} width = '150px' height = 'auto'/>
+                            <img className = 'img-ar' alt = "" src = {ar} width = '90px' height = 'auto'/>
                         </Link>
                     </Animated>
                     </p>

@@ -1,5 +1,5 @@
-.description-R{
-    width: 300px;
+.description-R2{
+    width: 340px;
     margin: 0px;
     padding: 0px;
     margin: 100px;
@@ -11,4 +11,44 @@
     margin-top: 100px;
     width: 900px;
     height: auto;
+}
+
+@media only screen and (max-width: 1300px) {
+    .description-R2{
+        font-size: 35px;
+    }
+
+    .img-ss{
+        width: auto;
+        height: 180px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .description-R2{
+        font-size: 20px;
+    }
+
+    .img-ss{
+        width: auto;
+        height: 180px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .description-R2{
+        font-size: 15px;
+        margin: 40px;
+    }
+
+    .img-ss{
+        width: auto;
+        height: 180px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
 }
