@@ -34,7 +34,7 @@ class aboutCWC extends React.Component{
                         <br/><br/>
                     </p>
 
-                    <p>
+                    <p className = 'link'>
                         <a href = "https://github.com/Lakshya3190/cope-with-covid">
                             <u><b>View Project Repository</b></u>
                         </a>

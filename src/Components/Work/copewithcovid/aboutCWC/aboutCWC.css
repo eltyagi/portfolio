@@ -18,7 +18,10 @@
 
 .link{
     cursor: pointer;
+    z-index: 3;
 }
+
+
 
 @media only screen and (max-width: 1300px) {
     .description-cwc{

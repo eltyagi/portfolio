@@ -57,7 +57,7 @@ class copewithcovid extends React.Component{
             </div>
 
 
-            <div>
+
             <div>
                 <p className = 'arrow-down grow pointer dim'>
                 <Animated animationIn="fadeInDown" animationInDelay = {1300} animationOut="fadeInOut" animationInDuration={1000} animationOutDuration={1000} isVisible={true}>
@@ -68,7 +68,7 @@ class copewithcovid extends React.Component{
                 </p>
                         
             </div>
-            </div>
+
           
                                                             
 
