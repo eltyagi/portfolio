@@ -14,11 +14,27 @@ class aboutR3 extends React.Component{
             <div className = 'aboutR3' style = {{display: 'flex', flexWrap: 'wrap'}}>
                 <div className = 'description-R3'>
                     <h2><b>MOPP Open Time Prediction</b></h2><br/><br/>
-                    <p>A hierarchal adaptive neuro-fuzzy inference system (HANFIS) model is proposed 
+                    <b>The Story</b>
+                    <br/><br/>
+                    <p>
+                        This research project is probably my best work yet. I came up with this concept
+                        randomly while watching a documentary on Chernobyl.
+                        <br/><br/>
+
+                        The project incorporates learning capabilities of artificial neural networks, tolerance
+                        for uncertainity offered by fuzzy inference systems and computational efficiency of cascading
+                        fuzzy trees.
+                        <br/><br/>
+                        
+                        A hierarchal adaptive neuro-fuzzy inference system (HANFIS) model is proposed 
                         to predict worst case MOPP open times for surfaces covered with 
                         chemical agent resistant coating (CARC). The model can provide 
                         decision support for commanders when determining MOPP open or 
                         unmasking time. 
+                        <br/><br/>
+
+                        MOPP or Mission Oriented Protective Posture referes to multiple levels of protective gear that 
+                        soldiers are expected to wear in CBRN environments. 
                         
                         <br/><br/>From the HANFIS simulation results it was concluded 
                         that the model can accurately predict MOPP open times according to data present 

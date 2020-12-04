@@ -14,12 +14,21 @@ class aboutR2 extends React.Component{
             <div className = 'aboutR2'>
                 <div className = 'description-R2'>
                     <h2><b>ECA Through SVM</b></h2>
-                    <p>
-                    This paper proposes the implementation of support vector
-                    machines, a supervised machine learning algorithm in
-                    decision support for accurate and effective explosion
-                    consequence analysis. 
+                    <b>The Story</b>
                     <br/><br/>
+                    <p>
+                    This research project is a follow-up of my work on ECA on brick structures.
+                    The key here is extending prediction capabilities to 7 different types of 
+                    military targets with differing levels of protection and armour.
+        
+                    <br/><br/>
+
+                    Another major aspect of this project is the utilization of TNT Equivalent for
+                    explosive weight, making the model effective for virtually any kind of explosive.
+                    A prediction accuracy of 97.5% was achieved through the use of Support Vector Machines
+                    with a Cubic Kernel.
+                    <br/><br/>
+
                     </p>
 
                     <p>
