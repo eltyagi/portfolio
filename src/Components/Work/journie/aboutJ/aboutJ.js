@@ -32,7 +32,7 @@ class aboutJ extends React.Component{
                     </p>
 
                     <p>
-                        <a href = "">
+                        <a href = "https://github.com/Lakshya3190/journie">
                             <u><b>View Project Repository</b></u>
                         </a>
                         <br/><br/>

@@ -8,6 +8,9 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import ReactDOM from 'react-dom';
+import ReactGA from 'react-ga';
+import { createBrowserHistory } from 'history';
 import About from './Components/About/about.js';
 import Home from './Components/Home/home.js';
 import Contact from './Components/Contact/contact.js';
@@ -19,9 +22,16 @@ import Research2 from './Components/Work/research2/research2.js';
 import Research3 from './Components/Work/research3/research3.js';
 import Logo from './logo.png';
 import Trans from './transition.js';
-import useEffect from 'react';
 
 
+const trackingId = "UA-186285153-1";
+ReactGA.initialize(trackingId);
+const history = createBrowserHistory();
+
+history.listen(location => {
+  ReactGA.set({page: location.pathname});
+  ReactGA.pageview(location.pathname);
+});
 
 class App extends React.Component {
   constructor(props){
@@ -56,7 +66,7 @@ class App extends React.Component {
           </Animated>
           </div>
           :<div>
-            <Router>
+        <Router history = {history}>
         <div className = 'nav-bar'>
           <Animated animationIn="fadeInDown" animationOut="fadeInOut" animationInDuration={1000} animationOutDuration={1000} isVisible={true}>
             <p  className = 'logo-tag'>
@@ -154,17 +164,13 @@ class App extends React.Component {
               renders the first one that matches the current URL. */}
           <Switch>
             <Route path="/about">
-            {/*<Animated animationIn="fadeInUp" animationOut="fadeInOut" animationInDuration={1000} animationOutDuration={1000} isVisible = {true}>*/}
             <About />
-            {/*</Animated>*/}
             </Route>
             <Route path="/contact">
               <Contact />
             </Route>
             <Route path="/experience">
-            {/*<Animated animationIn="fadeInUp" animationOut="fadeInOut" animationInDuration={1000} animationOutDuration={1000} isVisible = {true}>*/}
               <Experience />
-            {/*</Animated>*/}
             </Route>
             <Route path="/work/copewithcovid">
             <Animated animationIn="fadeInUp" animationOut="fadeInOut" animationInDuration={1000} animationOutDuration={1000} isVisible = {this.state.transitionOn}>

@@ -67,7 +67,7 @@ class journie extends React.Component{
             </div>
             </div>
 
-            <div className = 'aboutCWC'>
+            <div className = 'aboutJ'>
                 <AboutJ/>
             </div>
 

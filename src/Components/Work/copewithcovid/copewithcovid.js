@@ -24,9 +24,9 @@ class copewithcovid extends React.Component{
 
     render(){
         return(
-        <div className = 'c-w-c'>
+        <div>
             <div className = 'copewithcovid'>
-               <div className = 'al'>
+               <div>
                         <p className = 'arrow-cwc grow pointer dim'>
                         <Animated animationIn="fadeInRight" animationInDelay = {1300} animationOut="fadeInOut" animationInDuration={1000} animationOutDuration={1000} isVisible={true}>
                             <Link to = "/experience" style={{ textDecoration: 'none', color: 'black' }}>
@@ -37,14 +37,14 @@ class copewithcovid extends React.Component{
                         
                 </div>
 
-                <div>
+                
                 <Animated animationIn="fadeInRight" animationInDelay = {500} animationOut="fadeInLeft" animationInDuration={1000} animationOutDuration={1000} isVisible={true}>
-                    <p className = 'cwc'>Cope With Covid</p>
+                    <div className = 'cwc'>Cope With Covid</div>
                 </Animated>
-                </div>
+                
 
 
-               <div className = 'ar'>
+               <div>
                     <p className = 'arrow-cwc grow pointer dim'>
                     <Animated animationIn="fadeInLeft" animationInDelay = {1300} animationOut="fadeInOut" animationInDuration={1000} animationOutDuration={1000} isVisible={true}>
                         <Link to = "/work/journie" style={{ textDecoration: 'none', color: 'black' }}>

@@ -13,9 +13,10 @@ class aboutCWC extends React.Component{
 
     render(){
         return(
-            <div className = 'aboutCWC'>
+            <div>
                 <div className = 'description-cwc'>
                     <h2><b>Cope with Covid</b></h2>
+
                     <b>The Story</b>
                     <br/><br/>
                     <p>
@@ -34,12 +35,11 @@ class aboutCWC extends React.Component{
                         <br/><br/>
                     </p>
 
-                    <p className = 'link'>
-                        <a href = "https://github.com/Lakshya3190/cope-with-covid">
-                            <u><b>View Project Repository</b></u>
-                        </a>
-                        <br/><br/>
-                    </p>
+
+                    <a href = "https://github.com/Lakshya3190/cope-with-covid">
+                        <u><b>View Project Repository</b></u>
+                    </a>
+                    <br/><br/>
                     
                     <p>
                         <b>Accolades</b><br/> 

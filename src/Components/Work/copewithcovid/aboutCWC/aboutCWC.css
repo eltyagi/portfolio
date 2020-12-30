@@ -1,3 +1,8 @@
+a{
+    z-index: 0;
+    cursor: pointer;
+}
+
 .description-cwc{
     width: 400px;
     margin: 0px;
@@ -7,6 +12,7 @@
     font-family: 'Cormorant Garamond', serif;
     font-size: larger;
 }
+
 
 .img-ss{
     padding: 0px;
@@ -18,7 +24,6 @@
 
 .link{
     cursor: pointer;
-    z-index: 3;
 }
 
 
