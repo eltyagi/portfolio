@@ -173,9 +173,9 @@ class App extends React.Component {
               <Experience />
             </Route>
             <Route path="/work/copewithcovid">
-            <Animated animationIn="fadeInUp" animationOut="fadeInOut" animationInDuration={1000} animationOutDuration={1000} isVisible = {this.state.transitionOn}>
+            
               <CopeWithCovid />
-              </Animated>
+
             </Route>
             <Route path="/work/journie">
               <Journie />
