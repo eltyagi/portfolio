@@ -30,6 +30,22 @@ class experience extends React.Component{
 
                     <Animated animationIn="fadeInDown" animationOut="fadeInOut" animationInDuration={1200} animationOutDuration={1000} isVisible={true}>
                         <div className = 'exp-op'>
+                        <p className = 'exp-op-title'><b>Software Engineer Intern</b></p>
+                            <div className="op" style = {{display: 'flex'}}>
+                                <div className="vl-op2"></div>
+                                <div className = "op-content">
+                                    <p className = 'op-surface f3'><b>Jan 2021 - Present</b></p>
+                                    <p className = 'op-surface f4 pointer dim'><a href = "https://www.zs.com/"><b>x <u>ZS Associates</u></b></a></p>
+                                    <p className = 'op-surface f4'>x Web Application validation</p>
+                                    <p className = 'op-surface f4'>x ETL, Big data</p>
+                                    <p className = 'op-surface f4'>x Web Development</p>
+                                </div>
+                            </div>
+                        </div>
+                    </Animated>
+
+                    <Animated animationIn="fadeInDown" animationOut="fadeInOut" animationInDuration={1200} animationOutDuration={1000} isVisible={true}>
+                        <div className = 'exp-op'>
                         <p className = 'exp-op-title'><b>SDE Intern</b></p>
                             <div className="op" style = {{display: 'flex'}}>
                                 <div className="vl-op2"></div>

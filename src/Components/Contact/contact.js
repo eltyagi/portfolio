@@ -5,6 +5,7 @@ import github from './github.png';
 import instagram from './instagram.png';
 import wordpress from './wordpress.png';
 import medium from './medium.png';
+import blog from './blog-self.png';
 import 'tachyons';
 
 class contact extends React.Component{
@@ -31,6 +32,11 @@ class contact extends React.Component{
                         <div className = 'logo-op'>
                         <p className = 'logo-overlay'>Github</p>
                         <a href = "https://github.com/Lakshya3190"><img className = 'logo-img dim pointer' alt = "" src = {github} width = '50px' height = 'auto'/></a>
+                        </div>
+
+                        <div className = 'logo-op'>
+                        <p className = 'logo-overlay'>Blog</p>
+                        <a href = "https://lakshyatyagi.me"><img className = 'logo-img dim pointer' alt = "" src = {blog} width = '50px' height = 'auto'/></a>
                         </div>
 
                         <div className = 'logo-op'>
