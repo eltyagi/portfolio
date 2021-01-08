@@ -30,7 +30,7 @@ class experience extends React.Component{
 
                     <Animated animationIn="fadeInDown" animationOut="fadeInOut" animationInDuration={1200} animationOutDuration={1000} isVisible={true}>
                         <div className = 'exp-op'>
-                        <p className = 'exp-op-title'><b>Software Engineer Intern</b></p>
+                        <p className = 'exp-op-title'><b>SDE Intern</b></p>
                             <div className="op" style = {{display: 'flex'}}>
                                 <div className="vl-op2"></div>
                                 <div className = "op-content">
