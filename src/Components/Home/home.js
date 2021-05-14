@@ -23,7 +23,7 @@ class Home extends React.Component {
         <div className = 'lp-body' style = {{display: 'flex', justifyContent: 'space-between'}}>
 
 
-            <div className = 'name'>
+            <div className = 'name name-wrapper'>
               <p className = 'name'>Lakshya<br/></p>
               
               <div className = 'name-p2' style = {{display: 'flex'}}>
@@ -31,7 +31,7 @@ class Home extends React.Component {
                   <ul className = 'desig-list'>
                     <li>Writer</li>
                     <li>Mentor</li>
-                    <li>Developer</li>
+                    <li>Engineer</li>
                     <li>Researcher</li>
                   </ul>
                 </div>

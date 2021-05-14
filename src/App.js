@@ -61,7 +61,7 @@ class App extends React.Component {
           
           this.state.transitionOn === true
           ? <div>
-          <Animated animationIn="slideInDown" animationOut="slideOutDown" animationOutDelay={1000} animationOutDuration={1000} isVisible={this.state.transitionOn}>
+          <Animated animationIn="slideInDown" animationOut="slideOutDown" animationOutDelay={1500} animationOutDuration={1500} isVisible={this.state.transitionOn}>
           <Trans/>
           </Animated>
           </div>
@@ -71,7 +71,7 @@ class App extends React.Component {
           <Animated animationIn="fadeInDown" animationOut="fadeInOut" animationInDuration={1000} animationOutDuration={1000} isVisible={true}>
             <p  className = 'logo-tag'>
               <Link to = "/">
-                <img onClick = {this.handleClick} className = 'logo grow' alt = 'logo' src = {Logo} height = 'auto' width = '80'></img>
+                <img onClick = {this.handleClick} className = 'logo' alt = 'logo' src = {Logo} height = 'auto' width = '80'></img>
               </Link></p>
           </Animated>
 
