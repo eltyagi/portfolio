@@ -8,7 +8,7 @@
   
   .name{
     font-family: 'Cormorant Garamond', serif;
-    font-size: 220px;
+    font-size: 200px;
     margin: 0px;
     padding: 0px;
     font-weight: 550;
@@ -20,7 +20,7 @@
   
   .sname{
     font-family: 'Cormorant Garamond', serif;
-    font-size: 220px;
+    font-size: 200px;
     padding-left: 10px;
     font-weight: 900px;
   }
@@ -55,7 +55,7 @@
     flex-wrap: wrap;
     align-items: baseline;
     margin-top: 50px;
-    margin-right: 20%;
+    margin-right: 15%;
     width: 300px;
   }
   
