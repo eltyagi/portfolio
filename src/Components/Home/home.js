@@ -37,6 +37,8 @@ class Home extends React.Component {
                 </div>
                 <div class="vl"></div>
                 <div className = 'sname'>Tyagi<br/></div>
+                
+
               </div>
           </div>
 
@@ -65,7 +67,7 @@ class Home extends React.Component {
 
               <div className = 'proj-unit'>
               <p className = 'proj-name f6'>Research II</p>
-              <p className = 'proj-no pointer grow'><Link to = "/work/research2" style={{ textDecoration: 'none', color: 'black' }}>05</Link></p>
+              <p className = 'proj-no pointer grow proj-no-5'><Link to = "/work/research2" style={{ textDecoration: 'none'}}>05</Link></p>
               </div>
 
               <div className = 'proj-unit'>
