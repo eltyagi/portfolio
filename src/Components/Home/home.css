@@ -96,15 +96,6 @@
     opacity: 1;
   }
 
-  .hl{
-    margin-top: 2%;
-    border: 6px solid rgb(0, 0, 0);
-    background-color: black;
-    width: 700px;
-    border-radius: 12px;
-    margin-left: 30%;
-    margin-right: 30%;
-  }
 
 
   /*Responsive*/
