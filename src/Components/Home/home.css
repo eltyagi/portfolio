@@ -97,7 +97,7 @@
   }
 
   .hl{
-    margin-top: 7%;
+    margin-top: 5%;
     border: 6px solid rgb(0, 0, 0);
     background-color: black;
     width: 700px;
@@ -111,7 +111,7 @@
 
   @media only screen and (min-width: 2000px) {
     .Home{
-      margin-top: 7%;
+      margin-top: 5%;
     }
     .name,.sname{
       font-size: 270px;
