@@ -94,6 +94,7 @@ class Home extends React.Component {
 
         </div>
       </Animated>
+      <div className = "hl"></div>
 
           
       

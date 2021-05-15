@@ -96,6 +96,15 @@
     opacity: 1;
   }
 
+  .hl{
+    margin-top: 7%;
+    border: 6px solid rgb(0, 0, 0);
+    background-color: black;
+    width: 700px;
+    border-radius: 12px;
+    margin-left: 30%;
+    margin-right: 30%;
+  }
 
 
   /*Responsive*/
@@ -129,6 +138,16 @@
     
   }
 
+  .hl{
+    margin-top: 15%;
+    border: 6px solid rgb(0, 0, 0);
+    background-color: black;
+    width: 800px;
+    border-radius: 12px;
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+
   }
 
   @media only screen and (max-width: 1440px) {
@@ -151,6 +170,10 @@
 
     .projects{
       margin-left: 120px;
+    }
+
+    .hl{
+      display: none;
     }
   }
 
