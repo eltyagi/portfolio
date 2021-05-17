@@ -56,6 +56,8 @@ class about extends React.Component{
                         </p>
                     </Animated>
 
+                    
+
                 </div>
                 
 

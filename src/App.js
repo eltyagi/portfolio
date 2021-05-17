@@ -77,7 +77,7 @@ class App extends React.Component {
 
               <div className = 'sub-nav-bar'>
                 <Animated animationIn="fadeInDown" animationOut="fadeInOut" animationInDuration={1200} animationOutDuration={1000} isVisible={true}>
-                  <p onClick = {this.handleClick} className = 'nav-op pointer grow dim'>
+                  <p onClick = {this.handleClick} className = 'nav-op pointer dim'>
                     <Link to = "/about" style={{ textDecoration: 'none', color: 'black' }}>
                       About
                     </Link>
@@ -85,13 +85,13 @@ class App extends React.Component {
                 </Animated>
 
                 <Animated animationIn="fadeInDown" animationOut="fadeInOut" animationInDuration={1400} animationOutDuration={1000} isVisible={true}>
-                  <p className = 'nav-op pointer grow dim'>
+                  <p className = 'nav-op pointer dim'>
                     <a href = "https://lakshyatyagi.me">Blog</a>
                   </p>
                 </Animated>
 
                 <Animated animationIn="fadeInDown" animationOut="fadeInOut" animationInDuration={1600} animationOutDuration={1000} isVisible={true}>
-                  <p onClick = {this.handleClick} className = 'nav-op pointer grow dim'>
+                  <p onClick = {this.handleClick} className = 'nav-op pointer dim'>
                     <Link to = "/experience" style={{ textDecoration: 'none', color: 'black' }}>
                       Experience
                     </Link>
@@ -99,13 +99,13 @@ class App extends React.Component {
                 </Animated>
 
                 <Animated animationIn="fadeInDown" animationOut="fadeInOut" animationInDuration={1800} animationOutDuration={1000} isVisible={true}>
-                  <p className = 'nav-op pointer grow dim'>
+                  <p className = 'nav-op pointer dim'>
                     <a href = "https://drive.google.com/file/d/1uOeGjI-ZS4RH6aomSnfJFjOUVP0empqL/view?usp=sharing">Resume</a>
                   </p>
                 </Animated>
 
                 <Animated animationIn="fadeInDown" animationOut="fadeInOut" animationInDuration={2000} animationOutDuration={1000} isVisible={true}>
-                  <p onClick = {this.handleClick} className = 'nav-op pointer grow dim'>
+                  <p onClick = {this.handleClick} className = 'nav-op pointer dim'>
                     <Link to = "/contact" style={{ textDecoration: 'none', color: 'black' }}>
                       Contact
                     </Link>

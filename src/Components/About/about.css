@@ -4,13 +4,13 @@ p{
 }
 
 .about{
-    margin-top: 50px;
+    margin-top: 4%;
     display: flex;
     flex-wrap: wrap;
+    margin-left: 10%;
 }
 
 .self{
-    margin-left: 150px;
     height: 500px;
     width: auto;
 }
