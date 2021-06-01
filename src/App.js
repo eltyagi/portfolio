@@ -25,14 +25,9 @@ import Trans from './transition.js';
 
 
 const trackingId = "UA-186285153-3";
-ReactGA.initialize(trackingId);
-ReactGA.pageview(window.location.pathname + window.location.search);
-const history = createBrowserHistory();
 
-history.listen((location) => {
-  ReactGA.set({page: location.pathname});
-  ReactGA.pageview(location.pathname)
-});
+
+
 
 class App extends React.Component {
   constructor(props){
@@ -43,8 +38,14 @@ class App extends React.Component {
 
   }
 
+  initGA = () => {
+    ReactGA.initialize(trackingId);
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }
+
   componentDidMount(){
     setTimeout(()=> this.setState({transitionOn: !this.state.transitionOn}), 2000)
+    this.initGA();
   }
 
   handleClick = (e) => {
@@ -67,7 +68,7 @@ class App extends React.Component {
           </Animated>
           </div>
           :<div>
-        <Router history = {history}>
+        <Router>
         <div className = 'nav-bar'>
           <Animated animationIn="fadeInDown" animationOut="fadeInOut" animationInDuration={1000} animationOutDuration={1000} isVisible={true}>
             <p  className = 'logo-tag'>
