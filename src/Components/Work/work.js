@@ -21,55 +21,59 @@ class experience extends React.Component{
 
     render(){
         return(
-            <div className = 'work'>
-                <Animated animationIn="fadeInDown" animationOut="fadeInOut" animationInDuration={1000} animationOutDuration={1000} isVisible={true}>
-                <p className = 'exp-title'><b>Experience</b></p>
-                </Animated>
-                <div className = '' style = {{display: 'flex'}}>
-                    <div className = 'exp-block' style = {{display: 'flex', flexWrap: 'wrap'}}>
+            <div className = 'work' style = {{display: 'flex'}}>
+                
+                <div className = 'work-page'>
 
-                    <Animated animationIn="fadeInDown" animationOut="fadeInOut" animationInDuration={1200} animationOutDuration={1000} isVisible={true}>
-                        <div className = 'exp-op'>
-                        <p className = 'exp-op-title'><b>SDE Intern</b></p>
-                            <div className="op" style = {{display: 'flex'}}>
-                                <div className="vl-op2"></div>
-                                <div className = "op-content">
-                                    <p className = 'op-surface f3'><b>Jan 2021 - Present</b></p>
-                                    <p className = 'op-surface f4 pointer dim'><a href = "https://www.zs.com/"><b>x <u>ZS Associates</u></b></a></p>
-                                    <p className = 'op-surface f4'>x Web Application validation</p>
-                                    <p className = 'op-surface f4'>x ETL, Big data</p>
-                                    <p className = 'op-surface f4'>x Web Development</p>
+                    <div className = 'exp-block'>
+                        <Animated animationIn="fadeInDown" animationOut="fadeInOut" animationInDuration={1000} animationOutDuration={1000} isVisible={true}>
+                            <p className = 'exp-title'>Experience</p>
+                        </Animated>
+
+                        <Animated animationIn="fadeInDown" animationOut="fadeInOut" animationInDuration={1200} animationOutDuration={1000} isVisible={true}>
+                            <div className = 'exp-op'>
+                            <p className = 'exp-op-title'>Associate Systems Engineer</p>
+                                <div className="op" style = {{display: 'flex'}}>
+                                    <div className="vl-op2"></div>
+                                    <div className = "op-content">
+                                        <p className = 'exp-name op-surface f4 pointer dim'><a href = "https://www.cisco.com/c/en_in/index.html"><b>Cisco Systems</b></a></p>
+                                        <p className = 'exp-date op-surface f3'>Incoming</p>
+                                        <br/>
+                                        <p className = 'op-surface f4'>x </p>
+                                        <p className = 'op-surface f4'>x </p>
+                                        <p className = 'op-surface f4'>x </p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </Animated>
+                        </Animated>
 
-                    <Animated animationIn="fadeInDown" animationOut="fadeInOut" animationInDuration={1200} animationOutDuration={1000} isVisible={true}>
-                        <div className = 'exp-op'>
-                        <p className = 'exp-op-title'><b>SDE Intern</b></p>
-                            <div className="op" style = {{display: 'flex'}}>
-                                <div className="vl-op2"></div>
-                                <div className = "op-content">
-                                    <p className = 'op-surface f3'><b>Sept 2019 - Jan 2020</b></p>
-                                    <p className = 'op-surface f4 pointer dim'><a href = "https://www.mds-afs.com/"><b>x <u>AFS, Bahrain</u></b></a></p>
-                                    <p className = 'op-surface f4'>x Docker, DevOps</p>
-                                    <p className = 'op-surface f4'>x PostgreSQL, DBMS</p>
-                                    <p className = 'op-surface f4'>x Web Development</p>
+                        <Animated animationIn="fadeInDown" animationOut="fadeInOut" animationInDuration={1200} animationOutDuration={1000} isVisible={true}>
+                            <div className = 'exp-op'>
+                            <p className = 'exp-op-title'>SDET Intern</p>
+                                <div className="op" style = {{display: 'flex'}}>
+                                    <div className="vl-op2"></div>
+                                    <div className = "op-content">
+                                        <p className = 'exp-name op-surface f4 pointer dim'><a href = "https://www.zs.com/"><b>ZS Associates</b></a></p>
+                                        <p className = 'exp-date op-surface f3'>Jan 2021 - Present</p>
+                                        <br/>
+                                        <p className = 'op-surface f4'>x Quality Assurance</p>
+                                        <p className = 'op-surface f4'>x ETL, Big data</p>
+                                        <p className = 'op-surface f4'>x Web Development</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </Animated>
+                        </Animated>
 
-
-                    <Animated animationIn="fadeInDown" animationOut="fadeInOut" animationInDuration={1200} animationOutDuration={1000} isVisible={true}>
+                        <Animated animationIn="fadeInDown" animationOut="fadeInOut" animationInDuration={1200} animationOutDuration={1000} isVisible={true}>
                         <div className = 'exp-op'>
-                        <p className = 'exp-op-title'><b>Researcher</b></p>
+                        <p className = 'exp-op-title'>Researcher</p>
                             <div className="op" style = {{display: 'flex'}}>
                                 <div className="vl-op3"></div>
                                 <div className = "op-content">
-                                    <p className = 'op-surface f3'><b>Jan 2018 - Present</b></p>
-                                    <p className = 'op-surface f4 pointer dim'><a href = "https://www.amity.edu/"><b>x <u>Amity University, Noida</u></b></a></p>
-                                    <p className = 'op-surface f4'>x 3 Conference Publications</p>
+                                    <p className = 'exp-name op-surface f4 pointer dim'><a href = "https://www.amity.edu/"><b>Amity University</b></a></p>
+                                    <p className = 'op-surface f3'>Jan 2018 - Jan 2021</p>
+                                    <br/>
+                                    <p className = 'op-surface f4'>x 5 Publications</p>
                                     <p className = 'op-surface f4'>x 1 Journal Publication</p>
                                     <p className = 'op-surface f4'>x ML, Soft Computing</p>
                                 </div>
@@ -77,32 +81,58 @@ class experience extends React.Component{
                         </div>
                     </Animated>
 
+                        <Animated animationIn="fadeInDown" animationOut="fadeInOut" animationInDuration={1200} animationOutDuration={1000} isVisible={true}>
+                            <div className = 'exp-op'>
+                            <p className = 'exp-op-title'>SDE Intern</p>
+                                <div className="op" style = {{display: 'flex'}}>
+                                    <div className="vl-op2"></div>
+                                    <div className = "op-content">
+                                        <p className = 'exp-name op-surface f4 pointer dim'><a href = "https://www.mds-afs.com/"><b>AFS, Bahrain</b></a></p>
+                                        <p className = 'exp-date op-surface f3'>Sept 2019 - Jan 2020</p>
+                                        <br/>
+                                        <p className = 'op-surface f4'>x Docker, DevOps</p>
+                                        <p className = 'op-surface f4'>x PostgreSQL, DBMS</p>
+                                        <p className = 'op-surface f4'>x Web Development</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </Animated>
 
-                    <Animated animationIn="fadeInDown" animationOut="fadeInOut" animationInDuration={1600} animationOutDuration={1000} isVisible={true}>
+                    </div>
+
+                    <div className = 'exp-block'>
+
+                        <Animated animationIn="fadeInDown" animationOut="fadeInOut" animationInDuration={1000} animationOutDuration={1000} isVisible={true}>
+                        <p className = 'exp-title'>Freelancing</p>
+                    </Animated>
+
+                        <Animated animationIn="fadeInDown" animationOut="fadeInOut" animationInDuration={1600} animationOutDuration={1000} isVisible={true}>
                         <div className = 'exp-op'>
-                            <p className = 'exp-op-title'><b>Youth Mentor</b></p>
+                            <p className = 'exp-op-title'>Educator</p>
                                 <div className="op" style = {{display: 'flex'}}>
                                     <div className="vl-op3"></div>
                                     <div className = "op-content">
-                                        <p className = 'op-surface f3'><b>Apr 2019 - Present</b></p>
-                                        <p className = 'op-surface f4 pointer dim'><a href = "https://www.mycaptain.in/"><b>x <u>MyCaptain, The Climbers</u></b></a></p>
+                                        <p className = ' exp-name op-surface f4 pointer dim'><a href = "https://www.mycaptain.in/"><b>The Climbers</b></a></p>
+                                        <p className = 'op-surface f3'>Apr 2019 - Present</p>
+                                        <br/>
                                         <p className = 'op-surface f4'>x Artificial Intelligence</p>
-                                        <p className = 'op-surface f4'>x Content Writing and SEO</p>
-                                        <p className = 'op-surface f4'>x 2,500 Mentees</p>
+                                        <p className = 'op-surface f4'>x SEO</p>
+                                        <p className = 'op-surface f4'>x 3,500 Mentees</p>
                                     </div>
                                 </div>    
                         </div>
                     </Animated>
 
-                    <Animated animationIn="fadeInDown" animationOut="fadeInOut" animationInDuration={1600} animationOutDuration={1000} isVisible={true}>
+                        <Animated animationIn="fadeInDown" animationOut="fadeInOut" animationInDuration={1600} animationOutDuration={1000} isVisible={true}>
                         <div className = 'exp-op'>
-                            <p className = 'exp-op-title'><b>Content Writer</b></p>
+                            <p className = 'exp-op-title'>Writer</p>
                                 <div className="op" style = {{display: 'flex'}}>
                                     <div className="vl-op3"></div>
                                     <div className = "op-content">
-                                        <p className = 'op-surface f3'><b>Jan 2018 - Jan 2020</b></p>
+                                        <p className = ' exp-name op-surface f4 pointer dim'><a href = "https://www.mycaptain.in/"><b>Freelance</b></a></p>
+                                        <p className = 'op-surface f3'>Jan 2018 - Jan 2020</p>
+                                        <br/>
                                         <p className = 'op-surface f4'>x 9 Projects</p>
-                                        <p className = 'op-surface f4'>x 5 Domains</p>
                                         <p className = 'op-surface f4'>x 70 published articles</p>
                                         <p className = 'op-surface f4'>x 60,000 Content Hits</p>
                                     </div>
@@ -110,115 +140,86 @@ class experience extends React.Component{
                                 </div>  
                         </div>
                     </Animated>
-
-                    <Animated animationIn="fadeInDown" animationOut="fadeInOut" animationInDuration={2000} animationOutDuration={1000} isVisible={true}>
-                        <div className = 'exp-op'>
-                        <p className = 'exp-op-title'><b>Education</b></p>
-                            <div className="op" style = {{display: 'flex'}}>
-                                <div className="vl-op1"></div>
-                                <div className = "op-content">
-                                    <p className = 'op-surface f3'><b>2017-2021</b></p>
-                                    <p className = 'op-surface f4'>x B.Tech Computer Science</p>
-                                    <p className = 'op-surface f4'>x Specialisation in AI</p>
-                                    <p className = 'op-surface f4'>x 3 Merit Scholarships</p>
-                                    <p className = 'op-surface f4'>x Amity University, Noida</p>
-                                </div>
-                            </div>
-                        </div>
-                    </Animated>
-
                     </div>
 
-                    
-                    <div className = 'skill-block' style = {{display: 'flex', flexWrap: 'wrap'}}>
+                    <div className = 'exp-block'>
 
-                        <Animated animationIn="fadeInLeft" animationInDelay = {2000} animationOut="fadeInOut" animationInDuration={1000} animationOutDuration={1000} isVisible={true}>
-                            <div className = 'skill-op'>
-                                <p className = 'exp-op-title'><b>Languages</b></p>
+                        <Animated animationIn="fadeInDown" animationOut="fadeInOut" animationInDuration={1000} animationOutDuration={1000} isVisible={true}>
+                            <p className = 'exp-title'>Skills</p>
+                        </Animated>
+
+                        <Animated animationIn="fadeInDown" animationOut="fadeInOut" animationInDuration={1600} animationOutDuration={1000} isVisible={true}>
+                            <div className = 'exp-op'>
+                                <p className = 'exp-op-title'>Languages</p>
                                     <div className="op" style = {{display: 'flex'}}>
-                                        <div className="vl-op4"></div>
+                                        <div className="vl-op5"></div>
                                         <div className = "op-content">
                                             <p className = 'op-surface f4'>x C++</p>
                                             <p className = 'op-surface f4'>x Python</p>
                                             <p className = 'op-surface f4'>x JavaScript</p>
-                                            
                                         </div>
-                                    </div>
+                                    </div>    
                             </div>
-
-                            <div className = 'skill-op'>
-                                <p className = 'exp-op-title'><b>Web Development</b></p>
+                        </Animated>
+                        
+                        <Animated animationIn="fadeInDown" animationOut="fadeInOut" animationInDuration={1600} animationOutDuration={1000} isVisible={true}>
+                            <div className = 'exp-op'>
+                                <p className = 'exp-op-title'>Web</p>
                                     <div className="op" style = {{display: 'flex'}}>
-                                        <div className="vl-op4"></div>
+                                        <div className="vl-op5"></div>
                                         <div className = "op-content">
                                             <p className = 'op-surface f4'>x ReactJS</p>
                                             <p className = 'op-surface f4'>x SQL-NoSQL</p>
-                                            <p className = 'op-surface f4'>x NodeJS-ElectronJS</p>
-                                            
+                                            <p className = 'op-surface f4'>x NodeJS - ElectronJS</p>
                                         </div>
-                                    </div>
-                            </div>
-
-                            <div className = 'skill-op'>
-                                <p className = 'exp-op-title'><b>ML/AI</b></p>
-                                    <div className="op" style = {{display: 'flex'}}>
-                                        <div className="vl-op4"></div>
-                                        <div className = "op-content">
-                                            <p className = 'op-surface f4'>x Soft-Computing</p>
-                                            <p className = 'op-surface f4'>x Deep Learing</p>
-                                            <p className = 'op-surface f4'>x PyTorch</p>
-                                            
-                                        </div>
-                                    </div>
-                            </div>
-
-                            <div className = 'skill-op'>
-                                <p className = 'exp-op-title'><b>Others</b></p>
-                                    <div className="op" style = {{display: 'flex'}}>
-                                        <div className="vl-op4"></div>
-                                        <div className = "op-content">
-                                            <p className = 'op-surface f4'>x Docker, Git</p>
-                                            <p className = 'op-surface f4'>x SEO</p>
-                                            <p className = 'op-surface f4'>x Wordpress, Heroku</p>
-                                            
-                                        </div>
-                                    </div>
+                                    </div>    
                             </div>
                         </Animated>
-                    </div>
-                    
 
-                    <div>
-                        <p className = 'arrow grow pointer dim'>
+                        <Animated animationIn="fadeInDown" animationOut="fadeInOut" animationInDuration={1600} animationOutDuration={1000} isVisible={true}>
+                        <div className = 'exp-op'>
+                            <p className = 'exp-op-title'>ML/AI</p>
+                                <div className="op" style = {{display: 'flex'}}>
+                                    <div className="vl-op5"></div>
+                                    <div className = "op-content">
+                                        <p className = 'op-surface f4'>x Soft-Computing</p>
+                                        <p className = 'op-surface f4'>x Deep Learning</p>
+                                        <p className = 'op-surface f4'>x Reinforcement Learning</p>
+                                    </div>
+                                    
+                                </div>  
+                        </div>
+                    </Animated>
+
+                    <Animated animationIn="fadeInDown" animationOut="fadeInOut" animationInDuration={1600} animationOutDuration={1000} isVisible={true}>
+                        <div className = 'exp-op'>
+                            <p className = 'exp-op-title'>Tools</p>
+                                <div className="op" style = {{display: 'flex'}}>
+                                    <div className="vl-op5"></div>
+                                    <div className = "op-content">
+                                        <p className = 'op-surface f4'>x Docker, Git</p>
+                                        <p className = 'op-surface f4'>x Jira</p>
+                                        <p className = 'op-surface f4'>x Selenium</p>
+                                    </div>
+                                    
+                                </div>  
+                        </div>
+                    </Animated>
+                    </div>    
+
+                </div>
+
+                <div>
+                    <p className = 'arrow grow pointer dim'>
                         <Animated animationIn="fadeInRight" animationInDelay = {2000} animationOut="fadeInOut" animationInDuration={1000} animationOutDuration={1000} isVisible={true}>
                             <Link to = "/work/copewithcovid" style={{ textDecoration: 'none', color: 'black' }}>
                                 <img src = {arrow} width = '150px' height = 'auto'/>
                             </Link>
                         </Animated>
-                        </p>
+                    </p>
                         
-                    </div>
-
-                   
-
-
-
-                </div>
+                </div>  
            
-                        
-                    
-
-                            
-                            
-                            
-                            
-                    
-                   
-                
-               
-
-
-
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"></link>
                 <link rel="preconnect" href="https://fonts.gstatic.com"></link>
                 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"></link>
@@ -227,6 +228,9 @@ class experience extends React.Component{
                 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet"></link>
                 <link rel="preconnect" href="https://fonts.gstatic.com"></link>
                 <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet"></link>
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"></link>
+                <link rel="preconnect" href="https://fonts.gstatic.com"></link>
+                <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet"></link>    
             </div>
         );
     }

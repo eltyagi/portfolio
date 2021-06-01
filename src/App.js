@@ -71,7 +71,7 @@ class App extends React.Component {
           <Animated animationIn="fadeInDown" animationOut="fadeInOut" animationInDuration={1000} animationOutDuration={1000} isVisible={true}>
             <p  className = 'logo-tag'>
               <Link to = "/">
-                <img onClick = {this.handleClick} className = 'logo' alt = 'logo' src = {Logo} height = 'auto' width = '80'></img>
+                 LakshyaTyagi
               </Link></p>
           </Animated>
 
@@ -84,12 +84,6 @@ class App extends React.Component {
                   </p>
                 </Animated>
 
-                <Animated animationIn="fadeInDown" animationOut="fadeInOut" animationInDuration={1400} animationOutDuration={1000} isVisible={true}>
-                  <p className = 'nav-op pointer dim'>
-                    <a href = "https://lakshyatyagi.me">Blog</a>
-                  </p>
-                </Animated>
-
                 <Animated animationIn="fadeInDown" animationOut="fadeInOut" animationInDuration={1600} animationOutDuration={1000} isVisible={true}>
                   <p onClick = {this.handleClick} className = 'nav-op pointer dim'>
                     <Link to = "/experience" style={{ textDecoration: 'none', color: 'black' }}>
@@ -97,6 +91,13 @@ class App extends React.Component {
                     </Link>
                   </p>
                 </Animated>
+
+                <Animated animationIn="fadeInDown" animationOut="fadeInOut" animationInDuration={1400} animationOutDuration={1000} isVisible={true}>
+                  <p className = 'nav-op pointer dim'>
+                    <a href = "https://warriorsway98.wordpress.com/">Blog</a>
+                  </p>
+                </Animated>
+
 
                 <Animated animationIn="fadeInDown" animationOut="fadeInOut" animationInDuration={1800} animationOutDuration={1000} isVisible={true}>
                   <p className = 'nav-op pointer dim'>

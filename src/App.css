@@ -150,6 +150,11 @@ p{
       padding-top: 20px;
       
     }
+
+    .logo-tag{
+      font-size: 15px;
+      margin-top: 10px;
+    }
   
     img{
       height: auto;
