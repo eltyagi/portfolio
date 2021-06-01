@@ -24,8 +24,9 @@ import Logo from './logo.png';
 import Trans from './transition.js';
 
 
-const trackingId = "UA-186285153-1";
+const trackingId = "UA-186285153-3";
 ReactGA.initialize(trackingId);
+ReactGA.pageview(window.location.pathname + window.location.search);
 const history = createBrowserHistory();
 
 history.listen((location) => {
@@ -158,7 +159,7 @@ class App extends React.Component {
                 <button className = 'dropbtn'>MENU</button>
                 <div className = 'dropdown-content'>
                     <p onClick = {this.handleClick} className = 'pointer drop-op'><Link to = "/about" style={{ textDecoration: 'none', color: 'black' }}>About</Link></p>
-                    <p className = 'pointer drop-op' ><a href = "https://lakshyatyagi.me">Blog</a></p>
+                    <p className = 'pointer drop-op' ><a href = "https://warriorsway98.wordpress.com/">Blog</a></p>
                     <p onClick = {this.handleClick} className = 'pointer drop-op' ><Link to = "/experience" style={{ textDecoration: 'none', color: 'black' }}>Work</Link></p>
                     <p className = 'pointer drop-op' ><a href = "https://drive.google.com/file/d/1uOeGjI-ZS4RH6aomSnfJFjOUVP0empqL/view?usp=sharing">Resume</a></p>
                     <p onClick = {this.handleClick} className = 'pointer drop-op' ><Link to = "/contact" style={{ textDecoration: 'none', color: 'black' }}>Contact</Link></p>
