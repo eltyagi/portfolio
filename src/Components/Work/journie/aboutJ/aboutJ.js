@@ -18,10 +18,7 @@ class aboutJ extends React.Component{
                     <b>The Story</b>
                     <br/><br/>
                     <p>
-                        I am a productivity freak, my time in basic military training has taught me just how much
-                        one can achieve in a day. Therefore, I use my time well and make an attempt to make the most
-                        out of my day.
-                        <br/><br/>
+                        I am a productivity freak and consistency plays an important role in my ambitions.
                         Naturally, I looked for software alternatives to creating a productivity journal. Unfortunately,
                         I found them to be bland, rigid and ineffective in creating a personalized experience.
                         <br/><br/>
@@ -43,6 +40,14 @@ class aboutJ extends React.Component{
                         FrontEnd: ReactJS<br/>
                         BackEnd: NodeJS, ElectronJS<br/>
                         Database: PostgreSQL, MongoDB<br/>
+                    </p>
+
+                    <p>
+                        <b>Features</b><br/> 
+                        Modern UI<br/>
+                        User Behavior Tracking<br/>
+                        Dynamic Text Editor<br/>
+                        <br/>
                     </p>
                 </div>
 

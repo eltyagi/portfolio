@@ -21,7 +21,7 @@ class aboutCWC extends React.Component{
                     <br/><br/>
                     <p>
 
-                        Peak of COVID-19 Lockdown was rampant with out-of-stock supplies,
+                        Peak of COVID-19 Lockdown was rampant with out-of-stock groceries,
                         crunched E-Commerce sites and lack of customers for small businesses.
                         While sites like <i>Amazon</i> and <i>Big Basket</i> failed to deliver,
                         small business were stocked with supplies but had no customers due to the lockdown.

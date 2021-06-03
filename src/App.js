@@ -103,7 +103,7 @@ class App extends React.Component {
 
                 <Animated animationIn="fadeInDown" animationOut="fadeInOut" animationInDuration={1800} animationOutDuration={1000} isVisible={true}>
                   <p className = 'nav-op pointer dim'>
-                    <a href = "https://drive.google.com/file/d/1uOeGjI-ZS4RH6aomSnfJFjOUVP0empqL/view?usp=sharing">Resume</a>
+                    <a href = "https://drive.google.com/file/d/1wcXXoUbCOVUxXdrMTK1G34aEywEiEArO/view?usp=sharing">Resume</a>
                   </p>
                 </Animated>
 
@@ -162,7 +162,7 @@ class App extends React.Component {
                     <p onClick = {this.handleClick} className = 'pointer drop-op'><Link to = "/about" style={{ textDecoration: 'none', color: 'black' }}>About</Link></p>
                     <p className = 'pointer drop-op' ><a href = "https://warriorsway98.wordpress.com/">Blog</a></p>
                     <p onClick = {this.handleClick} className = 'pointer drop-op' ><Link to = "/experience" style={{ textDecoration: 'none', color: 'black' }}>Work</Link></p>
-                    <p className = 'pointer drop-op' ><a href = "https://drive.google.com/file/d/1uOeGjI-ZS4RH6aomSnfJFjOUVP0empqL/view?usp=sharing">Resume</a></p>
+                    <p className = 'pointer drop-op' ><a href = "https://drive.google.com/file/d/1wcXXoUbCOVUxXdrMTK1G34aEywEiEArO/view?usp=sharing">Resume</a></p>
                     <p onClick = {this.handleClick} className = 'pointer drop-op' ><Link to = "/contact" style={{ textDecoration: 'none', color: 'black' }}>Contact</Link></p>
 
                 </div>
