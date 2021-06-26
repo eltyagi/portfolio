@@ -22,6 +22,7 @@ import Research2 from './Components/Work/research2/research2.js';
 import Research3 from './Components/Work/research3/research3.js';
 import Logo from './logo.png';
 import Trans from './transition.js';
+import Particles from 'react-particles-js';
 
 
 const trackingId = "UA-186285153-3";
