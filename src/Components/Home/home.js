@@ -190,7 +190,7 @@ class Home extends React.Component {
         scale: 0.9,
         type: "inline",
         //url: {polygonmasklogo},
-        url: "https://cdn.matteobruni.it/images/particles/smalldeer.svg",
+        url: "https://particles.js.org/images/smalldeer.svg",
       },
     }} />
   
