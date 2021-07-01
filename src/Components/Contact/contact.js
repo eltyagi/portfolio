@@ -36,7 +36,7 @@ class contact extends React.Component{
 
                         <div className = 'logo-op'>
                         <p className = 'logo-overlay'>Blog</p>
-                        <a href = "https://lakshyatyagi.me"><img className = 'logo-img dim pointer' alt = "" src = {blog} width = '50px' height = 'auto'/></a>
+                        <a href = "https://warriorsway98.wordpress.com/"><img className = 'logo-img dim pointer' alt = "" src = {blog} width = '50px' height = 'auto'/></a>
                         </div>
 
                         <div className = 'logo-op'>
@@ -44,15 +44,6 @@ class contact extends React.Component{
                         <a href = "https://www.instagram.com/lakshya1406/?hl=en"><img className = 'logo-img dim pointer' alt = "" src = {instagram} width = '50px' height = 'auto'/></a>
                         </div>
 
-                        <div className = 'logo-op'>
-                        <p className = 'logo-overlay'>Wordpress</p>
-                        <a href = "https://warriorsway98.wordpress.com/"><img className = 'logo-img dim pointer' alt = "" src = {wordpress} width = '50px' height = 'auto'/></a>
-                        </div>
-
-                        <div className = 'logo-op'>
-                        <p className = 'logo-overlay'>Medium</p>
-                        <a href = "https://medium.com/lakshya-tyagi"><img className = 'logo-img dim pointer' alt = "" src = {medium} width = '50px' height = 'auto'/></a>
-                        </div>
                    
                 </div>
               
