@@ -37,11 +37,11 @@ class experience extends React.Component{
                                     <div className="vl-op2"></div>
                                     <div className = "op-content">
                                         <p className = 'exp-name op-surface f4 pointer dim'><a href = "https://www.cisco.com/c/en_in/index.html"><b>Cisco Systems</b></a></p>
-                                        <p className = 'exp-date op-surface f3'>Incoming</p>
+                                        <p className = 'exp-date op-surface f3'>Aug 2021 - Present</p>
                                         <br/>
-                                        <p className = 'op-surface f4'>x </p>
-                                        <p className = 'op-surface f4'>x </p>
-                                        <p className = 'op-surface f4'>x </p>
+                                        <p className = 'op-surface f4'>x Coveted CSAP Program</p>
+                                        <p className = 'op-surface f4'>x Networking, Security</p>
+                                        <p className = 'op-surface f4'>x Solutions Engineering</p>
                                     </div>
                                 </div>
                             </div>
@@ -54,7 +54,7 @@ class experience extends React.Component{
                                     <div className="vl-op2"></div>
                                     <div className = "op-content">
                                         <p className = 'exp-name op-surface f4 pointer dim'><a href = "https://www.zs.com/"><b>ZS Associates</b></a></p>
-                                        <p className = 'exp-date op-surface f3'>Jan 2021 - Present</p>
+                                        <p className = 'exp-date op-surface f3'>Jan 2021 - July 2021</p>
                                         <br/>
                                         <p className = 'op-surface f4'>x Quality Assurance</p>
                                         <p className = 'op-surface f4'>x ETL, Big data</p>

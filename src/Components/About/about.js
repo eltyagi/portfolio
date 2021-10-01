@@ -23,10 +23,8 @@ class about extends React.Component{
                     <Animated animationIn="fadeInDown" animationOut="fadeOut" animationInDuration={2000} animationOutDuration={1000} isVisible={true}>
                         <p className = 'about-title f1'>A bit about <i>myself!</i></p>
                         <p className = 'about-1'>
-                            I'm Lakshya - Software developer and researcher based out of India. 
-                            I am a military geek, skilled engineer and
-                            with a knack for the outdoors, creative writing
-                            and productivity.
+                            I'm Lakshya - Currently an Associate Systems Engineer @ Cisco. 
+                            <br/> I am a military geek who loves to innovate and apply across domains.
                         </p>
                     </Animated>
 
