@@ -20,7 +20,7 @@ img{
     align-items: center;
     font-family: 'Play', sans-serif;
     font-weight: 1000;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 20px;
     color: black;
     text-transform: uppercase;
@@ -194,5 +194,36 @@ p{
     }
   }
   
+
+  #wave {
+    position: relative;
+    height: 70px;
+    width: 600px;
+    background: #000000;
+  }
+  
+  #wave:before {
+          content: "";
+          display: block;
+          position: absolute;
+          border-radius: 100% 50%;
+          width: 340px;
+      height: 80px;
+      background-color: rgb(0, 0, 0);
+      right: -5px;
+      top: 40px;
+  }
+  
+  #wave:after {
+          content: "";
+          display: block;
+          position: absolute;
+          border-radius: 100% 50%;
+          width: 300px;
+      height: 70px;
+      background-color: #000000;
+      left: 0;
+      top: 27px;
+  }
   
   

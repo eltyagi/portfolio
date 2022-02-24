@@ -167,8 +167,9 @@ class App extends React.Component {
                     <p onClick = {this.handleClick} className = 'pointer drop-op' ><Link to = "/contact" style={{ textDecoration: 'none', color: 'black' }}>Contact</Link></p>
 
                 </div>
-              </div>          
-        </div>
+              </div>  
+        
+        </div>          
         <div>
         
           {/* A <Switch> looks through its children <Route>s and
