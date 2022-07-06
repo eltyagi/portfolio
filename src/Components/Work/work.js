@@ -15,10 +15,9 @@ class experience extends React.Component{
     constructor(props){
         super(props);
         this.state = {
-
         }
     }
-
+ 
     render(){
         return(
             <div className = 'work' style = {{display: 'flex'}}>
@@ -41,7 +40,7 @@ class experience extends React.Component{
                                         <br/>
                                         <p className = 'op-surface f4'>x Coveted CSAP Program</p>
                                         <p className = 'op-surface f4'>x Networking, Security</p>
-                                        <p className = 'op-surface f4'>x Solutions Engineering</p>
+                                        <p className = 'op-surface f4'>x CCNA, DevNet Asc</p>
                                     </div>
                                 </div>
                             </div>
