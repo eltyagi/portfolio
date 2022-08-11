@@ -1,0 +1,36 @@
+.menu{
+    color: aliceblue;
+    display: flex;
+    font-family: 'Anton', sans-serif;
+    font-size: 70px;
+}
+
+.menu-options{
+    margin: 50px;
+    margin-top: 5%;
+    margin-left: 20%;
+}
+
+.menu-opt{
+    margin: 30px;
+}
+
+.menu-opt:hover{
+    transform: translate(42px, 18px);
+    transition: 1s;
+    cursor: pointer;
+}
+
+.menu-opt:not(:hover){
+    transform: translate(18px, 42px);
+    transition: 900ms;
+    cursor: pointer;
+}
+
+.picture{
+    width: 50%;
+    height: auto;
+    margin-top: 40%;
+    margin-left: 50%;
+}
+

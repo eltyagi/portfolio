@@ -12,7 +12,7 @@ import { createBrowserHistory } from 'history';
 import Home from './Components/Home/home.js';
 import Logo from './logo.png';
 import Trans from './transition.js';
-
+import Menu from './Components/Menu/menu.js';
 
 
 const trackingId = "UA-186285153-3";
@@ -25,6 +25,7 @@ class App extends React.Component {
     super(props);
     this.state = {
       transitionOn: true,
+      viewMenu: true
     }
 
   }
@@ -53,21 +54,32 @@ class App extends React.Component {
     return (
       <div className = 'App'>
 
-        <div className = 'nav'>
-         <div className = 'nav-content'>
-          <div className = 'nav-point logo-name'>LakshyaTyagi.</div>
-          <div className = 'nav-point menu'>
-            <div className = 'nav-point dot'></div>
-            <div className = 'nav-point dot'></div>
-            <div className = 'nav-point dot'></div>
-          </div>
-          <div className = 'nav-point logo-name'>VanGuard.</div>
-         </div>
-        </div>
+        {
+          this.state.viewMenu === false
+          ?
+          <div>
+            <div className = 'nav'>
+              <div className = 'nav-content'>
+                <div className = 'nav-point logo-name'>LakshyaTyagi.</div>
+                <div className = 'nav-point menu'>
+                  <div className = 'nav-point dot'></div>
+                  <div className = 'nav-point dot'></div>
+                  <div className = 'nav-point dot'></div>
+                </div>
+                <div className = 'nav-point logo-name'>VanGuard.</div>
+              </div>
+            </div>
 
-        <div className = 'view center'>
-          <Home/>
-        </div>
+            <div className = 'view center'>
+              <Home/>
+            </div>
+          </div>
+          :
+          <div>
+            <Menu/>
+          </div>
+        }
+        
 
 
 
