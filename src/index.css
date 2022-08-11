@@ -5,6 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #000000;
+  overflow: hidden;
+  overscroll-behavior: none;
 }
 
 code {
@@ -15,4 +18,10 @@ code {
 a{
   text-decoration: none;
   color: #000000;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
 }
