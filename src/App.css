@@ -23,8 +23,8 @@
 
 .view{
   align-items: center;
-  width: 90%;
-  height: 700px;
+  width: 95%;
+  height: 80vh;
   border: 3px solid rgba(0, 0, 0, 0.171);
   background-color: rgb(12, 12, 12);
   
@@ -38,5 +38,17 @@
   display: inline-block;
   margin: 3px;
 }
+
+.fade-enter {
+  opacity: 0;
+  z-index: 1;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 1000ms ease-in;
+}
+
+
 
 
