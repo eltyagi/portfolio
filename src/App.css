@@ -17,16 +17,15 @@
 }
 
 .logo-name{
-  font-size: 30px;
+  font-size: 25px;
 }
-
 
 .view{
   align-items: center;
   width: 95%;
   height: 80vh;
   border: 3px solid rgba(0, 0, 0, 0.171);
-  background-color: rgb(12, 12, 12);
+  background-color: rgb(73, 73, 73);
   
 }
 

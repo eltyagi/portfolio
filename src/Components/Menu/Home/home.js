@@ -24,13 +24,13 @@ class Home extends React.Component {
     <div className="home">
       
       <div className = 'home-text center'>
-        <Animated animationInDelay = "300" animationInDuration = "1200" animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true}>
+        <Animated animationInDelay = "300" animationInDuration = "1200" animationIn="slideInLeft" animationOut="fadeOut" isVisible={true}>
           <span>Resilient.</span><br/>
         </Animated>
-        <Animated animationInDelay = "600" animationInDuration = "1200" animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true}>
+        <Animated animationInDelay = "600" animationInDuration = "1200" animationIn="slideInLeft" animationOut="fadeOut" isVisible={true}>
           <span>Driven.</span><br/>
         </Animated>
-        <Animated animationInDelay = "900" animationInDuration = "1200" animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true}>
+        <Animated animationInDelay = "900" animationInDuration = "1200" animationIn="slideInLeft" animationOut="fadeOut" isVisible={true}>
           <span>Bold.</span>
         </Animated>
       <div className = 'home-text-sub'>
@@ -46,7 +46,7 @@ class Home extends React.Component {
       </div>
       <br/>
       </div>
-      <Animated animationInDelay = "50" animationInDuration = "1200" animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true}>
+      <Animated animationInDelay = "50" animationInDuration = "1100" animationIn="slideInLeft" animationOut="fadeOut" isVisible={true}>
         <div className='sphere center'>
           <Shape/>
         </div>

@@ -20,32 +20,42 @@ function Menu(){
         return(
             <div className = 'menu'>
                 <div className = 'menu-options'>
-                    <Animated animationInDelay = {100} animationInDuration = {500} animationIn="fadeInUp" animationOut="fadeOut" isVisible={true}>
+                    <Animated animationInDelay = {100} animationInDuration = {500} animationIn="fadeIn" animationOut="fadeOut" isVisible={true}>
                         <Link to = "/" style={{ textDecoration: 'none', color: 'white' }}>
                             <div className = 'menu-opt'>
                                 Home
                             </div>
                         </Link>
                     </Animated>
-                    <Animated animationInDelay = {600}  animationInDuration = {500} animationIn="fadeInUp" animationOut="fadeOut" isVisible={true}>
+                    <Animated animationInDelay = {300}  animationInDuration = {500} animationIn="fadeIn" animationOut="fadeOut" isVisible={true}>
+                    <Link to = "/about" style={{ textDecoration: 'none', color: 'white' }}>
                     <div className = 'menu-opt'>
                         About Me
                     </div>
+                    </Link>
                     </Animated>
+                    <Animated animationInDelay = {500}  animationInDuration = {500} animationIn="fadeIn" animationOut="fadeOut" isVisible={true}>
                     <div className = 'menu-opt'>
                         Projects
                     </div>
+                    </Animated>
+                    <Animated animationInDelay = {700}  animationInDuration = {700} animationIn="fadeIn" animationOut="fadeOut" isVisible={true}>
                     <div className = 'menu-opt'>
                         Blog
                     </div>
+                    </Animated>
+                    <Animated animationInDelay = {900}  animationInDuration = {700} animationIn="fadeIn" animationOut="fadeOut" isVisible={true}>
                     <div className = 'menu-opt'>
                         Contact
                     </div>
+                    </Animated>
                 </div>
 
+                <Animated animationInDelay = {300}  animationInDuration = {1200} animationIn="fadeIn" animationOut="fadeOut" isVisible={true}>
                 <div className = 'image'>
                     <img className = 'picture' src = {Picture}/>
                 </div>
+                </Animated>
 
 
                 <link rel="preconnect" href="https://fonts.googleapis.com"/>

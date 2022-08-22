@@ -13,7 +13,8 @@ import ReactGA from 'react-ga';
 import { createBrowserHistory } from 'history';
 import Menu from './Components/Menu/menu.js';
 import Home from './Components/Menu/Home/home.js';
-
+import About from './Components/Menu/About/about.js';
+import Trans from './transition.js';
 
 
 
@@ -35,6 +36,7 @@ function App(){
     const location = useLocation()
     
     return (
+      
       <div style = {{margin: "0px"}} className = 'App'>
 
        
@@ -59,6 +61,7 @@ function App(){
             key={location.key}
             >
               <Routes location={location} style = {{margin: "0px"}}>
+              <Route style = {{margin: "0px"}} path="/about" element={<About/>}/>
                 <Route style = {{margin: "0px"}} path="/menu" element={<Menu/>}/>
                 <Route style = {{margin: "0px"}} path="/" element={<Home/>}/>
               </Routes>
