@@ -1,221 +1,28 @@
 .work{
-  font-family: 'Nanum Myeongjo', serif;
-  margin-top: 5%;
+    display: flex;
+    align-items: center;
+}
+.sidebar-projects{
+    margin: 10%
 }
 
-.work-page{
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  justify-content: flex-start;
-  width: 90%;
-}
-
-.vl-op1{
-    border-left: 1px solid rgb(0, 0, 0);
-    height: 110px;
-  }
-  
-  .vl-op2{
-    border-left: 1px solid rgb(0, 0, 0);
-    height: 150px;
-  }
-
-  .vl-op3{
-    border-left: 1px solid rgb(0, 0, 0);
-    height: 150px;
-  }
-
-  .vl-op4{
-    border-left: 1px solid rgb(0, 0, 0);
-    height: 70px;
-  }
-
-  .vl-op5{
-    border-left: 1px solid rgb(0, 0, 0);
-    height: 70px;
-  }
-
-  .exp-block{
-    width: 350px;
-    margin-left: 5%;
-  }
-
-  .skill-block{
+.sidebar-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2%;
+    font-size: 20px;
     width: 200px;
-  }
+}
 
-  .arrow{
-    width: 30%;
-    margin: 0px;
-    padding: 0px;
-    margin-top: 150px;
-    margin-left: 50px;
-  }
+.vl {
+    border-top: 3px solid rgb(0, 0, 0);
+    width: 30px;
+    margin: 20px;
+}
 
-  .exp-title{
-    font-size: 45px;
-    font-weight: bolder;
-    padding: 0px;
-    margin: 0px;
-  }
-
-  .skill-exp-title{
-    margin-bottom: 15%;
-  }
-
-  .skill-title{
-    font-size: 30px;
-    padding: 0px;
-    margin: 0px;
-  }
-
-  .exp-op{
-    width: 250px;
-    margin-top:8%;
-    margin-bottom: 3%;
-  }
-
-  
-
-  .exp-op-title{
-    font-size: 30px;
-    font-weight: bolder;
-    padding: 0px;
-    margin: 0px;
-    margin-bottom: 5%;
-  }
-
-  .op-content{
-    font-size: 19px;
-    padding: 0px;
-    margin: 0px;
-    margin-left: 10px;
-  }
-
-  .exp-name{
-    font-size: 23px;
-  }
-
-  .op-surface{
-    margin:0px;
-    padding:0px;
-  }
-
-
-  /*Responsive*/
-
-  @media only screen and (min-width: 2000px) {
-    .exp-block{
-      width: 500px;
-    }
-
-  }
-
-  
-  @media only screen and (max-width: 500px) {
-    .exp-title{
-      font-size: 30px;
-      margin-left: 50px;
-    }
-
-    .exp-op{
-      margin-left: 30px;
-      margin-top: 10px;
-      width: 300px;
-    }
-
-    .skill-op{
-      margin-left: 5px;
-    }
-
-    .exp-block {
-      margin-left: 5px;
-      margin-top: 50px;
-    }
-
-    .skill-block{
-      margin-top: 60px;
-    }
-
-    .exp-op-title{
-        font-size: 15px;
-      }
-
-  
-    .op-surface{
-      font-size: 10px;
-    }
-
-    .vl-op1{
-     
-      height: 55px;
-    }
-    
-    .vl-op2{
-      
-      height: 55px;
-    }
-  
-    .vl-op3{
-      
-      height: 55px;
-    }
-  
-    .vl-op4{
-      
-      height: 30px;
-    }
-
-    .arrow{
-      margin-top: 150px;
-      margin-left: 10px;
-    }
-  
-  }
-
-
-  @media only screen and (max-width: 600px) {
-    .exp-title{
-      margin-left: 10px;
-      font-size: 40px;
-      margin-top: 40px;
-    }
-
-    .exp-op-title{
-      font-size: 20px;
-    }
-
-    .exp-op{
-      margin-left: 20px;
-      margin-top: 10px;
-      width: 250px;
-    }
-
-    .op-surface{
-      font-size: 15px;
-    }
-
-    .skill-op{
-      margin-left: 0px;
-    }
-
-    .exp-block {
-      margin-left: 5px;
-      margin-top: 50px;
-    }
-
-    .skill-block{
-      margin-top: 60px;
-      margin-left: 30px;
-    }
-
-    .arrow{
-      margin-top: 150px;
-      margin-left: 10px;
-      width: 50%;
-    }
-  
-  }
-  
-  
+.work-viewport{
+    margin: 10%;
+    margin-top: 5%;
+    width: 40%;
+}

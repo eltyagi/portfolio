@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 import './App.css';
 import {
   BrowserRouter as Router,
@@ -15,7 +15,8 @@ import Menu from './Components/Menu/menu.js';
 import Home from './Components/Menu/Home/home.js';
 import About from './Components/Menu/About/about.js';
 import Trans from './transition.js';
-
+import Projects from './Components/Menu/Work/work.js'
+import {Animated} from "react-animated-css";
 
 
 const trackingId = "UA-186285153-3";
@@ -34,42 +35,85 @@ function App(){
   
 
     const location = useLocation()
+    const [enableTransition, setEnableTransition] = useState(false)
+    
+    useEffect(() => {
+      setEnableTransition(true);
+      setTimeout(() => {
+        setEnableTransition(false);
+      }, 1000);
+    }, []);
+
+    const onClickTransition = useCallback(async() => {
+      setEnableTransition(true);
+      setTimeout(() => {
+        setEnableTransition(false);
+      }, 1000);
+    }, [])
     
     return (
+
+
       
       <div style = {{margin: "0px"}} className = 'App'>
+        {
+          enableTransition 
+          ?
+          (<div>
+            <CSSTransition
+              in = {enableTransition}
+              timeout = {1500}
+              classNames = "loaderTransition">
+              <Trans duration = {enableTransition}/>
+            </CSSTransition>
+          </div>)
+          :
+          (<div>
+            <div className = 'nav'>
+            
 
-       
-          <div className = 'nav'>
             <div className = 'nav-content'>
-              <div className = 'nav-point logo-name'>LakshyaTyagi.</div>
-                <div className = 'nav-point menu' onClick={() => {this.onOpenMenu(); this.onToggleComponentAnimation()}}>
-                    <Link to = "/menu" style={{ textDecoration: 'none', color: 'black' }}>
-                      <div className = 'nav-point dot'></div>
-                      <div className = 'nav-point dot'></div>
-                      <div className = 'nav-point dot'></div>
+            <Animated animationInDelay = "100" animationInDuration = "1200" animationIn="fadeInDown" animationOut="fadeOut" isVisible={true}>
+              <Link to = "/" style={{ textDecoration: 'none', color: 'black' }}>
+                <div onClick = {onClickTransition} className = 'nav-point logo-name'>LakshyaTyagi.</div>
+              </Link>
+            </Animated>
+
+            <Animated animationInDelay = "100" animationInDuration = "1200" animationIn="fadeInDown" animationOut="fadeOut" isVisible={true}>
+                <div className = 'nav-point menu'>
+                    <Link to = "/about" style={{ textDecoration: 'none', color: 'black' }}>
+                      <div onClick = {onClickTransition} className = 'nav-point-menu'>About.</div>
                     </Link>
+                    <Link to = "/projects" style={{ textDecoration: 'none', color: 'black' }}>
+                      <div onClick = {onClickTransition} className = 'nav-point-menu'>Projects.</div>
+                    </Link>
+                      <div className = 'nav-point-menu'>Blog.</div>
+                      <div className = 'nav-point-menu'>Contact.</div>
                   </div>
+            </Animated>
+            
+            <Animated animationInDelay = "100" animationInDuration = "1200" animationIn="fadeInDown" animationOut="fadeOut" isVisible={true}>
                 <div className = 'nav-point logo-name'>VanGuard.</div>
+            </Animated>
               </div>
+            
           </div>
 
             <TransitionGroup>
             <CSSTransition
-            timeout={300}
+            timeout={30}
             classNames='fade'
             key={location.key}
             >
               <Routes location={location} style = {{margin: "0px"}}>
-              <Route style = {{margin: "0px"}} path="/about" element={<About/>}/>
-                <Route style = {{margin: "0px"}} path="/menu" element={<Menu/>}/>
+              <Route style = {{margin: "0px"}} path="/projects" element={<Projects/>}/>
+                <Route style = {{margin: "0px"}} path="/about" element={<About/>}/>
                 <Route style = {{margin: "0px"}} path="/" element={<Home/>}/>
               </Routes>
             </CSSTransition>
             </TransitionGroup>
-      
-        
-
+          </div>
+        )}
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"></link>
         <link rel="preconnect" href="https://fonts.googleapis.com"/>

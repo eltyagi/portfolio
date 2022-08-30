@@ -1,4 +1,4 @@
-p{
+Lap{
   padding: 0px;
   margin: 0px;
 }
@@ -11,7 +11,7 @@ p{
 }
 
 .self{
-    height: 500px;
+    height: 700px;
     width: auto;
 }
 
@@ -27,14 +27,14 @@ p{
     line-height: 85px;
     margin: 0px;
     padding: 0px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 .about-1{
     font-family: 'Nanum Myeongjo', serif;
     font-weight: 400;
     font-size: 13px;
     line-height: 22px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     margin: 0px;
     padding: 0px;
     margin-top: 20px;
