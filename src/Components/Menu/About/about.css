@@ -1,8 +1,3 @@
-Lap{
-  padding: 0px;
-  margin: 0px;
-}
-
 .about{
     margin-top: 4%;
     display: flex;
@@ -21,7 +16,7 @@ Lap{
 }
 
 .about-title{
-    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 100;
     font-size: 70px;
     line-height: 85px;
@@ -29,10 +24,11 @@ Lap{
     padding: 0px;
     color: rgb(0, 0, 0);
 }
+
 .about-1{
-    font-family: 'Nanum Myeongjo', serif;
-    font-weight: 400;
-    font-size: 13px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
     line-height: 22px;
     color: rgb(0, 0, 0);
     margin: 0px;
