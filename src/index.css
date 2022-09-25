@@ -45,7 +45,7 @@ a{
   .dot-background{
     border-radius: 10px;
     opacity: 0.8;
-    background-image:  radial-gradient(#000000 0.5px, transparent 0.6px), radial-gradient(#ffffff 0.6px, #bdbdbd 1px);
+    background-image:  radial-gradient(#000000 0.5px, transparent 0.6px), radial-gradient(#ffffff 0.6px, #c8c7c7 1px);
     background-size: 10px 10px;
     background-position: 0 0,10px 10px;
     z-index: -100;
