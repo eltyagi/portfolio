@@ -1,6 +1,6 @@
 import React from 'react';
 import './about.css';
-import Self from './self-img.jpg';
+import Self from './self-img.png';
 import {Animated} from "react-animated-css";
 
 class about extends React.Component{
@@ -14,39 +14,44 @@ class about extends React.Component{
     render(){
         return(
             <div className = 'about'>
-                <Animated animationIn="fadeIn" animationOut="fadeOut" animationInDuration={2500} animationOutDuration={1000} isVisible={true}>
-                <div className = 'image'>
-                    <img className = 'self' src = {Self}/>
-                </div>
-                </Animated>
+                <div className = 'dot-background'></div>
                 <div className = 'about-me'>
-                    <Animated animationIn="fadeInDown" animationOut="fadeOut" animationInDuration={2000} animationOutDuration={1000} isVisible={true}>
-                        <p className = 'about-title f1'>A bit about <i>myself!</i></p>
-                        <p className = 'about-1'>
-                            I'm Lakshya - Currently an Associate Systems Engineer @ Cisco. 
-                            <br/> I am a military geek who loves to innovate and apply across domains.
-                        </p>
-                    </Animated>
+                    
+                        <p className = 'about-title'>A bit about <i>myself!</i></p>
 
-                    <Animated animationIn="fadeInDown" animationOut="fadeOut" animationInDuration={2000} animationOutDuration={1000} isVisible={true}>
+                        <Animated animationIn="fadeIn" animationInDuration={1000} animationOutDuration={1000} isVisible={true}>
+                            <p className = 'about-1'>
+                                I'm Lakshya - A Technical Solutions Specialist (GVE DevNet) @ Cisco. 
+                                <br/> I am a purpose driven engineer, with a passion for technology powered<br/>
+                                problem solving, outdoors, defence sciences and more..<br/><br/>
+
+                                I am a CSAP alumni, operating as a trusted technical advisor<br/>
+                                to Cisco's customers, enabling their business outcomes with<br/>
+                                focus on Trust, Security and Flexibility.
+                            </p>
+                        </Animated>
+
+                    <Animated animationIn="fadeIn" animationInDuration={1300} animationOutDuration={1000} isVisible={true}>
                         <p className = 'about-1'><b>Domains</b><br/></p>
                         <p className = 'about-1'>
                         Software Development: ML, Web-Development [PERN Stack]<br/>
-                        Research Interests: Soft-Computing, Reinforcement Learning and AI<br/>
+                        Research Interests: Soft-Computing and AI/ML<br/>
+                        Network Engineering: CCNA, CCNP<br/>
+                        
                         </p>
                     </Animated>
 
-                    <Animated animationIn="fadeInUp" animationOut="fadeOut" animationInDuration={2000} animationOutDuration={1000} isVisible={true}>
+                    <Animated animationIn="fadeIn" animationInDuration={1900} animationOutDuration={1000} isVisible={true}>
                         <p className = 'about-1'><b>Accolades</b><br/></p>
                         <p className = 'about-1'>
+                        4,500x Developers and Writers Mentored<br/>
+                        ASE of the Quarter, Q3 FY22<br/>
+                        5x Research Publications<br/>
                         3x Scholarship Awards<br/>   
-                        4x Research Publications<br/>
-                        2,500x Developers and Writers Mentored<br/>
-                        60,000x Online Content hits
                         </p>
                     </Animated>
 
-                    <Animated animationIn="fadeInUp" animationOut="fadeOut" animationInDuration={2000} animationOutDuration={1000} isVisible={true}>
+                    <Animated animationIn="fadeIn" animationInDuration={2200} isVisible={true}>
                         <p className = 'about-1'><b>Avocations</b><br/></p>
                         <p className = 'about-1'>
                         Basketball<br/>   
@@ -57,11 +62,16 @@ class about extends React.Component{
                     
 
                 </div>
+                <Animated animationIn="fadeIn" animationOut="fadeOut" animationInDuration={2000} animationOutDuration={1000} isVisible={true}>
+                <div className = 'image'>
+                    <img className = 'self' src = {Self}/>
+                </div>
+                </Animated>
                 
 
-                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"></link>
-                <link rel="preconnect" href="https://fonts.gstatic.com"></link>
-                <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet"></link>      
+                <link rel="preconnect" href="https://fonts.googleapis.com"/>
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+                <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet"/>      
             </div>
         );
     }
