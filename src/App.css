@@ -13,14 +13,20 @@
 }
 
 .nav-content{
-  color: #000000;
+  color: #d5d0ca;
 }
+
+.nav-point{
+  color: #d5d0ca;
+}
+
+
 
 .nav-point-menu{
   font-size: 20px;
   margin-left: 15px;
   margin-right: 15px;
-  color: rgb(138, 138, 138);
+  color:#d5d0ca;
 }
 
 .nav-point-menu:hover{
@@ -52,7 +58,7 @@
 .underline{
   width: 100%;
   height: 0.5px;
-  border: 1px solid black;
+  border: 1px solid rgb(255, 255, 255);
   border-radius: 5px;
   visibility: hidden;
 }
@@ -92,7 +98,7 @@
 .line1, .line2{
   width: 100px;
   height: 1px;
-  border: 2px solid black;
+  border: 2px solid #d5d0ca;
   border-radius: 5px;
   margin-top: 5px;
   cursor: pointer;

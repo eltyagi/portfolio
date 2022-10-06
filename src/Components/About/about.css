@@ -2,17 +2,21 @@
   display: flex;
   flex-wrap: wrap;
   margin-left: 3%;
+  background-color: antiquewhite;
+  border-radius: 4px;
+  padding-bottom: 5%;
 }
 
 .self{
-  height: 700px;
+  height: 600px;
   width: auto;
+  margin-top: 4%;
 }
 
 .about-me{
   width: 600px;
   margin-left: 10%;
-  margin-top: 1%;
+  margin-top: 3%;
 }
 
 .about-title{
