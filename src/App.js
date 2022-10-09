@@ -74,27 +74,23 @@ function App(){
           (<div>
             <div className = 'nav'>
             
-
-            <div className = 'nav-content'>
             <Animated animationInDelay = "100" animationInDuration = "1200" animationIn="fadeInDown" animationOut="fadeOut" isVisible={true}>
               <Link to = "/" style={{ textDecoration: 'none', color: 'black' }}>
                 <div onClick = {onClickTransition} className = 'nav-point logo-name'>LakshyaTyagi.</div>
               </Link>
             </Animated>
-
+            <div className = 'nav-content'>
+            
             <Animated animationInDelay = "100" animationInDuration = "1200" animationIn="fadeInDown" animationOut="fadeOut" isVisible={true}>
-                <div className = 'nav-point inner-nav menu'>
+                <div className = 'nav-point-menu inner-nav menu'>
                     <Link to = "/about" style={{ textDecoration: 'none', color: 'black' }}>
-                      <div onClick = {onClickTransition} className = 'nav-point-menu about-opt'>About.<div className = 'underline'></div></div>
-                        
+                      <div onClick = {onClickTransition} className = 'nav-point-menu about-opt'>ABOUT<div className = 'underline'></div></div>
                     </Link>
-                    <Link to = "/projects" style={{ textDecoration: 'none', color: 'black' }}>
-                      <div onClick = {onClickTransition} className = 'nav-point-menu project-opt'>Projects.<div className = 'underline'></div></div>
-                    </Link>
-                      <div className = 'nav-point-menu blog-opt'>Blog.<div className = 'underline'></div></div>
+                      <div className = 'nav-point-menu blog-opt'>BLOG<div className = 'underline'></div></div>
                     <Link to = "/contact" style={{ textDecoration: 'none', color: 'black' }}>
-                      <div onClick = {onClickTransition} className = 'nav-point-menu contact-opt'>Contact.<div className = 'underline'></div></div>
+                      <div onClick = {onClickTransition} className = 'nav-point-menu contact-opt'>RESUME<div className = 'underline'></div></div>
                     </Link>
+                    <div className = 'nav-point-menu blog-opt'>CONTACT<div className = 'underline'></div></div>
                   </div>
             </Animated>
             
@@ -111,11 +107,6 @@ function App(){
               <Routes location={location} style = {{margin: "0px"}}>
                 <Route style = {{margin: "0px"}} path="/menu" element={<Menu/>}/>
                 <Route style = {{margin: "0px"}} path="/contact" element={<Contact/>}/>
-                <Route style = {{margin: "0px"}} path="/work/research3" element={<Research3/>}/>
-                <Route style = {{margin: "0px"}} path="/work/research2" element={<Research2/>}/>
-                <Route style = {{margin: "0px"}} path="/work/research1" element={<Research1/>}/>
-                <Route style = {{margin: "0px"}} path="/work/journie" element={<Journie/>}/>
-                <Route style = {{margin: "0px"}} path="/work/copewithcovid" element={<CopeWithCovid/>}/>
                 <Route style = {{margin: "0px"}} path="/projects" element={<Projects/>}/>
                 <Route style = {{margin: "0px"}} path="/about" element={<About/>}/>
                 <Route style = {{margin: "0px"}} path="/" element={<Home/>}/>
