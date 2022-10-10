@@ -4,6 +4,10 @@
     overflow: scroll;
 }
 
+.about-components{
+    margin: 0px;
+}
+
 .about::-webkit-scrollbar{
     display: none;
 }

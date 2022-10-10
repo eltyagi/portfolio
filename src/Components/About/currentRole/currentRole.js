@@ -14,15 +14,15 @@ class currentRole extends React.Component{
         return(
             <div className = 'currentRole'>
 
-                <div className = 'label-currentRole'>
+                <div className = 'label'>
                     Current Role
                 </div>
 
-                <div className = 'label-currentRole-Title'>
+                <div className = 'label-Title'>
                     I am a Technical Solutions Specialist @ Cisco<br/><br/>
                 </div>
                 
-                <div className="label-currentRole-Desc">
+                <div className="label-Desc">
                     A trusted technical advisor, who forms the bridge between 
                     business needs and outcomes through technology and innovative
                     software.
@@ -31,7 +31,13 @@ class currentRole extends React.Component{
 
                     I am also a CSAP Graduate, one of 136 ASEs and ASRs from Cisco's
                     FY22 CSAP Cohort, with deep exposure to Security, Collaboration,
-                    Data Center and Enterprise Networking, the 4 pillars of any enterprise.
+                    Data Center and Enterprise Networking, the 4 pillars of any enterprise.<br/><br/>
+                </div>
+
+                <div className = 'label-achievements'>
+                    Achievements
+                    <br/> x ASE of the Quarter, Q3 FY22
+
                 </div>
                 
             </div>

@@ -4,6 +4,8 @@ import {Animated} from "react-animated-css";
 import { animated, useSpring } from '@react-spring/web'
 import AboutMe from './aboutMe/aboutMe.js';
 import CurrentRole from './currentRole/currentRole.js';
+import GivingBack from './givingBack/givingBack.js';
+import Research from './research/research.js';
 import { useScroll } from "react-use-gesture";
 
 
@@ -14,11 +16,17 @@ function About(){
     return(
         <div className = 'about'>
          
-         <div>
+         <div className = 'about-components'>
          <AboutMe/>
          </div>
-        <div>
+        <div className = 'about-components'>
           <CurrentRole/>
+        </div>
+        <div className = 'about-components'>
+          <GivingBack/>
+        </div>
+        <div className = 'about-components'>
+          <Research/>
         </div>
          
            

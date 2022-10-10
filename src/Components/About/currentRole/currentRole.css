@@ -8,11 +8,11 @@
     
 }
 
-.label-currentRole{
+.label{
     font-size: 12px;
 }
 
-.label-currentRole-Desc{
+.label-Desc, .label-achievements{
     font-size: 15px;
 }
 
@@ -23,11 +23,11 @@
         width: 80%;
     }
 
-    .label-currentRole{
+    .label{
         font-size: 8px;
     }
     
-    .label-currentRole-Desc{
+    .label-Desc, .label-achievements{
         font-size: 10px;
     }
   }

@@ -2,7 +2,7 @@
     font-size: 12px;
 }
 
-.givingBack{
+.research{
     width: 40%;
     color: antiquewhite;
     margin: 10%;
@@ -12,13 +12,15 @@
     
 }
 
+
 .label-Desc, .label-achievements{
     font-size: 15px;
 }
 
+
 @media only screen and (max-width: 440px){
 
-    .givingBack{
+    .research{
         font-size: 13px;
         width: 80%;
     }

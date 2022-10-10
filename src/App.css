@@ -190,7 +190,11 @@
   #line1.line1, #line2.line2{
     width: 60px;
     height: 0px;
-    border: 2px solid black;
+    border: 2px w;
+  }
+
+  .logo-name{
+    font-size: 10px;
   }
 }
 

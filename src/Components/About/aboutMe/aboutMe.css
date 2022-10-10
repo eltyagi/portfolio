@@ -20,6 +20,11 @@ margin-left: 40%;
     .aboutMe{
         font-size: 60px;
     }
+
+    .image{
+        width: 70%;
+        margin-left: 30%;
+    }
 }
   
   @media only screen and (max-width: 840px){
