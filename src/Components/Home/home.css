@@ -50,3 +50,25 @@
   color: white;
   text-align: center;
 }
+
+
+/*Responsive Screen CSS*/
+@media only screen and (min-width: 1500px) {
+    .home-intro{
+      margin-top: 13%;
+    }
+
+    .home-sphere{
+      width: 30%;
+      margin-top: 8%;
+    
+    }
+
+    .home-message{
+      margin-top: 45%;
+    }
+
+    .newsletter-button{
+      margin-top: 40%;
+    }
+}

@@ -1,0 +1,13 @@
+.bg-shader{
+    z-index:2;
+    position: absolute;
+    width: 50vw;
+    height: 50vh;
+    margin-left: 28%;
+    margin-top: 10%;
+    border: solid white 1px;
+    border-radius: 50%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+

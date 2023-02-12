@@ -13,3 +13,11 @@
   width: 50%;
   margin-top: 10%;
 }
+
+/*Responsive Screen CSS*/
+@media only screen and (min-width: 1500px) {
+  .about-components{
+    width: 50%;
+    margin-top: 15%;
+  }
+}

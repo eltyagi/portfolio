@@ -1,0 +1,31 @@
+.home_body_1{
+    height: 20%; 
+    z-index:10;
+    position: absolute;
+}
+
+.home_body_1_horizontal-line{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    border-left: 1px solid goldenrod;
+    height: 200px;
+}
+
+.home_body_1_circle{
+    border: 1px solid rgb(208, 179, 108);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 10px;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+
+}
+
+.home_body_1_text{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: gold;
+    margin-left: 15px;
+}

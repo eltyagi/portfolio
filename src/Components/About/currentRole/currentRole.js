@@ -13,8 +13,8 @@ class currentRole extends React.Component{
     render(){
         return(
             <div className = 'currentRole'>
+                This is my current role.
 
-                
                 
             </div>
         );

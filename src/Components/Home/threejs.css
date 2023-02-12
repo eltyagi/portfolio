@@ -4,5 +4,14 @@
     margin-left: 5%
 }
 
+/*Responsive Screen CSS*/
+@media only screen and (min-width: 1500px) {
+    .bg-shader{
+        width: 50vw;
+        height: 48vh;
+        margin-left: 9%
+    }
+    
+}
 
 
