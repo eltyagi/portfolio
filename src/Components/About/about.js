@@ -1,33 +1,54 @@
 import React from 'react';
 import './about.css';
-import {Animated} from "react-animated-css";
-import { animated, useSpring } from '@react-spring/web'
 import AboutMe from './aboutMe/aboutMe.js';
 import CurrentRole from './currentRole/currentRole.js';
 import GivingBack from './givingBack/givingBack.js';
 import Research from './research/research.js';
-import { useScroll } from "react-use-gesture";
+import {motion, useAnimation} from 'framer-motion';
+import {useInView} from 'react-intersection-observer';
+import { useEffect } from 'react';;
 
 
 
 function About(){
 
+    const control = useAnimation()
+    const [ref, inView] = useInView()
+
+    const boxVariant = {
+      visible: {opacity: 1, scale: 1, transition: {duration: 1}},
+      hidden: {opacity: 0, scale: 0}
+    }
+
+    useEffect(() => {
+      if (inView){
+        control.start("visible")
+      }
+    }, [control,inView])
 
     return(
         <div className = 'about'>
          
-         <div className = 'about-components'>
-         <AboutMe/>
-         </div>
-        <div className = 'about-components'>
-          <CurrentRole/>
-        </div>
-        <div className = 'about-components'>
-          <GivingBack/>
-        </div>
-        <div className = 'about-components'>
-          <Research/>
-        </div>
+          <div className = 'content-about'>
+            <motion.div
+              ref={ref} 
+              variants={boxVariant}
+              initial="hidden"
+              animate={control}
+              className = 'about-components'>
+            <AboutMe/>
+            </motion.div>
+            <div className = 'about-components'>
+              <CurrentRole/>
+            </div>
+            <div className = 'about-components'>
+              <GivingBack/>
+            </div>
+            <div className = 'about-components'>
+              <Research/>
+            </div>
+          </div>
+        
          
            
         

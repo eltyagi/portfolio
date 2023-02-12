@@ -22,46 +22,50 @@ class Home extends React.Component {
   render(){
   return (
     <div className="home">
-      <div className = 'dot-background'></div>
-      <div className = 'home-text'>
-        <Animated animationInDelay = "100" animationInDuration = "1200" animationIn="fadeInLeft" animationOut="fadeOut" isVisible={true}>
-          <span>Resilient.</span><br/>
-        </Animated>
-        <Animated animationInDelay = "200" animationInDuration = "1200" animationIn="fadeInLeft" animationOut="fadeOut" isVisible={true}>
-          <span>Driven.</span><br/>
-        </Animated>
-        <Animated animationInDelay = "300" animationInDuration = "1200" animationIn="fadeInLeft" animationOut="fadeOut" isVisible={true}>
-          <span>Bold.</span>
-        </Animated>
-        
-      <div className = 'home-text-sub'>
-        <Animated animationInDelay = "400" animationInDuration = "1200" animationIn="fadeInUp" animationOut="fadeOut" isVisible={true}>
-          <span>I build digital experiences.</span><br/>
-        </Animated>
-        <Animated animationInDelay = "500" animationInDuration = "1200" animationIn="fadeInUp" animationOut="fadeOut" isVisible={true}>
-          <span>Enable competence, merit and ethics.</span><br/>
-        </Animated>
-        <Animated animationInDelay = "600" animationInDuration = "1200" animationIn="fadeInUp" animationOut="fadeOut" isVisible={true}>
-          <span>Bridge technology & business outcomes.</span><br/>
-        </Animated>
-      </div>
-      <br/>
-      </div>
-      <Animated animationInDelay = "900" animationInDuration = "900" animationIn="fadeInRight" animationOut="fadeOut" isVisible={true}>
-        <div className='sphere center'>
+
+
+      <div className = 'home-content'>
+
+        <div className = 'social-media-buttons'>
+          <div className = 'social-media-icons'>Instagram</div>
+          <div className = 'social-media-icons'>Github</div>
+          <div className = 'social-media-icons'>LinkedIn</div>
+        </div>
+
+        <div className = 'home-intro'>
+          <span className = 'home-intro-1'>Hi, I'm</span><br/>
+          <span className = 'home-intro-2'>Lakshya</span><br/>
+          <span className = 'home-intro-3'>A solutions engineer, educator and researcher.</span>
+
+          <div className = 'newsletter-button'>
+            Check out my newsletter!
+          </div>
+        </div>
+
+        <div className = 'home-sphere'>
           <Shape/>
         </div>
-      </Animated>
 
-          
-      
+        <div className = 'home-message'>
+          I teach competence.<br/>
+          I build seamless digital experiences.<br/>
+          I bridge technology with business outcomes.<br/>
+        </div>
+      </div>
+  
+
+        {/*<div className = 'sphere'>
+          <Animated animationInDelay = "900" animationInDuration = "900" animationIn="fadeInRight" animationOut="fadeOut" isVisible={true}>
+            <Shape/>
+          </Animated>
+        </div>*/}  
+
+
       <link rel="preconnect" href="https://fonts.googleapis.com"/>
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-      <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet"/>
+      <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet"/>
+
     </div>
-
-
-
   );
   }
 }

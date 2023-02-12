@@ -1,22 +1,8 @@
-
-
 .bg-shader{
-    z-index:10;
-    position: absolute;
-    margin-left: 3%;
-    width: 60vw;
-    height: 110vh;
+    width: 54vw;
+    height: 54vh;
+    margin-left: 5%
 }
 
 
 
-@media only screen and (max-width:420px){
-
-    .bg-shader{
-        z-index:10;
-        position: absolute;
-        width: 90vw;
-        height: 40vh;
-        margin-top: 40%;
-    }
-  }

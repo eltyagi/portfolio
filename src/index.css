@@ -5,27 +5,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #151515;
+  background-color: #ffffff;
   overflow: hidden;
-  overscroll-behavior: none;
-  cursor: url("https://github.com/chenglou/react-motion/raw/master/demos/demo8-draggable-list/cursor.png") 39 39, auto;
-  
+  overscroll-behavior: none;  
 }
 
-.dot-background{
-  border-radius: 5px;
-  opacity: 0.8;
-  background-image:  radial-gradient(#000000 0.5px, transparent 0.8px), radial-gradient(#2c2c2c 1px, #1f1f1f 1px);
-  background-size: 10px 10px;
-  background-position: 0 0,10px 10px;
-  z-index: -100;
-  position: absolute;
-  height: 85%;
-  width: 95%;
-  margin-left: auto;
-  margin-right: auto;
-
-}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -41,22 +25,5 @@ a{
   margin: auto;
   width: 50%;
   padding: 10px;
-}
-
-@media only screen and (max-width: 420px){
-  .dot-background{
-    border-radius: 10px;
-    opacity: 0.8;
-    background-image:  radial-gradient(#000000 0.5px, transparent 0.8px), radial-gradient(#2c2c2c 1px, #1f1f1f 1px);
-    background-size: 10px 10px;
-    background-position: 0 0,10px 10px;
-    z-index: -100;
-    position: absolute;
-    height: 85%;
-    width: 95%;
-    margin-left: auto;
-    margin-right: auto;
-  
-  }
 }
 

@@ -1,14 +1,15 @@
 .about{
     width: 100vw;
     height: 100vh;
-    overflow: scroll;
-    padding-bottom: 5%;
+    display: flex;
+    font-family: 'Forum', cursive;
+  }
+
+.content-about{
+  margin-left: 3%;
 }
 
 .about-components{
-    margin: 0px;
-}
-
-.about::-webkit-scrollbar{
-    display: none;
+  width: 50%;
+  margin-top: 10%;
 }

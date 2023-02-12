@@ -1,7 +1,5 @@
 .menu-component{
-    margin-left: 3%;
-    font-family: 'Cormorant Garamond', serif;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Forum', cursive;    
 }
 
 .menu-component-opt{
@@ -11,17 +9,10 @@
   margin-left: 10%;
 }
 
-.menu-opt-underline{
-  width: 170%;
-  border: 1px solid black;
-  margin-top: 20px;
-}
-
-
 .menu-component-options-home, .menu-component-options-about, .menu-component-options-projects, .menu-component-options-blog,.menu-component-options-contact{
-  font-size: 50px;
+  font-size: 90px;
   margin-left: 15%;
-  margin-top: 50px;
+  margin-top: 5px;
 }
 
 .footer{
@@ -29,40 +20,3 @@
   width: 500px;
 }
   
-@media only screen and (max-width: 420px){
-  .menu-component-opt{
-    margin-top: 2%;
-    margin-left: 2%;
-  }
-
-  .menu-component-options-home, .menu-component-options-about, .menu-component-options-projects, .menu-component-options-blog,.menu-component-options-contact{
-    font-size: 20px;
-    margin-left: 5%;
-    margin-top: 50px;
-  }
-
-  .menu-opt-underline{
-    width: 60%;
-  }
-
-  .footer{
-    font-size: 10px;
-  }
-
-}
-
-@media only screen and (max-width: 840px){
-
-  
-}
-
-@media only screen and (max-width: 1100px){
-
- 
-}
-
-@media only screen and (min-width: 1900px) and (max-width: 2600px){
-
-
- 
-}

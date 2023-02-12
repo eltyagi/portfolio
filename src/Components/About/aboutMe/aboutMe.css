@@ -1,39 +1,37 @@
 .aboutMe{
-color: antiquewhite;
-font-family: 'Cormorant Garamond', serif;
-font-family: 'Poppins', sans-serif;
-margin: 5%;
-font-size: 130px;
-font-weight: 1000;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
 }
 
-.image{
-z-index: -10;
-position: absolute;
-width: 50%;
-height: auto;
-margin-left: 40%;
+.aboutMe-title{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    height: 40px;
+    width: 120px;
+    transform-origin: 0 0;
+    transform: rotate(-90deg);
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 10%;
 }
 
-@media only screen and (max-width: 440px){
-
-    .aboutMe{
-        font-size: 60px;
-    }
-
-    .image{
-        width: 70%;
-        margin-left: 30%;
-    }
+.role{
+    width: 40%;
+    margin-left: 10%;
 }
-  
-  @media only screen and (max-width: 840px){
-  
 
-  }
-  
-  @media only screen and (max-width: 1100px){
-  
+.role-tag{
+    font-size: 15px
+}
 
-  }
+.role-title{
+    font-size: 25px;
+}
+
+.role-desc{
+    font-size: 18px;
+}
+
   

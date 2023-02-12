@@ -18,7 +18,7 @@ function shape() {
         
         return (
           <mesh>
-            <sphereGeometry args = {[3, 128, 128]}/>
+            <sphereGeometry args = {[3, 100, 100]}/>
             <MeshDistortMaterial
               distort={0.5} // Strength, 0 disables the effect (default=1)
               speed={2} // Speed (default=1)
@@ -30,9 +30,9 @@ function shape() {
       }
 
     return(
-        <div className = 'canvas-container' style = {{display: "flex"}}>
-            <div className = 'bg-shader'>
-                <Canvas>
+        <div className = 'canvas-container'>
+            <div className = 'bg-shader'> 
+                <Canvas style={{"width": "500px"}}>
                 <ShaderPlane />
                 </Canvas>
             </div>

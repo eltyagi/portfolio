@@ -1,65 +1,52 @@
-.home{
-  margin-left: 3%;
+.home-content{
+  display: flex;
+  font-family: 'Forum', cursive;
 }
 
+.social-media-buttons{
+  transform-origin: 0 0;
+  transform: rotate(-90deg);
+  margin-left: 2%;
+  margin-top: 30%;
+  display: flex;
+}
 
-.home-text{
-  font-size: 80px;
-  z-index: 1000;
-  width: 25%;
-  margin-top: 8%;
+.social-media-icons{
+  margin-right: 60%;
+}
+
+.home-intro{
+  margin-top: 6%;
   margin-left: 5%;
-  padding-left:50px;
-  position: absolute;
-  mix-blend-mode: difference;
-  color: rgb(255, 255, 255); 
-  font-family: 'Source Sans Pro', sans-serif;
+  width: 30%;
 }
 
-.home-text-sub{
-  font-size: 20px;
-  margin-top: 10px;
-  width: 100%;
+.home-intro-1, .home-intro-2{
+  font-size: 140px
 }
 
-@media only screen and (max-width: 420px){
-
-  .home-text{
-    font-size: 30px;
-    margin-top: 30%;
-    margin-left: 0px;
-  }
-
-  .home-text-sub{
-    font-size: 13px;
-    margin-left: 0px;
-    margin-top: 600%;
-    width: 520%;
-  }
+.home-intro-3{
+  font-size: 25px
 }
 
-@media only screen and (max-width: 840px){
+.home-sphere{
+  margin-top: 5%;
+  margin-left: 3%;
+  width: 30%;
 
-  
 }
 
-@media only screen and (max-width: 1100px){
-
- 
+.home-message{
+  margin-top: 35%;
+  text-align: right;
 }
 
-@media only screen and (min-width: 1900px) and (max-width: 2600px){
-
-  .home-text{
-    font-size: 100px;
-    margin-top: 10%;
-    margin-left: 0px;
-  }
-
-  .home-text-sub{
-    font-size: 30px;
-    margin-left: 0px;
-    width: 520%;
-  }
- 
+.newsletter-button{
+  margin-top: 25%;
+  background-color: black;
+  width: 250px;
+  padding: 8px;
+  border-radius: 15px;
+  color: white;
+  text-align: center;
 }

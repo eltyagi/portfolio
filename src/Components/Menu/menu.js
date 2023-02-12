@@ -42,18 +42,18 @@ function Menu(){
                     <div className='menu-component-options'>
                         <div className = 'menu-component-opt'>
                         <Animated animationInDelay = "100" animationInDuration = "1200" animationIn="fadeInDown" animationOut="fadeOut" isVisible={true}>
-                            <Link to = "/" style={{ textDecoration: 'none', color: 'black' }}>
-                                <div className = 'menu-component-options-home'>
-                                    Home
-                                    <div className = 'menu-opt-underline'></div>
+                            <Link to = "/about" style={{ textDecoration: 'none', color: 'black' }}>
+                                <div className = 'menu-component-options-about'>
+                                    About
+                                    
                                 </div>
                             </Link>
                         </Animated>
 
                         <Animated animationInDelay = "100" animationInDuration = "1200" animationIn="fadeInDown" animationOut="fadeOut" isVisible={true}>
-                            <Link to = "/about" style={{ textDecoration: 'none', color: 'black' }}>
+                            <Link to = "/projects" style={{ textDecoration: 'none', color: 'black' }}>
                                 <div onClick = {onClickTransition} className = 'menu-component-options-about'>
-                                    About
+                                    My Work
                                 </div>
                             </Link>
                         </Animated>
@@ -61,31 +61,31 @@ function Menu(){
                         <Animated animationInDelay = "100" animationInDuration = "1200" animationIn="fadeInDown" animationOut="fadeOut" isVisible={true}>
                             <Link to = "/projects" style={{ textDecoration: 'none', color: 'black' }}>
                                 <div className = 'menu-component-options-projects'>
-                                    Projects
-                                    <div className = 'menu-opt-underline'></div>
-                                </div>
-                            </Link>
-                        </Animated>
-
-                        <Animated animationInDelay = "100" animationInDuration = "1200" animationIn="fadeInDown" animationOut="fadeOut" isVisible={true}>
-                            <Link to = "/blog" style={{ textDecoration: 'none', color: 'black' }}>
-                                <div className = 'menu-component-options-blog'>
-                                    Blog
+                                    Newsletter
+                                    
                                 </div>
                             </Link>
                         </Animated>
 
                         <Animated animationInDelay = "100" animationInDuration = "1200" animationIn="fadeInDown" animationOut="fadeOut" isVisible={true}>
                             <Link to = "/contact" style={{ textDecoration: 'none', color: 'black' }}>
-                                <div className = 'menu-component-options-contact'>
+                                <div className = 'menu-component-options-blog'>
                                     Contact
+                                </div>
+                            </Link>
+                        </Animated>
+
+                        <Animated animationInDelay = "100" animationInDuration = "1200" animationIn="fadeInDown" animationOut="fadeOut" isVisible={true}>
+                            <Link to = "/blog" style={{ textDecoration: 'none', color: 'black' }}>
+                                <div className = 'menu-component-options-contact'>
+                                    Blog
                                     <div className = 'footer' style = {{'display': 'flex'}}>
                                     <div className='all-rights-reserved'>
-                                        © 2022. All Rights Reserved.
+                                        <br/>© 2022. All Rights Reserved.
                                     </div>
 
                                 </div>
-                                    <div className = 'menu-opt-underline'></div>
+                                    
 
                                 </div>
                             </Link>
@@ -97,10 +97,9 @@ function Menu(){
             }
 
 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"></link>
-        <link rel="preconnect" href="https://fonts.googleapis.com"/>
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Poppins:wght@300&display=swap" rel="stylesheet"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+      <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet"/>
             
         </div>
     );
