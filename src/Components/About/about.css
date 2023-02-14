@@ -3,6 +3,7 @@
     height: 100vh;
     display: flex;
     font-family: 'Forum', cursive;
+    overflow: scroll;
   }
 
 .content-about{
@@ -12,6 +13,80 @@
 .about-components{
   width: 50%;
   margin-top: 10%;
+}
+
+/*AboutMe*/
+.aboutMe{
+  display: flex;
+  width: 100vw;
+  height: 80vh;
+}
+
+.aboutMe-title{
+  background-color: black;
+  color: white;
+  padding: 10px;
+  height: 40px;
+  width: 120px;
+  transform-origin: 0 0;
+  transform: rotate(-90deg);
+  border-radius: 20px;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.role{
+  width: 40%;
+  margin-left: 10%;
+}
+
+.role-tag{
+  font-size: 15px
+}
+
+.role-title{
+  font-size: 25px;
+}
+
+.role-desc{
+  font-size: 18px;
+}
+
+/*CurrentRole*/
+.currentRole{
+  display: flex;
+  width: 100vw;
+  height: 80vh;
+}
+
+.currentRole-title{
+  background-color: black;
+  color: white;
+  padding: 10px;
+  height: 40px;
+  width: 120px;
+  transform-origin: 0 0;
+  transform: rotate(-90deg);
+  border-radius: 20px;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.role{
+  width: 40%;
+  margin-left: 10%;
+}
+
+.role-tag{
+  font-size: 15px
+}
+
+.role-title{
+  font-size: 25px;
+}
+
+.role-desc{
+  font-size: 18px;
 }
 
 /*Responsive Screen CSS*/
