@@ -11,6 +11,8 @@ const boxVariant = {
   hidden: { opacity: 0, scale: 0 }
 };
 
+
+
 const AboutMe = () => {
 
   const control = useAnimation();
@@ -32,44 +34,20 @@ const AboutMe = () => {
     initial="hidden"
     animate={control}
     >
-      <div className = 'aboutMe-title'>
-        About Me
+
+    <div className = 'aboutMe-Content'>
+      <div className = 'aboutMe-Title'>
+        about Me
       </div>
-      <div className = 'role'>
-        <div className = 'role-tag'>
-          About Me.
-          <br/><br/>
-        </div>
-
-        <div className = 'role-title'>
-          Focus. Resilience. Commitment.
-          <br/><br/>
-        </div>
-
-        <div className = 'role-desc'>
-          I am a solutions engineer, trusted technical advisor & developer who leverages 
-          automation and programmability to achieve business outcomes for Cisco's customers.
-          <br/><br/>
-          I am also a CSAP graduate, one of 136 ASEs and ASRs from Cisco's FY22
-          CSAP cohort, with deep exposure to security, collaboration, data center and
-          enterprise networking, the 4 pillars of any organization.
-        </div>
-
-        <div className = 'role-icons'>
-
-        </div>
-      </div>
-
-        <div className = 'role-image'>
-            <img width = '500px' src={Self}></img>
-        </div>
+    </div>
+      
                 
             
 
-            <link rel="preconnect" href="https://fonts.googleapis.com"/>
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-            <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet"/>      
-      </motion.div>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet"/>      
+    </motion.div>
   );
 }
 
@@ -193,7 +171,7 @@ function About(){
             <div className = 'about-components'>
               <AboutMe/>
             </div>
-            <div className = 'about-components'>
+            {/*<div className = 'about-components'>
               <CurrentRole/>
             </div>
             <div className = 'about-components'>
@@ -201,16 +179,21 @@ function About(){
             </div>
             <div className = 'about-components'>
               <Research/>
-            </div>
+            </div>*/}
           </div>
+
+
+        <div className = 'about-content'>
+          
+        </div>
         
          
            
         
-            <link rel="preconnect" href="https://fonts.googleapis.com"/>
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-            <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet"/>      
-        </div>
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet"/>      
+      </div>
     );
     
 }
