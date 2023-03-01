@@ -11,6 +11,8 @@ const boxVariant = {
   hidden: { opacity: 0, scale: 0 }
 };
 
+
+
 const AboutMe = () => {
 
   const control = useAnimation();
@@ -196,14 +198,19 @@ function About(){
               <Research/>
             </div>*/}
           </div>
+
+
+        <div className = 'about-content'>
+          
+        </div>
         
          
            
         
-            <link rel="preconnect" href="https://fonts.googleapis.com"/>
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-            <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet"/>      
-        </div>
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet"/>      
+      </div>
     );
     
 }
