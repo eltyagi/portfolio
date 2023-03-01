@@ -43,7 +43,10 @@ class Home extends React.Component {
         </div>
 
         <div className = 'home-sphere'>
+          <div className = 'sphere'>
           <Shape/>
+          </div>
+        
         </div>
 
         <div className = 'home-message'>

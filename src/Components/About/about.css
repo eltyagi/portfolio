@@ -1,98 +1,38 @@
 .about{
     width: 100vw;
     height: 100vh;
-    display: flex;
     font-family: 'Forum', cursive;
     overflow: scroll;
-  }
-
-.content-about{
-  margin-left: 3%;
 }
 
-.about-components{
-  width: 50%;
-  margin-top: 10%;
-}
-
-/*AboutMe*/
-.aboutMe{
+.aboutMe-content{
   display: flex;
-  width: 100vw;
-  height: 80vh;
+  margin-left: 5%;
+}
+
+.aboutMe-content-text{
+  margin: 5%;
+  margin-top: 10%;
+  text-align: right;
 }
 
 .aboutMe-title{
-  background-color: black;
-  color: white;
-  padding: 10px;
-  height: 40px;
-  width: 120px;
-  transform-origin: 0 0;
-  transform: rotate(-90deg);
-  border-radius: 20px;
-  text-align: center;
-  margin-top: 10%;
-}
-
-.role{
-  width: 40%;
+  font-size: 100px;
+  font-weight: 500;
+  margin-top: 30%;
   margin-left: 10%;
 }
 
-.role-tag{
-  font-size: 15px
-}
-
-.role-title{
-  font-size: 25px;
-}
-
-.role-desc{
+.aboutMe-span{
   font-size: 18px;
+  margin-top: 5%;
+  text-align: right;
 }
 
-/*CurrentRole*/
-.currentRole{
-  display: flex;
-  width: 100vw;
-  height: 80vh;
+.invictus{
+  margin-top: 30px;
 }
 
-.currentRole-title{
-  background-color: black;
-  color: white;
-  padding: 10px;
-  height: 40px;
-  width: 120px;
-  transform-origin: 0 0;
-  transform: rotate(-90deg);
-  border-radius: 20px;
-  text-align: center;
-  margin-top: 10%;
-}
-
-.role{
-  width: 40%;
-  margin-left: 10%;
-}
-
-.role-tag{
-  font-size: 15px
-}
-
-.role-title{
-  font-size: 25px;
-}
-
-.role-desc{
-  font-size: 18px;
-}
-
-/*Responsive Screen CSS*/
-@media only screen and (min-width: 1500px) {
-  .about-components{
-    width: 50%;
-    margin-top: 15%;
-  }
+.self-image{
+  margin: 10%;
 }

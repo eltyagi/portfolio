@@ -1,13 +1,13 @@
 import React from 'react';
 import './about.css';
-import Self from './self-img.png';
+import Self from './self-image.JPG';
 import Research from './research/research.js';
 import {motion, useAnimation} from 'framer-motion';
 import {useInView} from 'react-intersection-observer';
 import { useEffect } from 'react';
 
 const boxVariant = {
-  visible: { opacity: 1, scale: 1, transition: { duration: 0.5 } },
+  visible: { opacity: 1, scale: 1, transition: { duration: 0.8 } },
   hidden: { opacity: 0, scale: 0 }
 };
 
@@ -32,48 +32,39 @@ const AboutMe = () => {
     initial="hidden"
     animate={control}
     >
-      <div className = 'aboutMe-title'>
-        About Me
-      </div>
-      <div className = 'role'>
-        <div className = 'role-tag'>
-          About Me.
-          <br/><br/>
+
+      <div className = 'aboutMe-content'>
+        <div className = 'aboutMe-content-text'>
+          <span className = 'aboutMe-span'>
+          <span className = 'invictus'>Out of the night that covers me,<br/></span>
+            <span className = 'invictus'>Black as the pit from pole to pole,<br/></span>
+            <span className = 'invictus'>I thank whatever gods may be,<br/></span>
+            <span className = 'invictus'>For my unconquerable soul.<br/></span><br/>
+            <span className = 'invictus'>It matters not how strait the gate,<br/></span>
+            <span className = 'invictus'>How charged with punishments the scroll,<br/></span>
+            <span className = 'invictus'>I am the master of my fate,<br/></span>
+            <span className = 'invictus'>I am the captain of my soul.<br/></span>
+          </span>
         </div>
 
-        <div className = 'role-title'>
-          Focus. Resilience. Commitment.
-          <br/><br/>
+        <div className = 'aboutMe-img'>
+          <img className = 'self-image' src = {Self} height="auto" width="600px"/>
         </div>
 
-        <div className = 'role-desc'>
-          I am a solutions engineer, trusted technical advisor & developer who leverages 
-          automation and programmability to achieve business outcomes for Cisco's customers.
-          <br/><br/>
-          I am also a CSAP graduate, one of 136 ASEs and ASRs from Cisco's FY22
-          CSAP cohort, with deep exposure to security, collaboration, data center and
-          enterprise networking, the 4 pillars of any organization.
+        <div className = 'aboutMe-title'>
+          about<br/>me<br/>
         </div>
-
-        <div className = 'role-icons'>
-
-        </div>
+        
       </div>
 
-        <div className = 'role-image'>
-            <img width = '500px' src={Self}></img>
-        </div>
-                
-            
-
-            <link rel="preconnect" href="https://fonts.googleapis.com"/>
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-            <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet"/>      
+      <link rel="preconnect" href="https://fonts.googleapis.com"/>
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+      <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet"/>      
       </motion.div>
   );
 }
 
-const CurrentRole = () => {
+{/*const CurrentRole = () => {
 
   const control = useAnimation();
   const [ref, inView] = useInView();
@@ -110,11 +101,14 @@ const CurrentRole = () => {
 
         <div className = 'role-desc'>
           I am a solutions engineer, trusted technical advisor & developer who leverages 
-          automation and programmability to achieve business outcomes for Cisco's customers.
+          automation and programmability to achieve business outcomes for Cisco's customers and partners. 
           <br/><br/>
           I am also a CSAP graduate, one of 136 ASEs and ASRs from Cisco's FY22
           CSAP cohort, with deep exposure to security, collaboration, data center and
           enterprise networking, the 4 pillars of any organization.
+          <br/><br/>
+          In my time at Cisco, I have been honored with accolades like ASE of the Quarter, Q3 FY22, and SE of the Quarter Q2 FY23. 
+          So if you want to discuss tech, solutions engineering of Cisco DevNet. Hit me up!
         </div>
 
         <div className = 'role-icons'>
@@ -126,9 +120,9 @@ const CurrentRole = () => {
             <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet"/>      
       </motion.div>
   );
-}
+}*/}
 
-const GivingBack = () => {
+{/*const GivingBack = () => {
 
   const control = useAnimation();
   const [ref, inView] = useInView();
@@ -154,7 +148,7 @@ const GivingBack = () => {
       </div>
       <div className = 'role'>
         <div className = 'role-tag'>
-          About Me.
+        Giving Back.
           <br/><br/>
         </div>
 
@@ -164,12 +158,11 @@ const GivingBack = () => {
         </div>
 
         <div className = 'role-desc'>
-          I am a solutions engineer, trusted technical advisor & developer who leverages 
-          automation and programmability to achieve business outcomes for Cisco's customers.
-          <br/><br/>
-          I am also a CSAP graduate, one of 136 ASEs and ASRs from Cisco's FY22
-          CSAP cohort, with deep exposure to security, collaboration, data center and
-          enterprise networking, the 4 pillars of any organization.
+          Since 2019, I have mentored over 5000 mentees in the domains of data analytics and 
+          artificial intelligence. This is through month long hands-on workshops on designing,
+          building and testing machine learning models.<br/><br/>
+          The aim is to instill a passion for engineering, creativity and research within my mentees,
+          so that they can grow in their respective careers, and make a positive impact on the world.
         </div>
 
         <div className = 'role-icons'>
@@ -182,7 +175,7 @@ const GivingBack = () => {
             <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet"/>      
       </motion.div>
   );
-}
+}*/}
 
 function About(){
 
@@ -193,7 +186,7 @@ function About(){
             <div className = 'about-components'>
               <AboutMe/>
             </div>
-            <div className = 'about-components'>
+            {/*<div className = 'about-components'>
               <CurrentRole/>
             </div>
             <div className = 'about-components'>
@@ -201,7 +194,7 @@ function About(){
             </div>
             <div className = 'about-components'>
               <Research/>
-            </div>
+            </div>*/}
           </div>
         
          

@@ -50,13 +50,13 @@ function Menu(){
                             </Link>
                         </Animated>
 
-                        <Animated animationInDelay = "100" animationInDuration = "1200" animationIn="fadeInDown" animationOut="fadeOut" isVisible={true}>
+                        {/*<Animated animationInDelay = "100" animationInDuration = "1200" animationIn="fadeInDown" animationOut="fadeOut" isVisible={true}>
                             <Link to = "/projects" style={{ textDecoration: 'none', color: 'black' }}>
                                 <div onClick = {onClickTransition} className = 'menu-component-options-about'>
                                     My Work
                                 </div>
                             </Link>
-                        </Animated>
+                        </Animated>*/}
 
                         <Animated animationInDelay = "100" animationInDuration = "1200" animationIn="fadeInDown" animationOut="fadeOut" isVisible={true}>
                             <Link to = "/projects" style={{ textDecoration: 'none', color: 'black' }}>
