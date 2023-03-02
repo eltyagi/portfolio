@@ -53,9 +53,6 @@ const AboutMe = () => {
           <img className = 'self-image' src = {Self} height="auto" width="600px"/>
         </div>
 
-        <div className = 'aboutMe-title'>
-          about<br/>me<br/>
-        </div>
         
       </div>
 
@@ -66,7 +63,7 @@ const AboutMe = () => {
   );
 }
 
-{/*const CurrentRole = () => {
+const CurrentRole = () => {
 
   const control = useAnimation();
   const [ref, inView] = useInView();
@@ -87,42 +84,15 @@ const AboutMe = () => {
     initial="hidden"
     animate={control}
     >
-      <div className = 'currentRole-title'>
-        Current Role
-      </div>
-      <div className = 'role'>
-        <div className = 'role-tag'>
-          About Me.
-          <br/><br/>
-        </div>
-
-        <div className = 'role-title'>
-          Technical Solutions Specialist, GVE DevNet
-          <br/><br/>
-        </div>
-
-        <div className = 'role-desc'>
-          I am a solutions engineer, trusted technical advisor & developer who leverages 
-          automation and programmability to achieve business outcomes for Cisco's customers and partners. 
-          <br/><br/>
-          I am also a CSAP graduate, one of 136 ASEs and ASRs from Cisco's FY22
-          CSAP cohort, with deep exposure to security, collaboration, data center and
-          enterprise networking, the 4 pillars of any organization.
-          <br/><br/>
-          In my time at Cisco, I have been honored with accolades like ASE of the Quarter, Q3 FY22, and SE of the Quarter Q2 FY23. 
-          So if you want to discuss tech, solutions engineering of Cisco DevNet. Hit me up!
-        </div>
-
-        <div className = 'role-icons'>
-
-        </div>
-      </div>
-            <link rel="preconnect" href="https://fonts.googleapis.com"/>
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-            <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet"/>      
-      </motion.div>
+    
+    
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet"/>      
+    </motion.div>
   );
-}*/}
+}
 
 {/*const GivingBack = () => {
 
@@ -188,10 +158,10 @@ function About(){
             <div className = 'about-components'>
               <AboutMe/>
             </div>
-            {/*<div className = 'about-components'>
+            <div className = 'about-components'>
               <CurrentRole/>
             </div>
-            <div className = 'about-components'>
+            {/*<div className = 'about-components'>
               <GivingBack/>
             </div>
             <div className = 'about-components'>
