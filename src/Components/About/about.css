@@ -1,38 +1,45 @@
 .about{
-    width: 100vw;
-    height: 100vh;
-    font-family: 'Forum', cursive;
-    overflow: scroll;
-}
-
-.aboutMe-content{
+  overflow: scroll;
+  align-items: baseline;
+  font-family: 'Forum', cursive;
   display: flex;
-  margin-left: 5%;
+  width: 100vw;
+  height: 100vh;
 }
 
-.aboutMe-content-text{
-  margin: 5%;
-  margin-top: 10%;
-  text-align: right;
+.img{
+  margin-left: 60%;
+  margin-top: 3%;
+  z-index: -100;
+  position: absolute;
 }
 
-.aboutMe-title{
-  font-size: 100px;
-  font-weight: 500;
-  margin-top: 30%;
-  margin-left: 10%;
-}
-
-.aboutMe-span{
-  font-size: 18px;
+.about-content{
   margin-top: 5%;
-  text-align: right;
+  margin-left: 10%;
+  width: 652px;
+  margin-bottom: 10%;
+
 }
 
-.invictus{
-  margin-top: 30px;
+.about-title{
+  font-size: 300px;
 }
 
-.self-image{
-  margin: 10%;
+.about-subtitle{
+  font-size: 40px;
+}
+
+.about-body-1{
+  font-size: 18px;
+  margin-top: 3%;
+}
+
+.about-body-2{
+  font-size: 40px;
+}
+
+.about-body-3{
+  font-size: 18px;
+  margin-top: 3%;
 }

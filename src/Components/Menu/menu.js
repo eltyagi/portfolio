@@ -58,14 +58,14 @@ function Menu(){
                             </Link>
                         </Animated>*/}
 
-                        <Animated animationInDelay = "100" animationInDuration = "1200" animationIn="fadeInDown" animationOut="fadeOut" isVisible={true}>
+                        {/*<Animated animationInDelay = "100" animationInDuration = "1200" animationIn="fadeInDown" animationOut="fadeOut" isVisible={true}>
                             <Link to = "/projects" style={{ textDecoration: 'none', color: 'black' }}>
                                 <div className = 'menu-component-options-projects'>
                                     Newsletter
                                     
                                 </div>
                             </Link>
-                        </Animated>
+                        </Animated>*/}
 
                         <Animated animationInDelay = "100" animationInDuration = "1200" animationIn="fadeInDown" animationOut="fadeOut" isVisible={true}>
                             <Link to = "/contact" style={{ textDecoration: 'none', color: 'black' }}>
