@@ -23,6 +23,7 @@ import Research2 from './Components/Work/research2/research2.js';
 import Research3 from './Components/Work/research3/research3.js';
 import Contact from './Components/Contact/contact.js';
 import Menu from './Components/Menu/menu.js';
+import logo from './logo_main.png'
 
 
 const trackingId = "UA-186285153-3";
@@ -74,23 +75,42 @@ function App(){
           (<div>
             <div className = 'nav'>
             
-            <Animated animationInDelay = "100" animationInDuration = "1200" animationIn="fadeInDown" animationOut="fadeOut" isVisible={true}>
-              <Link to = "/" style={{ textDecoration: 'none', color: 'black' }}>
-                <div onClick = {onClickTransition} className = 'nav-point logo-name'>Lakshya<br/>Tyagi</div>
-              </Link>
-            </Animated>
-
-            <div className = 'quote'>
-              Master of my fate, captain of my soul.
-            </div>
-
-            <div className = 'nav-content'>
-              <Link to = "/menu" style={{ textDecoration: 'none', color: 'black' }}>
+              <div className = 'menu-top'>
+                <div>
                 <Animated animationInDelay = "100" animationInDuration = "1200" animationIn="fadeInDown" animationOut="fadeOut" isVisible={true}>
-                    <div onClick = {onClickTransition} className = 'nav-point menu-page'><div id = 'line1' className = 'line1'></div><div id = 'line2' className = 'line2'></div><div id = 'line2' className = 'line3'></div></div>
+                  <Link to = "/" style={{ textDecoration: 'none', color: 'black' }}>
+                    <img src = {logo} onClick = {onClickTransition} className = 'nav-point logo-name' width='40px' height='auto'/>
+                  </Link>
                 </Animated>
-              </Link>
-            </div>
+                </div>
+
+                <div>
+                <Link to = "/menu" style={{ textDecoration: 'none', color: 'black' }}>
+                  <Animated animationInDelay = "100" animationInDuration = "1200" animationIn="fadeInDown" animationOut="fadeOut" isVisible={true}>
+                    <div className = 'about-op'>ABOUT</div>
+                  </Animated>
+                </Link>
+                </div>
+              </div>
+
+              <div className = 'menu-bottom'>
+                <div>
+                <Animated animationInDelay = "100" animationInDuration = "1200" animationIn="fadeInDown" animationOut="fadeOut" isVisible={true}>
+                  <Link to = "/" style={{ textDecoration: 'none', color: 'black' }}>
+                    <div onClick = {onClickTransition} className = 'blog-op'>BLOG</div>
+                  </Link>
+                </Animated>
+                </div>
+
+                <div>
+                <Link to = "/menu" style={{ textDecoration: 'none', color: 'black' }}>
+                  <Animated animationInDelay = "100" animationInDuration = "1200" animationIn="fadeInDown" animationOut="fadeOut" isVisible={true}>
+                    <div className = 'contact-op'>CONTACT</div>
+                  </Animated>
+                </Link>
+                </div>
+              </div>
+              
           </div>
 
             <TransitionGroup>

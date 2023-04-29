@@ -1,3 +1,30 @@
+.home{
+  color: #FFFFFF;
+  font-family: 'Forum', cursive;;
+}
+
+.title-home{
+  font-size: 80px;  
+  margin: auto;
+  text-align: center;
+}
+
+.sub-title-home{
+  font-size: 30px;  
+  opacity: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+
+.sub-sub-title-home{
+  font-size: 30px;  
+  opacity: 50%;
+  margin: auto;
+  text-align: center;
+  margin-top: 5%;
+}
+
 .home-content{
   display: flex;
   font-family: 'Forum', cursive;
@@ -15,62 +42,14 @@
   margin-right: 60%;
 }
 
-.home-intro{
-  margin-top: 6%;
-  margin-left: 5%;
-  width: 30%;
-}
-
-.home-intro-1, .home-intro-2{
-  font-size: 140px
-}
-
-.home-intro-3{
-  font-size: 25px
-}
-
-.home-sphere{
-  margin-top: 5%;
-  margin-left: 3%;
-  width: 30%;
+.trunk{
+  position: absolute;
+  z-index: -10;
+  width: 300px;
+  height: 300px;
+  margin-left: 32%;
 
 }
 
 
 
-.home-message{
-  margin-top: 35%;
-  text-align: right;
-}
-
-.newsletter-button{
-  margin-top: 25%;
-  background-color: black;
-  width: 250px;
-  padding: 8px;
-  border-radius: 15px;
-  color: white;
-  text-align: center;
-}
-
-
-/*Responsive Screen CSS*/
-@media only screen and (min-width: 1700px) {
-    .home-intro{
-      margin-top: 13%;
-    }
-
-    .home-sphere{
-      width: 30%;
-      margin-top: 8%;
-    
-    }
-
-    .home-message{
-      margin-top: 45%;
-    }
-
-    .newsletter-button{
-      margin-top: 40%;
-    }
-}

@@ -2,23 +2,26 @@
   margin: 2%;
   margin-left: 2%;
   margin-right: 2%;
-  display: flex;
-  align-items: baseline;
   font-family: 'Forum', cursive;
   justify-content: space-between;
 
 }
 
-.nav-content{
+.menu-top{
   display: flex;
-  justify-content: space-evenly;
-  align-items: baseline;
-  font-family: 'Forum', cursive;
-  color: #d5d0ca;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1%;
 }
 
-.nav-point{
-  color: #000000;
+.menu-bottom{
+  display: flex;
+  justify-content: space-between;
+  z-index: -3000;
+  width: 96vw;
+  position: absolute;
+  margin-top: 48%;
+  align-items: center;
 }
 
 .nav-point-menu{
@@ -32,6 +35,11 @@
 .logo-name{
   font-size: 20px;
   justify-self:left
+}
+
+.about-op, .blog-op, .contact-op{
+  font-size: 30px;
+  color: rgb(255, 255, 255);
 }
 
 .view{
