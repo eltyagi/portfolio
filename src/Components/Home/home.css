@@ -16,13 +16,16 @@
   text-align: center;
 }
 
+img{
+  margin-top: 20px;
+}
 
 .sub-sub-title-home{
   font-size: 30px;  
   opacity: 50%;
   margin: auto;
   text-align: center;
-  margin-top: 5%;
+  margin-top: 15%;
 }
 
 .home-content{
@@ -31,11 +34,8 @@
 }
 
 .social-media-buttons{
-  transform-origin: 0 0;
-  transform: rotate(-90deg);
   margin-left: 2%;
-  margin-top: 30%;
-  display: flex;
+  margin-top: 180px;
 }
 
 .social-media-icons{

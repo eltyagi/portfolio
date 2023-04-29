@@ -9,6 +9,9 @@ import './home.css';
 import "pathseg";
 import Shape from './threejs.js'
 import TrunkBG from './background-trunk/background-trunk.js';
+import github from './github.png';
+import instagram from './instagram.png';
+import linkedin from './linkedin.png';
 import {Animated} from "react-animated-css";
 
 
@@ -33,9 +36,9 @@ class Home extends React.Component {
 
       <div className = 'home-content'>
         <div className = 'social-media-buttons'>
-          <div className = 'social-media-icons'>Instagram</div>
-          <div className = 'social-media-icons'>Github</div>
-          <div className = 'social-media-icons'>LinkedIn</div>
+          <img className = 'social-media-icons' src = {github} width='40px' height='40px'/>
+          <img className = 'social-media-icons' src = {instagram} width='40px' height='40px'/>
+          <img className = 'social-media-icons' src = {linkedin} width='40px' height='40px'/>
         </div>
 
         <div className = 'trunk'>
@@ -44,7 +47,7 @@ class Home extends React.Component {
       </div>
 
       <div className = 'sub-sub-title-home'>
-        SOLUTIONS ENGINEER & DEVELOPER
+        Solutions Engineer & Developer
       </div>
   
 
