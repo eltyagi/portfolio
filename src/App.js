@@ -12,7 +12,6 @@ import ReactDOM from 'react-dom';
 import ReactGA from 'react-ga';
 import { createBrowserHistory } from 'history';
 import Home from './Components/Home/home.js';
-import About from './Components/About/about.js';
 import Trans from './transition.js';
 import Projects from './Components/Work/work.js'
 import {Animated} from "react-animated-css";
@@ -22,7 +21,7 @@ import Research1 from './Components/Work/research1/research1.js';
 import Research2 from './Components/Work/research2/research2.js';
 import Research3 from './Components/Work/research3/research3.js';
 import Contact from './Components/Contact/contact.js';
-import Menu from './Components/Menu/menu.js';
+import About from './Components/Menu/menu.js';
 import logo from './logo_main.png'
 
 
@@ -116,10 +115,9 @@ function App(){
             <TransitionGroup>
             <CSSTransition timeout={30} classNames='fade' key={location.key}>
               <Routes location={location} style = {{margin: "0px"}}>
-                <Route style = {{margin: "0px"}} path="/menu" element={<Menu/>}/>
+                <Route style = {{margin: "0px"}} path="/menu" element={<About/>}/>
                 <Route style = {{margin: "0px"}} path="/contact" element={<Contact/>}/>
                 <Route style = {{margin: "0px"}} path="/projects" element={<Projects/>}/>
-                <Route style = {{margin: "0px"}} path="/about" element={<About/>}/>
                 <Route style = {{margin: "0px"}} path="/" element={<Home/>}/>
               </Routes>
             </CSSTransition>

@@ -1,6 +1,6 @@
 .home{
   color: #FFFFFF;
-  font-family: 'Forum', cursive;;
+  font-family: 'Forum', cursive;
 }
 
 .title-home{
@@ -22,7 +22,6 @@ img{
 
 .sub-sub-title-home{
   font-size: 30px;  
-  opacity: 50%;
   margin: auto;
   text-align: center;
   margin-top: 15%;
@@ -30,12 +29,14 @@ img{
 
 .home-content{
   display: flex;
+  align-items: baseline;
+  justify-content: space-between;
   font-family: 'Forum', cursive;
 }
 
 .social-media-buttons{
   margin-left: 2%;
-  margin-top: 180px;
+  margin-top: 10%;
 }
 
 .social-media-icons{
@@ -49,6 +50,15 @@ img{
   height: 300px;
   margin-left: 32%;
 
+}
+
+.label-icons{
+  font-size: 35px;
+}
+
+.labels-hp{
+  margin-top: 15px;
+  margin-right: 25px;
 }
 
 

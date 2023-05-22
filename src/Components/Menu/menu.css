@@ -1,22 +1,40 @@
-.menu-component{
-    font-family: 'Forum', cursive;    
+.about-component{
+  font-family: 'Forum', cursive;
+  color: white;
 }
 
-.menu-component-opt{
-  z-index: 0;
+.trunk-alt{
+  margin-left: 33%;
+  margin-top: 6%;
+  z-index: -100;
   position: absolute;
+  font-family: 'Forum', cursive;
+  opacity: 10%;
+}
+
+/*About Titles*/
+.about-title-1{
+  font-size: 300px;
+  text-align: center;
+}
+
+.about-title-2{
+  font-size: 200px;
+  text-align: center;
+  opacity: 60%;
+}
+
+.about-title-3{
+  font-size: 100px;
+  text-align: center;
+  opacity: 30%;
+}
+
+.about-strike{
+  height: 100px;
+  width: 1px;
+  border: 2px white solid;
+  text-align: center;
+  margin-left: 50%;
   margin-top: 2%;
-  margin-left: 10%;
 }
-
-.menu-component-options-home, .menu-component-options-about, .menu-component-options-projects, .menu-component-options-blog,.menu-component-options-contact{
-  font-size: 90px;
-  margin-left: 15%;
-  margin-top: 5px;
-}
-
-.footer{
-  font-size: 15px;
-  width: 500px;
-}
-  

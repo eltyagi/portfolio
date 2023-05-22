@@ -44,6 +44,12 @@ class Home extends React.Component {
         <div className = 'trunk'>
           <TrunkBG/>
         </div>
+
+        <div className = 'label-icons'>
+          <div className = 'labels-hp'>01</div>
+          <div className = 'labels-hp'>02</div>
+          <div className = 'labels-hp'>03</div>
+        </div>
       </div>
 
       <div className = 'sub-sub-title-home'>

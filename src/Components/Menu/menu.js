@@ -10,6 +10,7 @@ import {
     Link
   } from "react-router-dom";
 import {Animated} from "react-animated-css";
+import TrunkBG_Alt from './background-trunk/background-trunk.js';
 
 function Menu(){
 
@@ -39,65 +40,32 @@ function Menu(){
                     </div>
                 )
                 : (
-                    <div className='menu-component-options'>
-                        <div className = 'menu-component-opt'>
-                        <Animated animationInDelay = "100" animationInDuration = "1200" animationIn="fadeInDown" animationOut="fadeOut" isVisible={true}>
-                            <Link to = "/about" style={{ textDecoration: 'none', color: 'black' }}>
-                                <div className = 'menu-component-options-about'>
-                                    About
-                                    
-                                </div>
-                            </Link>
-                        </Animated>
-
-                        {/*<Animated animationInDelay = "100" animationInDuration = "1200" animationIn="fadeInDown" animationOut="fadeOut" isVisible={true}>
-                            <Link to = "/projects" style={{ textDecoration: 'none', color: 'black' }}>
-                                <div onClick = {onClickTransition} className = 'menu-component-options-about'>
-                                    My Work
-                                </div>
-                            </Link>
-                        </Animated>*/}
-
-                        {/*<Animated animationInDelay = "100" animationInDuration = "1200" animationIn="fadeInDown" animationOut="fadeOut" isVisible={true}>
-                            <Link to = "/projects" style={{ textDecoration: 'none', color: 'black' }}>
-                                <div className = 'menu-component-options-projects'>
-                                    Newsletter
-                                    
-                                </div>
-                            </Link>
-                        </Animated>*/}
-
-                        <Animated animationInDelay = "100" animationInDuration = "1200" animationIn="fadeInDown" animationOut="fadeOut" isVisible={true}>
-                            <Link to = "/contact" style={{ textDecoration: 'none', color: 'black' }}>
-                                <div className = 'menu-component-options-blog'>
-                                    Contact
-                                </div>
-                            </Link>
-                        </Animated>
-
-                        <Animated animationInDelay = "100" animationInDuration = "1200" animationIn="fadeInDown" animationOut="fadeOut" isVisible={true}>
-                            <Link to = "/blog" style={{ textDecoration: 'none', color: 'black' }}>
-                                <div className = 'menu-component-options-contact'>
-                                    Blog
-                                    <div className = 'footer' style = {{'display': 'flex'}}>
-                                    <div className='all-rights-reserved'>
-                                        <br/>© 2022. All Rights Reserved.
-                                    </div>
-
-                                </div>
-                                    
-
-                                </div>
-                            </Link>
-                        </Animated>
-
+                    <div className='about-component'>
+                        <div className = 'trunk-alt'>
+                          <TrunkBG_Alt/>
                         </div>
+
+                        <div className = 'about-title-1'>
+                          ABOUT
+                        </div>
+                        <div className = 'about-title-2'>
+                          ABOUT
+                        </div>
+                        <div className = 'about-title-3'>
+                          ABOUT
+                        </div>
+                        <div className = 'about-strike'>
+                        
+                        </div>
+
+
+
                     </div>
                 )
             }
 
 
-<link rel="preconnect" href="https://fonts.googleapis.com"/>
+      <link rel="preconnect" href="https://fonts.googleapis.com"/>
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
       <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet"/>
             
