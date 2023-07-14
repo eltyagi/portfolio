@@ -78,7 +78,7 @@ function App(){
                 <div>
                 <Animated animationInDelay = "100" animationInDuration = "1200" animationIn="fadeInDown" animationOut="fadeOut" isVisible={true}>
                   <Link to = "/" style={{ textDecoration: 'none', color: 'black' }}>
-                    <img src = {logo} onClick = {onClickTransition} className = 'nav-point logo-name' width='40px' height='auto'/>
+                    <img src = {logo} onClick = {onClickTransition} className = 'nav-point logo-name'/>
                   </Link>
                 </Animated>
                 </div>
@@ -86,7 +86,7 @@ function App(){
                 <div>
                 <Link to = "/menu" style={{ textDecoration: 'none', color: 'black' }}>
                   <Animated animationInDelay = "100" animationInDuration = "1200" animationIn="fadeInDown" animationOut="fadeOut" isVisible={true}>
-                    <div className = 'about-op'>ABOUT</div>
+                    <div className = 'about-op'>ABOUT<br/><span className = 'op-reveal-responsive'>ABOUT</span></div>
                   </Animated>
                 </Link>
                 </div>
@@ -96,7 +96,7 @@ function App(){
                 <div>
                 <Animated animationInDelay = "100" animationInDuration = "1200" animationIn="fadeInDown" animationOut="fadeOut" isVisible={true}>
                   <Link to = "/" style={{ textDecoration: 'none', color: 'black' }}>
-                    <div onClick = {onClickTransition} className = 'blog-op'>BLOG</div>
+                    <div onClick = {onClickTransition} className = 'blog-op'>BLOG<br/><span className = 'op-reveal-responsive'>BLOG</span></div>
                   </Link>
                 </Animated>
                 </div>
@@ -104,7 +104,7 @@ function App(){
                 <div>
                 <Link to = "/menu" style={{ textDecoration: 'none', color: 'black' }}>
                   <Animated animationInDelay = "100" animationInDuration = "1200" animationIn="fadeInDown" animationOut="fadeOut" isVisible={true}>
-                    <div className = 'contact-op'>CONTACT</div>
+                    <div className = 'contact-op'>CONTACT<br/><span className = 'op-reveal-responsive'>CONTACT</span></div>
                   </Animated>
                 </Link>
                 </div>

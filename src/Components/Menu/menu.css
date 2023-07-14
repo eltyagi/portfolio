@@ -38,3 +38,36 @@
   margin-left: 50%;
   margin-top: 2%;
 }
+
+
+@media only screen and (max-width: 480px) {
+  /* styles for devices with a maximum screen width of 480px */
+
+  .about-component{
+    margin-top: 50%;
+  }
+
+
+  .about-title-1{
+    font-size: 100px;
+  }
+
+  .about-title-2{
+    font-size: 70px;
+  }
+
+  .about-title-3{
+    font-size: 40px;
+  }
+
+  .trunk-alt{
+    margin-left: -50px;
+  }
+
+}
+
+@media only screen and (max-width: 480px) and  (min-height: 800px) {
+  /* styles for devices with a maximum screen width of 480px */
+
+
+}

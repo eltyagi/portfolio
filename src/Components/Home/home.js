@@ -36,9 +36,9 @@ class Home extends React.Component {
 
       <div className = 'home-content'>
         <div className = 'social-media-buttons'>
-          <img className = 'social-media-icons' src = {github} width='40px' height='40px'/>
-          <img className = 'social-media-icons' src = {instagram} width='40px' height='40px'/>
-          <img className = 'social-media-icons' src = {linkedin} width='40px' height='40px'/>
+          <img className = 'social-media-icons icon-1' src = {github} width='40px' height='40px'/>
+          <img className = 'social-media-icons icon-2' src = {instagram} width='40px' height='40px'/>
+          <img className = 'social-media-icons icon-3' src = {linkedin} width='40px' height='40px'/>
         </div>
 
         <div className = 'trunk'>
@@ -46,9 +46,9 @@ class Home extends React.Component {
         </div>
 
         <div className = 'label-icons'>
-          <div className = 'labels-hp'>01</div>
-          <div className = 'labels-hp'>02</div>
-          <div className = 'labels-hp'>03</div>
+          <div className = 'labels-hp icon-1'>01</div>
+          <div className = 'labels-hp icon-2'>02</div>
+          <div className = 'labels-hp icon-3'>03</div>
         </div>
       </div>
 

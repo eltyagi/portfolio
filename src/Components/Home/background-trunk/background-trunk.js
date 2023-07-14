@@ -7,21 +7,63 @@ import { useMediaQuery } from 'react-responsive'
 // Make sure window.THREE is defined, e.g. by including three.min.js in the document head using a <script> tag
 
 function Trunk_component(){
-  const [spacingValue, setSpacingValue] = useState(0)
   const [vantaEffect, setVantaEffect] = useState(null)
   const myRef = useRef(null)
 
+  let event_spacing = 0;
+  let event_chaos = 0;
+
+  const isDesktopOrLaptop = useMediaQuery({
+    query: '(min-width: 1224px)'
+    })
+    const isBigScreen = useMediaQuery({ query: '(min-width: 1824px)' })
+    const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
+    const isPortrait = useMediaQuery({ query: '(orientation: portrait)' })
+    const isRetina = useMediaQuery({ query: '(min-resolution: 2dppx)' })
+  
+  
+  isTabletOrMobile
+  ? (
+  event_spacing = -3
+  )
+   :
+  (
+    isBigScreen
+    ? 
+    event_spacing = 1
+    : event_spacing = 0
+  )
+
+
+  isTabletOrMobile
+  ? (
+  event_chaos = 10
+  )
+   :
+  (
+    isBigScreen
+    ? 
+    event_chaos = 0
+    : event_spacing = 0
+  )
+
+  
+
+
+
+  console.log(event_spacing)
 
   useEffect(() => {
     if (!vantaEffect) {
       setVantaEffect(TRUNK({
         el: myRef.current,
         p5:p5,
-        scale: 1.00,
+        scale: 2.00,
         scaleMobile: 1.00,
         color: 0xffffff,
         backgroundColor:0x1E1E1E,
-        spacing: spacingValue
+        chaos: 1,
+        spacing: event_spacing
       }))
     }
     return () => {

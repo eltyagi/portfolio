@@ -22,9 +22,8 @@ img{
 
 .sub-sub-title-home{
   font-size: 30px;  
-  margin: auto;
+  margin-top: 10%;
   text-align: center;
-  margin-top: 15%;
 }
 
 .home-content{
@@ -36,16 +35,25 @@ img{
 
 .social-media-buttons{
   margin-left: 2%;
-  margin-top: 10%;
+  margin-top: 5%;
 }
 
 .social-media-icons{
   margin-right: 60%;
+  margin-top: 60px;
+}
+
+.icon-1{
+  margin-top: 0px;
+}
+
+.icon-2, .icon-3{
+  margin-top: 120px;
 }
 
 .trunk{
   position: absolute;
-  z-index: -10;
+  z-index: 1000;
   width: 300px;
   height: 300px;
   margin-left: 32%;
@@ -57,9 +65,50 @@ img{
 }
 
 .labels-hp{
-  margin-top: 15px;
   margin-right: 25px;
 }
 
 
+@media only screen and (max-width: 480px) {
+  /* styles for devices with a maximum screen width of 480px */
+  .title-home{
+    font-size: 40px;  
+    margin-top: 50px;
+  }
 
+  .sub-title-home{
+    font-size: 20px;  
+  }
+
+  .sub-sub-title-home{
+    margin-top: 100%;
+    font-size: 20px;  
+  }
+
+  .trunk{
+    position: absolute;
+    z-index: -10;
+    width: 50px;
+    height: 50px;
+    margin-left: 0px;
+    margin-top: 100px;
+  }
+
+  .social-media-buttons, .label-icons{
+    display: none;
+  }
+
+  .trunk{
+    margin-left: -20px;
+  }
+
+
+}
+
+@media only screen and (max-width: 480px) and  (min-height: 800px) {
+  /* styles for devices with a maximum screen width of 480px */
+  .trunk{
+    margin-left: -50px;
+  }
+
+}
