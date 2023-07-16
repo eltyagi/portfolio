@@ -41,20 +41,18 @@ function Menu(){
                 )
                 : (
                     <div className='about-component'>
-                        <div className = 'trunk-alt'>
-                          <TrunkBG_Alt/>
-                        </div>
 
                         <div className = 'about-me'>
-                        <span className = 'about-me-1'>Hi, I’m Lakshya</span>. I am a solutions engineer @ Cisco, based out of Bangalore, India. I transform how organisations communicate, 
-                        collaborate, provision and grow. My day-to-day involves conversations with account teams and customers to understand how code 
-                        can solve their business challenges, and then developing customised PoVs to directly influence massive deals.  
-                        I am a consultant, developer and innovator, all in one. When not at work, I am ideating, or building side projects, teaching machine learning, working on 
+                        <span className = 'about-me-1'><u>Hi, I’m Lakshya</u></span><span className = 'about-body'>.I am a solutions engineer @ Cisco, based out of Bangalore, India. I transform how organisations communicate, 
+                        collaborate, provision and grow. My day-to-day involves conversations with account teams and <u>customers</u> to understand how code 
+                        can solve their business challenges, and then developing customised PoVs to directly influence massive deals.</span>
+                        <span className = 'about-me-1'> I am a consultant, developer and innovator, all in one.</span><span className = 'about-body'>When not at work, I am ideating, 
+                        or building <u>side projects</u>, teaching machine learning, working on 
                         research projects or using my body to transcend my perceived limits. I am never free but never busy. At my very core, I am a soldier, 
                         driven by the need to serve something larger than myself, and fascinated by anything martial. Most of my research work explores the 
                         application of machine learning and soft-computing to manage the fog of war. I am also an avid gearhead, and need my tech to be on-point, 
                         always. With Mac at work and PC at home, I have made technology an extension of my capabilities. Let’s talk tech and collaborative opportunities. 
-                        Reach out!
+                        Reach out!</span>
                         </div>
 
                     </div>

@@ -1,5 +1,5 @@
 .about-component{
-  font-family: Rosarivo;
+  font-family: Forum;
   color: white;
 }
 
@@ -19,10 +19,15 @@
   margin-top: 3%;
   letter-spacing: 3px;
   line-height: 50px;
+  color: white;
+}
+
+.about-body{
+  opacity: 0.5;
 }
 
 .about-me-1{
-  opacity: 100%;
+  
 }
 
 
