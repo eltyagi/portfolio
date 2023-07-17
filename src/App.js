@@ -95,14 +95,12 @@ function App(){
               <div className = 'menu-bottom'>
                 <div>
                 <Animated animationInDelay = "100" animationInDuration = "1200" animationIn="fadeInDown" animationOut="fadeOut" isVisible={true}>
-                  <Link to = "/" style={{ textDecoration: 'none', color: 'black' }}>
-                    <div onClick = {onClickTransition} className = 'blog-op'>BLOG<br/><span className = 'op-reveal-responsive'>BLOG</span></div>
-                  </Link>
+                    <div className = 'blog-op'><a  style = {{textDecoration: 'None', color: "white"}} className = 'blog-link' href = "https://warriorsway98.wordpress.com/">BLOG</a><br/><span className = 'op-reveal-responsive'>BLOG</span></div>
                 </Animated>
                 </div>
 
                 <div>
-                <Link to = "/menu" style={{ textDecoration: 'none', color: 'black' }}>
+                <Link to = "/contact" style={{ textDecoration: 'none', color: 'black' }}>
                   <Animated animationInDelay = "100" animationInDuration = "1200" animationIn="fadeInDown" animationOut="fadeOut" isVisible={true}>
                     <div className = 'contact-op'>CONTACT<br/><span className = 'op-reveal-responsive'>CONTACT</span></div>
                   </Animated>

@@ -36,9 +36,17 @@ class Home extends React.Component {
 
       <div className = 'home-content'>
         <div className = 'social-media-buttons'>
-          <img className = 'social-media-icons icon-1' src = {github} width='40px' height='40px'/>
-          <img className = 'social-media-icons icon-2' src = {instagram} width='40px' height='40px'/>
-          <img className = 'social-media-icons icon-3' src = {linkedin} width='40px' height='40px'/>
+          <a style = {{textDecoration: 'None'}} href = "https://github.com/Lakshya3190">
+            <img className = 'social-media-icons icon-1' src = {github} width='40px' height='40px'/>
+          </a>
+
+          <a style = {{textDecoration: 'None'}} href = "https://instagram.com/lakshya_cozi?igshid=MmIzYWVlNDQ5Yg==">
+            <img className = 'social-media-icons icon-2' src = {instagram} width='40px' height='40px'/>
+          </a>
+
+          <a style = {{textDecoration: 'None'}} href = "https://www.linkedin.com/in/lakshyatyagi/">
+            <img className = 'social-media-icons icon-3' src = {linkedin} width='40px' height='40px'/>
+          </a>
         </div>
 
         <div className = 'trunk'>

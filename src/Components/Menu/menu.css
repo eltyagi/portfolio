@@ -27,7 +27,11 @@
 }
 
 .about-me-1{
-  
+  cursor: pointer;
+}
+
+.onClick-text{
+  cursor: pointer;
 }
 
 
