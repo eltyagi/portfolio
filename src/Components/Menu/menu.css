@@ -41,8 +41,11 @@
 @media only screen and (max-width: 480px) {
   /* styles for devices with a maximum screen width of 480px */
 
-  .about-component{
-    margin-top: 50%;
+  .about-me{
+    font-size: 14px;
+    letter-spacing: normal;
+    line-height: 30px;
+    margin-top: 1%;
   }
 
   .trunk-alt{
@@ -53,6 +56,11 @@
 
 @media only screen and (max-width: 480px) and  (min-height: 800px) {
   /* styles for devices with a maximum screen width of 480px */
-
+  .about-me{
+    font-size: 14px;
+    letter-spacing: normal;
+    line-height: 30px;
+    margin-top: 1%;
+  }
 
 }
