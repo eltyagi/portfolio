@@ -24,7 +24,7 @@ function Trunk_component(){
   
   isTabletOrMobile
   ? (
-  event_spacing = -3
+  event_spacing = 2
   )
    :
   (
@@ -37,7 +37,7 @@ function Trunk_component(){
 
   isTabletOrMobile
   ? (
-  event_chaos = 10
+  event_chaos = 5
   )
    :
   (
@@ -58,11 +58,11 @@ function Trunk_component(){
       setVantaEffect(TRUNK({
         el: myRef.current,
         p5:p5,
-        scale: 2.00,
-        scaleMobile: 1.00,
+        scale: 3.00,
+        scaleMobile: 2.00,
         color: 0xffffff,
         backgroundColor:0x1E1E1E,
-        chaos: 1,
+        chaos: event_chaos,
         spacing: event_spacing
       }))
     }

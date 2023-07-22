@@ -24,7 +24,7 @@ function Trunk_component(){
   
   isTabletOrMobile
   ? (
-  event_spacing = -3
+  event_spacing = -1
   )
    :
   (
@@ -37,14 +37,14 @@ function Trunk_component(){
 
   isTabletOrMobile
   ? (
-  event_chaos = 10
+  event_chaos = 1
   )
    :
   (
     isBigScreen
     ? 
-    event_chaos = 0
-    : event_spacing = 0
+    event_chaos = 2
+    : event_chaos = 1
   )
 
   
@@ -62,7 +62,7 @@ function Trunk_component(){
         scaleMobile: 1.00,
         color: 0xffffff,
         backgroundColor:0x1E1E1E,
-        chaos: 1,
+        chaos: event_chaos,
         spacing: event_spacing
       }))
     }
@@ -70,7 +70,7 @@ function Trunk_component(){
       if (vantaEffect) vantaEffect.destroy()
     }
   }, [vantaEffect])
-  return <div className = 'bg-trunk' style = {{width:'60vh', height:'35vw', backgroundColor:'#1E1E1E'}} ref={myRef}>
+  return <div className = 'bg-trunk' style = {{width:'100vw', height:'100vh', backgroundColor:'#1E1E1E'}} ref={myRef}>
   </div>
 }
 export default Trunk_component;
