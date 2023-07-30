@@ -13,13 +13,7 @@ import ReactGA from 'react-ga';
 import { createBrowserHistory } from 'history';
 import Home from './Components/Home/home.js';
 import Trans from './transition.js';
-import Projects from './Components/Work/work.js'
 import {Animated} from "react-animated-css";
-import CopeWithCovid from './Components/Work/copewithcovid/copewithcovid.js';
-import Journie from './Components/Work/journie/journie.js';
-import Research1 from './Components/Work/research1/research1.js';
-import Research2 from './Components/Work/research2/research2.js';
-import Research3 from './Components/Work/research3/research3.js';
 import Contact from './Components/Contact/contact.js';
 import About from './Components/Menu/menu.js';
 import logo from './logo_main.png'
@@ -44,14 +38,14 @@ function App(){
       setEnableTransition(true);
       setTimeout(() => {
         setEnableTransition(false);
-      }, 1000);
+      }, 2000);
     }, []);
 
     const onClickTransition = useCallback(async() => {
       setEnableTransition(true);
       setTimeout(() => {
         setEnableTransition(false);
-      }, 1000);
+      }, 2000);
     }, [])
     
     return (
@@ -76,33 +70,36 @@ function App(){
             
               <div className = 'menu-top'>
                 <div>
-                <Animated animationInDelay = "100" animationInDuration = "1200" animationIn="fadeInDown" animationOut="fadeOut" isVisible={true}>
-                  <Link to = "/" style={{ textDecoration: 'none', color: 'black' }}>
-                    <img src = {logo} onClick = {onClickTransition} className = 'nav-point logo-name'/>
-                  </Link>
-                </Animated>
+                    <Link to = "/" style={{ textDecoration: 'none', color: 'black' }}>
+                      <Animated animationInDelay = "100" animationInDuration = "1200" animationIn="fadeInDown" isVisible={true}>
+                        <img src = {logo} onClick = {onClickTransition} className = 'nav-point logo-name'/>
+                      </Animated>
+                    </Link>
+                  
                 </div>
 
                 <div>
-                <Link to = "/menu" style={{ textDecoration: 'none', color: 'black' }}>
-                  <Animated animationInDelay = "100" animationInDuration = "1200" animationIn="fadeInDown" animationOut="fadeOut" isVisible={true}>
-                    <div className = 'about-op'>ABOUT<br/><span className = 'op-reveal-responsive'>ABOUT</span></div>
-                  </Animated>
-                </Link>
+                      <Link to = "/about" style={{ textDecoration: 'none', color: 'black' }}>
+                        <Animated animationInDelay = "100" animationInDuration = "1200" animationIn="fadeInDown" animationOut="fadeOut" isVisible={true}>
+                          <div  onClick = {onClickTransition} className = 'about-op'>ABOUT<br/><span className = 'op-reveal-responsive'>ABOUT</span></div>
+                        </Animated>
+                      </Link>
+                   
+                  
                 </div>
               </div>
 
               <div className = 'menu-bottom'>
                 <div>
-                <Animated animationInDelay = "100" animationInDuration = "1200" animationIn="fadeInDown" animationOut="fadeOut" isVisible={true}>
+                <Animated animationInDelay = "100" animationInDuration = "1200" animationIn="fadeInUp" animationOut="fadeOut" isVisible={true}>
                     <div className = 'blog-op'><a  style = {{textDecoration: 'None', color: "white"}} className = 'blog-link' href = "https://warriorsway98.wordpress.com/">BLOG</a><br/><span className = 'op-reveal-responsive'>BLOG</span></div>
                 </Animated>
                 </div>
 
                 <div>
                 <Link to = "/contact" style={{ textDecoration: 'none', color: 'black' }}>
-                  <Animated animationInDelay = "100" animationInDuration = "1200" animationIn="fadeInDown" animationOut="fadeOut" isVisible={true}>
-                    <div className = 'contact-op'>CONTACT<br/><span className = 'op-reveal-responsive'>CONTACT</span></div>
+                  <Animated animationInDelay = "100" animationInDuration = "1200" animationIn="fadeInUp" animationOut="fadeOut" isVisible={true}>
+                    <div onClick = {onClickTransition} className = 'contact-op'>CONTACT<br/><span className = 'op-reveal-responsive'>CONTACT</span></div>
                   </Animated>
                 </Link>
                 </div>
@@ -111,14 +108,13 @@ function App(){
           </div>
 
             <TransitionGroup>
-            <CSSTransition timeout={30} classNames='fade' key={location.key}>
-              <Routes location={location} style = {{margin: "0px"}}>
-                <Route style = {{margin: "0px"}} path="/menu" element={<About/>}/>
-                <Route style = {{margin: "0px"}} path="/contact" element={<Contact/>}/>
-                <Route style = {{margin: "0px"}} path="/projects" element={<Projects/>}/>
-                <Route style = {{margin: "0px"}} path="/" element={<Home/>}/>
-              </Routes>
-            </CSSTransition>
+              <CSSTransition timeout={30} classNames='fade' key={location.key}>
+                <Routes location={location} style = {{margin: "0px"}}>
+                  <Route style = {{margin: "0px"}} path="/contact" element={<Contact/>}/>
+                  <Route style = {{margin: "0px"}} path="/about" element={<About/>}/>
+                  <Route style = {{margin: "0px"}} path="/" element={<Home/>}/>
+                </Routes>
+              </CSSTransition>
             </TransitionGroup>
           </div>
         )}

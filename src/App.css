@@ -24,30 +24,20 @@
   align-items: center;
 }
 
-.nav-point-menu{
-  font-size: 14px;
-  margin-left: 30px;
-  margin-right: 30px;
-  color:#000000;
-}
-
-
 .logo-name{
-  font-size: 20px;
   justify-self:left;
-  width: 40px;
+  width: 30px;
   height: auto;
 }
 
 .about-op, .blog-op, .contact-op{
-  font-size: 30px;
+  font-size: 25px;
   color: rgb(255, 255, 255);
 }
 
 .op-reveal-responsive{
   display: none;
 }
-
 
 .view{
   align-items: center;
@@ -57,75 +47,6 @@
   background-color: rgb(73, 73, 73);
   
 }
-
-.dot {
-  height: 12px;
-  width: 12px;
-  background-color: rgb(0, 0, 0);
-  border-radius: 50%;
-  display: inline-block;
-  margin: 3px;
-}
-
-.underline{
-  width: 100%;
-  height: 0.5px;
-  border: 1px solid rgb(255, 255, 255);
-  border-radius: 5px;
-  visibility: hidden;
-}
-
-.about-opt:hover .underline, .project-opt:hover .underline, .blog-opt:hover .underline, .contact-opt:hover .underline {
-  animation: flow-in .5s ease;
-  visibility: visible;
-}
-
-.about-opt:not(:hover) .underline, .project-opt:not(:hover) .underline, .blog-opt:not(:hover) .underline, .contact-opt:not(:hover) .underline{
-  animation: flow-out .5s ease;
-  visibility: hidden;
-}
-
-@keyframes flow-in {
-  0%{
-    width: 0px;
-  }
-
-  100%{
-    width: 60px;
-  }
-  
-}
-
-@keyframes flow-out {
-  0%{
-    width: 60px;
-  }
-
-  100%{
-    width: 0px;
-  }
-  
-}
-
-.line1, .line2, .line3{
-  width: 70px;
-  height: 2px;
-  border: 1.5px solid #000000;
-  border-radius: 5px;
-  background-color: #000000;
-  margin-top: 5px;
-}
-
-.line2{
-  width: 60px;
-  margin-left: 10px;
-}
-
-.line3{
-  width: 50px;
-  margin-left: 20px;
-}
-
 
 .loaderTransition-enter{
   opacity: 0;
@@ -153,31 +74,6 @@
   opacity: 0;
 }
 
-
-.menu{
-  color: rgb(255, 255, 255);
-  display: flex;
-  font-family: 'Anton', sans-serif;
-  font-size: 60px;
-}
-
-.menu-options{
-  margin-left: 20%;
-}
-
-.menu-opt{
-  margin: 30px;
-}
-
-.menu-opt:hover{
-  transform: translate(42px, 18px);
-  transition: 1s;
-}
-
-.menu-opt:not(:hover){
-  transform: translate(18px, 42px);
-  transition: 900ms;
-}
 
 
 @media only screen and (max-width: 480px) {

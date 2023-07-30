@@ -3,10 +3,7 @@ import './contact.css';
 import linkedin from './linkedin.png';
 import github from './github.png';
 import instagram from './instagram.png';
-import wordpress from './wordpress.png';
-import medium from './medium.png';
 import blog from './blog-self.png';
-import 'tachyons';
 
 class contact extends React.Component{
     constructor(props){
@@ -49,15 +46,15 @@ class contact extends React.Component{
               
 
 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"></link>
-        <link rel="preconnect" href="https://fonts.gstatic.com"></link>
-        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"></link>
-        <link rel="preconnect" href="https://fonts.gstatic.com"></link>
-        <link rel="preconnect" href="https://fonts.gstatic.com"></link>
-        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet"></link>
-        <link rel="preconnect" href="https://fonts.gstatic.com"></link>
-        <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet"></link>
-            </div>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"></link>
+            <link rel="preconnect" href="https://fonts.gstatic.com"></link>
+            <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"></link>
+            <link rel="preconnect" href="https://fonts.gstatic.com"></link>
+            <link rel="preconnect" href="https://fonts.gstatic.com"></link>
+            <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet"></link>
+            <link rel="preconnect" href="https://fonts.gstatic.com"></link>
+            <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet"></link>
+        </div>
         );
     }
 }
