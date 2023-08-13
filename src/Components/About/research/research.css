@@ -38,6 +38,28 @@
     opacity: 100%;
 }
 
+@media only screen and (max-width: 480px) {
+    /* styles for devices with a maximum screen width of 480px */
+
+    .research-role{
+        width: 70%;
+        margin-left: 10%;
+    }
+
+    .research-title{
+        font-size: 60px;
+    }
+
+    .research-role-title{
+        font-size: 18px;
+    }
+
+    .research-role-content{
+        width: 90%;
+        font-size: 12px;
+    } 
+}  
+
 @media only screen and (max-width: 480px) and  (min-height: 800px) {
     /* styles for devices with a maximum screen width of 480px */
     .research-role{

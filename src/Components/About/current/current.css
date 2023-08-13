@@ -39,6 +39,26 @@
     opacity: 100%;
 }
 
+@media only screen and (max-width: 480px) {
+    /* styles for devices with a maximum screen width of 480px */
+    .current-role{
+        width: 70%;
+    }
+
+    .current-title{
+        font-size: 60px;
+    }
+
+    .current-role-title{
+        font-size: 18px;
+    }
+
+    .current-role-content{
+        width: 90%;
+        font-size: 12px;
+    }  
+    
+}
 @media only screen and (max-width: 480px) and  (min-height: 800px) {
     /* styles for devices with a maximum screen width of 480px */
     .current-role{
