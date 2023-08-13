@@ -20,7 +20,8 @@
   z-index: 3000;
   width: 96vw;
   position: absolute;
-  margin-top: 48%;
+  bottom: 2%;
+  position: fixed;
   align-items: center;
 }
 

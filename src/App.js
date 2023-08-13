@@ -15,7 +15,7 @@ import Home from './Components/Home/home.js';
 import Trans from './transition.js';
 import {Animated} from "react-animated-css";
 import Contact from './Components/Contact/contact.js';
-import About from './Components/Menu/menu.js';
+import About from './Components/About/about.js';
 import logo from './logo_main.png'
 
 
@@ -84,24 +84,22 @@ function App(){
                           <div  onClick = {onClickTransition} className = 'about-op'>ABOUT<br/><span className = 'op-reveal-responsive'>ABOUT</span></div>
                         </Animated>
                       </Link>
-                   
-                  
                 </div>
               </div>
 
               <div className = 'menu-bottom'>
                 <div>
-                <Animated animationInDelay = "100" animationInDuration = "1200" animationIn="fadeInUp" animationOut="fadeOut" isVisible={true}>
-                    <div className = 'blog-op'><a  style = {{textDecoration: 'None', color: "white"}} className = 'blog-link' href = "https://warriorsway98.wordpress.com/">BLOG</a><br/><span className = 'op-reveal-responsive'>BLOG</span></div>
-                </Animated>
+                  <Animated animationInDelay = "100" animationInDuration = "1200" animationIn="fadeInUp" animationOut="fadeOut" isVisible={true}>
+                      <div className = 'blog-op'><a  style = {{textDecoration: 'None', color: "white"}} className = 'blog-link' href = "https://warriorsway98.wordpress.com/">BLOG</a><br/><span className = 'op-reveal-responsive'>BLOG</span></div>
+                  </Animated>
                 </div>
 
                 <div>
-                <Link to = "/contact" style={{ textDecoration: 'none', color: 'black' }}>
-                  <Animated animationInDelay = "100" animationInDuration = "1200" animationIn="fadeInUp" animationOut="fadeOut" isVisible={true}>
-                    <div onClick = {onClickTransition} className = 'contact-op'>CONTACT<br/><span className = 'op-reveal-responsive'>CONTACT</span></div>
-                  </Animated>
-                </Link>
+                  <Link to = "/contact" style={{ textDecoration: 'none', color: 'black' }}>
+                    <Animated animationInDelay = "100" animationInDuration = "1200" animationIn="fadeInUp" animationOut="fadeOut" isVisible={true}>
+                      <div onClick = {onClickTransition} className = 'contact-op'>CONTACT<br/><span className = 'op-reveal-responsive'>CONTACT</span></div>
+                    </Animated>
+                  </Link>
                 </div>
               </div>
               

@@ -1,0 +1,61 @@
+.research{  
+    width: 100vw;
+    font-family: Forum;
+}
+
+.research-title {
+    font-size: 280px;
+    margin-left: 8%;
+    color: white;
+    opacity: 50%;
+    font-family: 'Alumni Sans', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.research-role{
+    margin-top: 6%;
+    margin-left: 50%;
+    width: 40%;
+}
+
+.research-role-title{
+    font-size: 35px;
+    color: white;
+}
+
+.research-role-content{
+    width: 90%;
+    font-size: 25px;
+    color: white;
+    opacity: 50%;
+    margin-top: 15px;
+}
+
+.research-role-content-span-1{
+    color: white;
+    opacity: 100%;
+}
+
+@media only screen and (max-width: 480px) and  (min-height: 800px) {
+    /* styles for devices with a maximum screen width of 480px */
+    .research-role{
+        width: 70%;
+        margin-left: 10%;
+    }
+
+    .research-title{
+        font-size: 60px;
+    }
+
+    .research-role-title{
+        font-size: 18px;
+    }
+
+    .research-role-content{
+        width: 90%;
+        font-size: 12px;
+    }  
+  
+  }

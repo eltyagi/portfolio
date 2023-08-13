@@ -1,42 +1,22 @@
 .about-component{
   font-family: Forum;
   color: white;
+  height: 100vh;
+  width: 100vw;
+  scroll-behavior: smooth;
 }
 
-.trunk-alt{
-  margin-left: 33%;
-  margin-top: 6%;
-  z-index: -100;
+.current-component{
+  z-index: 1400;
   position: absolute;
-  font-family: 'Forum', cursive;
-  opacity: 10%;
+  margin-top: 70%;
 }
 
-.about-me{
-  font-size: 40px;
-  margin-left: 5%;
-  margin-right: 9%;
-  margin-top: 3%;
-  letter-spacing: 3px;
-  line-height: 50px;
-  color: white;
+.research-component{
+  z-index: 1400;
+  position: absolute;
+  margin-top: 150%;
 }
-
-.about-body{
-  opacity: 0.5;
-}
-
-.about-me-1{
-  cursor: pointer;
-}
-
-.onClick-text{
-  cursor: pointer;
-}
-
-
-
-
 
 @media only screen and (max-width: 480px) {
   /* styles for devices with a maximum screen width of 480px */
@@ -56,11 +36,13 @@
 
 @media only screen and (max-width: 480px) and  (min-height: 800px) {
   /* styles for devices with a maximum screen width of 480px */
-  .about-me{
-    font-size: 14px;
-    letter-spacing: normal;
-    line-height: 30px;
-    margin-top: 1%;
+  
+  .current-component{
+    margin-top: 150%;
+  }
+
+  .research-component{
+    margin-top: 250%;
   }
 
 }
