@@ -16,6 +16,7 @@
   z-index: 1400;
   position: absolute;
   margin-top: 150%;
+  margin-bottom: 100px;
 }
 
 @media only screen and (max-width: 480px) {

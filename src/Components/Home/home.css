@@ -92,7 +92,7 @@ img{
   .trunk{
     position: absolute;
     z-index: -2000;
-    margin-top: -60%;
+    margin-top: -40%;
   }
 
 
@@ -101,6 +101,10 @@ img{
 @media only screen and (max-width: 480px) and  (min-height: 800px) {
   /* styles for devices with a maximum screen width of 480px */
 
-  
+  .trunk{
+    position: absolute;
+    z-index: -2000;
+    margin-top: -40%;
+  }
 
 }

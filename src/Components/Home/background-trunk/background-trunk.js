@@ -47,9 +47,6 @@ function Trunk_component(){
     : event_chaos = 1
   )
 
-  
-
-
 
   console.log(event_spacing)
 
