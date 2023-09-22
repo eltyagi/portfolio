@@ -108,3 +108,23 @@ img{
   }
 
 }
+
+@media screen and (min-width: 1025px) and (max-width: 1580px) {
+  /* Styles for Desktops */
+  .title-home{
+    font-size: 60px; 
+    margin-top: 30px; 
+  }
+  
+  .sub-title-home{
+    font-size: 25px;  
+  }
+
+  .icon-2, .icon-3{
+    margin-top: 90px;
+  }
+
+  .sub-sub-title-home{
+    font-size: 25px;  
+  }
+}
