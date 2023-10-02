@@ -1,115 +1,61 @@
+.App{
+  width: 100vw;
+  height: 100vh;
+}
 
-.nav{
-  margin: 2%;
-  margin-left: 2%;
-  margin-right: 2%;
-  font-family: 'Forum', cursive;
-  justify-content: space-between;
-
+.menu-top, .menu-bottom{
+  z-index: 10;
+  position: absolute;
+  font-size: 20px;
+  font-family:'Noto Sans Khmer', sans-serif;
 }
 
 .menu-top{
+  top: 4%;
+  right: 2%;
+}
+
+.landing-page{
+  margin-top: 4%;
+}
+
+.first-name, .last-name{
+  margin-left: 3%;
+  font-size: 150px;
+}
+
+.last{
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  margin-top: 1%;
+}
+
+.desc{
+  margin-top: 3%;
+  font-size: 25px;
+  margin-left: 2%;
+}
+
+.hr{
+  margin-top: 10%;
+  display: block;
+  height: 3px;
+  border-top: black 3px solid;
+  width: 300px;
 }
 
 .menu-bottom{
   display: flex;
   justify-content: space-between;
-  z-index: 3000;
-  width: 96vw;
-  position: absolute;
-  bottom: 2%;
-  position: fixed;
-  align-items: center;
-}
-
-.logo-name{
-  justify-self:left;
-  width: 30px;
-  height: auto;
-}
-
-.about-op, .blog-op, .contact-op{
-  font-size: 25px;
-  color: rgb(255, 255, 255);
-}
-
-.op-reveal-responsive{
-  display: none;
-}
-
-.view{
-  align-items: center;
-  width: 95%;
-  height: 80vh;
-  border: 3px solid rgba(0, 0, 0, 0.171);
-  background-color: rgb(73, 73, 73);
-  
-}
-
-.loaderTransition-enter{
-  opacity: 0;
-}
-
-.loaderTransition-enter-active{
-  opacity: .5;
-  transition: opacity 300ms ease-in;
-}
-
-.loaderTransition-enter-done{
-  opacity: 1;
-}
-
-.loaderTransition-exit{
-  opacity: 1;
-}
-
-.loaderTransition-exit-active{
-  opacity: .5;
-  transition: opacity 300ms ease-out;
-}
-
-.loaderTransition-exit-done{
-  opacity: 0;
+  width: 100vw;
+  bottom: 3%;
 }
 
 
 
-@media only screen and (max-width: 480px) {
-  /* styles for devices with a maximum screen width of 480px */
-
-  .logo-name{
-    font-size: 20px;
-    justify-self:left;
-    width: 30px;
-    height: auto;
-    margin-left: 20px;
-  }
-
-  .about-op, .blog-op, .contact-op, .blog-op{
-    font-size: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-
-  .menu-bottom{
-    margin-top: 140%;
-  }
-
-  .op-reveal-responsive{
-    display:contents;
-  }
-  
+.op-blog{
+  margin-left: 3%;
 }
 
-@media only screen and (min-height: 800px) and (max-width: 480px) {
-  /* styles for devices with a maximum screen width of 480px */
-  .menu-bottom{
-    margin-top: 170%;
-
-  }
-
+.op-contact{
+  margin-right: 3%;
 }
