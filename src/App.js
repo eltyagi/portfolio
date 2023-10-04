@@ -2,6 +2,7 @@ import React, { useCallback, useEffect, useState } from 'react';
 import './App.css';
 import ReactGA from 'react-ga';
 import LandingPage from './Components/newsletter_link/newsletter_link.js'
+import NewsLetter from './Components/newsletter_link/newsletter_link.js'
 
 
 
@@ -39,9 +40,27 @@ function App(){
             </div>
 
             <div className = 'newsletter'>
-              
+              <NewsLetter/>
             </div>
           </div>
+        
+        <div className = 'page-list'>
+          <div className = 'projects page-list-box'>
+          <span className = 'page-list-num'>01</span><br/>
+          Projects
+          </div>
+
+          <div className = 'research page-list-box'>
+          <span className = 'page-list-num'>02</span><br/>
+          Research
+          </div>
+
+          <div className = 'resume page-list-box'>
+          <span className = 'page-list-num'>03</span><br/>
+          Resume
+          </div>
+          
+        </div>
 
         </div>
 
@@ -56,7 +75,9 @@ function App(){
     
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Khmer&display=swap" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap" rel="stylesheet"/>
+
+
 
       </div>
     )
