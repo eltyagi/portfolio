@@ -5,7 +5,7 @@
 
 .menu-top, .menu-bottom{
   z-index: 10;
-  position: absolute;
+  position: fixed;
   font-size: 20px;
   font-family: 'Tenor Sans', sans-serif;
   cursor: pointer;

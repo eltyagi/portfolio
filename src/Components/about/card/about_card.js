@@ -2,8 +2,12 @@ import React, { useCallback, useEffect, useState } from 'react';
 import './about_card.css';
 
 function AboutCard(props){
+   
+
     return(
         <div className = 'about-card'>
+
+
             <div className = 'title'>
                 {props.title}
             </div>

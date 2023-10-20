@@ -1,4 +1,35 @@
 .about-card{
-    margin-left: 3%;
+    margin-left: 5%;
     margin-top: 3%;
+    z-index: 10;
+    position:relative;
+}
+
+.about-card{
+    font-family: 'Tenor Sans', sans-serif;
+    width: 50vw;
+    height: 40vh;
+}
+
+.about-nav{
+    position: fixed;
+}
+
+.title{
+ font-size: 55px;
+}
+
+.body{
+ font-size: 25px;
+ width: 60vw;
+ margin-top: 5%;
+ line-height: 1.8;
+}
+
+.div-projects{
+    margin-top: 100%;
+}
+
+.div-research{
+    margin-top: 100%;
 }
