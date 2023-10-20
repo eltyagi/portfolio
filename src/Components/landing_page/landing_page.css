@@ -1,0 +1,52 @@
+.landingPage{
+    margin-top: 4%;
+    font-family: 'Tenor Sans', sans-serif;
+  }
+  
+  .first-name, .last-name{
+    margin-left: 3%;
+    font-size: 150px;
+  }
+  
+  .last{
+    display: flex;
+    align-items: center;
+  }
+  
+  .desc{
+    margin-top: 3%;
+    font-size: 20px;
+    margin-left: 2%;
+  }
+  
+  .hr{
+    margin-top: 10%;
+    display: block;
+    height: 3px;
+    border-top: black 3px solid;
+    width: 300px;
+  }
+  
+  .newsletter{
+    margin-left: 10%
+  }
+  
+  .page-list{
+    display: flex;
+    font-size: 20px;
+    margin-top: 5%;
+    width: 100vw;
+    justify-content: center;
+  
+  }
+  
+  .page-list-box{
+    width: 300px;
+    height: 200px;
+    font-family: 'Tenor Sans', sans-serif;
+  }
+  
+  .page-list-num{
+    font-size: 40px;
+    cursor: pointer;
+  }
