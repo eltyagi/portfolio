@@ -28,7 +28,10 @@
   }
   
   .newsletter{
-    margin-left: 10%
+    margin-left: 10%;
+    margin-top: 3px;
+    height: 80%;
+    width: auto;
   }
   
   .page-list{

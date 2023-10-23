@@ -1,35 +1,47 @@
-.about-card{
-    margin-left: 5%;
-    margin-top: 3%;
-    z-index: 10;
-    position:relative;
+.home-link{
+    top: 4%;
+    left: 2%;
+    position: fixed;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Tenor Sans', sans-serif;
+
 }
 
 .about-card{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     font-family: 'Tenor Sans', sans-serif;
-    width: 50vw;
-    height: 40vh;
 }
 
 .about-nav{
+    width: 40vw;
+    height: auto; 
     position: fixed;
+    margin-left: 10%;
 }
 
-.title{
- font-size: 55px;
+.about-nav-op{
+    margin-top: 10%;
+    cursor: pointer;
 }
 
-.body{
- font-size: 25px;
- width: 60vw;
- margin-top: 5%;
- line-height: 1.8;
+.about-pages{
+    margin-left: 30%;
+}
+
+.div-about{
+    margin-top: 190%;
 }
 
 .div-projects{
-    margin-top: 100%;
+    margin-top: 40%;
 }
 
 .div-research{
-    margin-top: 100%;
+    margin-top: 40%;
+    margin-bottom: 30%;
 }

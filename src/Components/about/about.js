@@ -1,10 +1,15 @@
 import React, { useCallback, useEffect, useState } from 'react';
 import './about.css';
-import './about_content'
-import './about_content'
-import content from './about_content';
-import AboutCard from './card/about_card.js';
 import { useRef } from 'react';
+import AboutDesc from './aboutMe/aboutMe.js';
+import Projects from './projects/projects.js';
+import Research from './research/research.js';
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+  Link
+} from "react-router-dom";
 
 function About(){
     const about = useRef(null);
@@ -14,7 +19,7 @@ function About(){
     function handleScrollToAbout() {
         about.current.scrollIntoView({
           behavior: 'smooth',
-          block: 'start',
+          block: 'center',
           inline: 'center'
         });
       }
@@ -22,7 +27,7 @@ function About(){
       function handleScrollToProjects() {
         projects.current.scrollIntoView({
           behavior: 'smooth',
-          block: 'start',
+          block: 'center',
           inline: 'center'
         });
       }
@@ -30,55 +35,46 @@ function About(){
       function handleScrollToResearch() {
         research.current.scrollIntoView({
           behavior: 'smooth',
-          block: 'end',
+          block: 'center',
           inline: 'center'
         });
       }
 
     return(
         <div className = 'about-card'>
-            <nav className = 'about-nav'>
-                <button onClick={handleScrollToAbout}>
-                About
-                </button>
-                <button onClick={handleScrollToProjects}>
-                Projects
-                </button>
-                <button onClick={handleScrollToResearch}>
-                Research
-                </button>
-            </nav>
-
-            <div ref={about} className = 'div-about'>
-                <div className = 'title'>
-                    Hi, I am Lakshya!
+            <div className = 'home-link'>
+            <Link to = "/" style={{ textDecoration: 'none', color: 'black' }}>
+              HOME
+            </Link>
+            </div>
+            <div className = 'about-nav'>
+                <div className = 'about-nav-op about-nav-1' onClick={handleScrollToAbout}>
+                Who Am I?
                 </div>
-                <div className = 'body'>
-                    I am a Solutions Engineer @ Cisco, I transform how organisations communicate, collaborate, provision and grow. 
-                    When not working, I am building side projects, teaching machine learning, and finding new peaks to scale.
+                <div className = 'about-nav-op about-nav-1' onClick={handleScrollToProjects}>
+                My Work
+                </div>
+                <div className = 'about-nav-op about-nav-1' onClick={handleScrollToResearch}>
+                My Research
                 </div>
             </div>
-
-            <div ref={projects} className = 'div-projects'>
-                <div className = 'title'>
-                    Projects
+            <div className = 'about-pages'>
+                <div ref={about} className = 'div-about'>
+                    <AboutDesc/>
                 </div>
-                <div className = 'body'>
-                    I am a Solutions Engineer @ Cisco, I transform how organisations communicate, collaborate, provision and grow. 
-                    When not working, I am building side projects, teaching machine learning, and finding new peaks to scale.
+
+                <div ref={projects} className = 'div-projects'>
+                    <Projects/>
+                </div>
+
+                <div ref={research} className = 'div-research'>
+                    <Research/>
                 </div>
             </div>
-
-            <div ref={research} className = 'div-research'>
-                <div className = 'title'>
-                    Research
-                </div>
-                <div className = 'body'>
-                    I am a Solutions Engineer @ Cisco, I transform how organisations communicate, collaborate, provision and grow. 
-                    When not working, I am building side projects, teaching machine learning, and finding new peaks to scale.
-                </div>
-            </div>
-            
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/>
+            <link rel="preconnect" href="https://fonts.googleapis.com"/>
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+            <link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap" rel="stylesheet"/>
         </div>
     );
 }
