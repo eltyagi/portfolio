@@ -16,20 +16,45 @@
   right: 2%;
 }
 
-
 .menu-bottom{
   display: flex;
   justify-content: space-between;
   width: 100vw;
   bottom: 3%;
+  right: 2%;
 }
 
-
-
 .op-blog{
-  margin-left: 3%;
+  margin-left: 5%;
 }
 
 .op-contact{
-  margin-right: 3%;
+  margin-right: 5%;
+  padding: 3%;
+}
+
+.loaderTransition-enter{
+  opacity: 0;
+}
+
+.loaderTransition-enter-active{
+  opacity: .5;
+  transition: opacity 300ms ease-in;
+}
+
+.loaderTransition-enter-done{
+  opacity: 1;
+}
+
+.loaderTransition-exit{
+  opacity: 1;
+}
+
+.loaderTransition-exit-active{
+  opacity: .5;
+  transition: opacity 300ms ease-out;
+}
+
+.loaderTransition-exit-done{
+  opacity: 0;
 }

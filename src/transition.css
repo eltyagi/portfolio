@@ -1,8 +1,7 @@
-
-
 .transition{
     width: 100vw;
     height: 100vh;
-    background-color: rgb(132, 131, 131);
-    z-index: 3;
+    background-color: rgb(0, 0, 0);
+    z-index: 1000;
+    position: absolute;
 }
