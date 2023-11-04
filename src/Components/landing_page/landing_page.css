@@ -51,3 +51,50 @@
     font-size: 40px;
     cursor: pointer;
   }
+
+  @media only screen and (max-width: 480px) {
+    /* styles for devices with a maximum screen width of 480px */
+    .first-name{
+      margin-left: 5%;
+      padding-top: 40%;
+      font-size: 70px;
+    }
+
+    .last-name{
+      margin-left: 5%;
+      font-size: 70px;
+      padding-top: 5%;
+    }
+
+    .desc{
+      margin-top: 10%;
+      font-size: 20px;
+      margin-left: 5%;
+    }
+
+    .last{
+      display: block;
+    }
+
+    .newsletter{
+      margin-left: 5%;
+      margin-top: 3px;
+      height: 80%;
+      width: auto;
+    }
+
+    .hr{
+      display: none;
+    }
+
+    .page-list{
+      display: none;
+    }
+    
+  }
+  
+  @media only screen and (min-height: 800px) and (max-width: 480px) {
+    /* styles for devices with a maximum screen width of 480px */
+    
+  
+  }

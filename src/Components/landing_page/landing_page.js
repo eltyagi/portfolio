@@ -31,18 +31,24 @@ function LandingPage(){
 
           <div className = 'page-list'>
             <div className = 'projects page-list-box'>
+            <a style={{ textDecoration: 'none', color: 'black' }} href='https://github.com/Lakshya3190'>
             <span className = 'page-list-num'>01</span><br/>
             Projects
+            </a>
             </div>
             
             <div className = 'research page-list-box'>
+            <a style={{ textDecoration: 'none', color: 'black' }} href = "https://www.researchgate.net/scientific-contributions/Lakshya-Tyagi-2160566907">
             <span className = 'page-list-num'>02</span><br/>
             Research
+            </a>
             </div>
 
             <div className = 'resume page-list-box'>
+            <a style={{ textDecoration: 'none', color: 'black' }} href = 'https://drive.google.com/file/d/1ofZxv1Vs9qZVKwJZOkUOPrVCkRtACDLl/view?usp=sharing'>
             <span className = 'page-list-num'>03</span><br/>
             Resume
+            </a>
             </div>
           
           </div>

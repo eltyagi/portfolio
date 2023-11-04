@@ -45,3 +45,39 @@
     margin-top: 40%;
     margin-bottom: 30%;
 }
+
+@media only screen and (max-width: 480px) {
+    /* styles for devices with a maximum screen width of 480px */
+    .about-nav{
+        width: 20vw;
+        margin-left: 5%;
+    }
+
+    .about-nav-op{
+        margin-top: 40%;
+        font-size: 11px;
+    }
+
+    .about-pages{
+        margin-left: 25%;
+    }
+    
+    .div-about{
+        margin-top: 590%;
+    }
+    
+    .div-projects{
+        margin-top: 140%;
+    }
+    
+    .div-research{
+        margin-top: 140%;
+        margin-bottom: 140%;
+    }
+    
+}
+  
+  @media only screen and (min-height: 800px) and (max-width: 480px) {
+    /* styles for devices with a maximum screen width of 480px */
+  
+}

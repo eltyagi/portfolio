@@ -8,3 +8,21 @@
     margin-top: 5%;
     line-height: 1.8;
 }
+
+@media only screen and (max-width: 480px) {
+    /* styles for devices with a maximum screen width of 480px */
+    .title{
+        font-size: 25px;
+    }
+       
+    .body {
+        font-size: 14px;
+    }
+    
+}
+  
+  @media only screen and (min-height: 800px) and (max-width: 480px) {
+    /* styles for devices with a maximum screen width of 480px */
+  
+  
+}
