@@ -24,7 +24,9 @@ function LandingPage(){
             </div>
 
             <div className = 'newsletter'>
-              <Newsletter/>
+              <a style={{ textDecoration: 'none', color: 'black' }} href = 'https://lakshyatyagi.substack.com?utm_source=navbar&utm_medium=web&r=e7acj'>
+                <Newsletter/>
+              </a>
             </div>
           </div>
         
