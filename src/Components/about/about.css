@@ -10,7 +10,7 @@
 
 .about-card{
     width: 100vw;
-    height: 100vh;
+    height: 400vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,38 +18,43 @@
 }
 
 .about-nav{
-    width: 40vw;
-    height: auto; 
+    width: 70vw;
+    height: 400vh; 
     position: fixed;
-    margin-left: 10%;
+    margin-left: 6%;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .about-nav-op{
-    margin-top: 10%;
+    margin-top: 20%;
     cursor: pointer;
+    font-size: 15px;
 }
 
 .about-pages{
     margin-left: 30%;
 }
 
-.div-about{
-    margin-top: 190%;
+.self-img{
+    width: 30vw;
+    height: auto;
+    margin-left: 10%;
 }
 
-.div-projects{
-    margin-top: 40%;
+.about-background{
+    z-index: -100;
+    position: absolute;
+    font-size: 320px;
+    top: 25%;
+    left: 15%;
 }
 
-.div-research{
-    margin-top: 40%;
-    margin-bottom: 30%;
-}
 
 @media only screen and (max-width: 480px) {
     /* styles for devices with a maximum screen width of 480px */
     .about-nav{
-        width: 20vw;
+        width: 70vw;
         margin-left: 5%;
     }
 
@@ -73,6 +78,22 @@
     .div-research{
         margin-top: 140%;
         margin-bottom: 140%;
+    }
+
+    .about-begin{
+        margin-top: 40%;
+    }
+
+    .about-background{
+        font-size: 90px;
+        left: 10%;
+    }
+
+    .self-img{
+        width: 50vw;
+        height: auto;
+        margin-left: 1%;
+        margin-top: 100%;
     }
     
 }

@@ -1,12 +1,15 @@
+
+
 .title{
     font-size: 55px;
+    margin-top: 30%;
 }
    
 .body {
-    font-size: 25px;
+    font-size: 30px;
     width: 60vw;
-    margin-top: 5%;
     line-height: 1.8;
+    
 }
 
 @media only screen and (max-width: 480px) {

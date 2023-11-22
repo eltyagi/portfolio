@@ -10,8 +10,10 @@ import {
   Routes,
   Link
 } from "react-router-dom";
+import self from './self.JPG';
 
 function About(){
+
     const about = useRef(null);
     const projects = useRef(null);
     const research = useRef(null);
@@ -22,6 +24,7 @@ function About(){
           block: 'center',
           inline: 'center'
         });
+
       }
 
       function handleScrollToProjects() {
@@ -40,6 +43,8 @@ function About(){
         });
       }
 
+
+
     return(
         <div className = 'about-card'>
             <div className = 'home-link'>
@@ -52,13 +57,21 @@ function About(){
                 Who Am I?
                 </div>
                 <div className = 'about-nav-op about-nav-1' onClick={handleScrollToProjects}>
-                My Work
+                My Projects
                 </div>
                 <div className = 'about-nav-op about-nav-1' onClick={handleScrollToResearch}>
                 My Research
                 </div>
             </div>
             <div className = 'about-pages'>
+                <div className = 'about-begin'>
+                  <div className = 'about-background'>
+                    ABOUT
+                  </div>
+                  <div className = 'img'>
+                    <img className = 'self-img' src={self}></img>
+                  </div>
+                </div>
                 <div ref={about} className = 'div-about'>
                     <AboutDesc/>
                 </div>
