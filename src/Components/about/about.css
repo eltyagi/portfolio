@@ -93,7 +93,13 @@
         width: 50vw;
         height: auto;
         margin-left: 1%;
-        margin-top: 100%;
+        top: 32%;
+        position: absolute;
+    }
+
+    .home-link{
+        z-index: 1000;
+    
     }
     
 }
