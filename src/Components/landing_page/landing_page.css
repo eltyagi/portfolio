@@ -56,14 +56,14 @@
     /* styles for devices with a maximum screen width of 480px */
     .first-name{
       margin-left: 5%;
-      padding-top: 30%;
-      font-size: 70px;
+      padding-top: 5%;
+      font-size: 60px;
     }
 
     .last-name{
       margin-left: 5%;
-      font-size: 70px;
-      padding-top: 5%;
+      font-size: 60px;
+      padding-top: 4%;
     }
 
     .desc{
@@ -79,7 +79,7 @@
     .newsletter{
       margin-left: 5%;
       margin-top: 3px;
-      height: 80%;
+      height: 50%;
       width: auto;
     }
 
