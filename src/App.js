@@ -42,51 +42,11 @@ function App(){
     return (      
       <div style = {{margin: "0px"}} className = 'App'>
 
-          {
-            enableTransition 
-            ?
-            (<div>
-              <CSSTransition
-                in = {enableTransition}
-                timeout = {1500}
-                classNames = "loaderTransition">
-                <Trans duration = {enableTransition}/>
-              </CSSTransition>
-            </div>)  
-          :
-            (<div>
-               <div className = 'menu-top'>
-                <Link to = "/about" style={{ textDecoration: 'none', color: 'black' }}>
-                  <div onClick = {onClickTransition} className = 'menu-op op-about'>
-                    ABOUT
-                  </div>
-                </Link>
-                </div>
+        Hello!<br/><br/>
 
-                <div className = 'menu-bottom'>
-                  <div className = 'menu-op op-blog'>
-                    <a style={{ textDecoration: 'none', color: 'black' }} href='https://warriorsway98.wordpress.com/'>
-                      BLOG
-                    </a>
-                  </div>
-                  <Link style={{ textDecoration: 'none', color: 'black' }} to = "/contact">
-                  <div onClick = {onClickTransition} className = 'menu-op op-contact'>
-                    CONTACT
-                  </div>
-                  </Link>
-                </div>
-            </div>)
-        }
+        I am currently revamping my portfolio and will be back soon.<br/>
 
-        <TransitionGroup>
-        <CSSTransition classNames='fade' key={loc.key}>
-        <Routes style = {{margin: "0px"}}>
-          <Route style = {{margin: "0px"}} path="/about" element={<About/>}/>
-          <Route style = {{margin: "0px"}} path="/contact" element={<Contact/>}/>
-          <Route style = {{margin: "0px"}} path="/" element={<Landingpage/>}/>
-        </Routes>
-        </CSSTransition>
-        </TransitionGroup>
+        Meanwhile, please find my resume <a href = "https://drive.google.com/file/d/1Dj8Bixd5GfOonz9ptyXTQ9eXB4v3kAz5/view?usp=sharing">here!</a>
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/>
         <link rel="preconnect" href="https://fonts.googleapis.com"/>

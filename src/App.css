@@ -1,6 +1,10 @@
 .App{
   width: 100vw;
   height: 100vh;
+  font-size: 25px;
+  font-family: 'Tenor Sans', sans-serif;
+  margin-left: 20%;
+  margin-top: 10%;
 }
 
 .menu-top, .menu-bottom{
