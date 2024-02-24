@@ -135,13 +135,13 @@
 }
 
 .acco-label{
-  margin-bottom: 15%;
+  margin-bottom: 7%;
   font-size: 20px;
 
 }
 
 .acco-nums{
-  margin-bottom: 20%;
+  margin-bottom: 7%;
 }
 
 .acco-nums-1,.acco-nums-2{
@@ -160,6 +160,22 @@
   font-size: 20px;
 }
 
+.cert-label{
+  margin-bottom: 7%;
+  font-size: 20px;
+}
+
+.certs{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cert-img{
+  width: 120px;
+  height: auto;
+  cursor: pointer;
+}
 
 
   @media only screen and (max-width: 480px) {

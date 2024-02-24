@@ -29,7 +29,7 @@ function LandingPage(){
             </span>
           </div>
 
-          <div className = 'sup-title'>
+          <div className = 'sub-title'>
             I simplify the complicated, <br/>endorse independence of 
             thought and teach competence.
           </div>
@@ -151,10 +151,33 @@ function LandingPage(){
           </div>
 
 
+          <div className = 'cert-label'>
+            Certifications
+          </div>
 
+          <div className = 'certs'>
+            <div className = 'cert'>
+              <img className = 'cert-img' src = {ccna}></img>
+            </div>
+            <div className = 'cert'>
+            <img className = 'cert-img' src = {encor}></img>
+            </div>
+            <div className = 'cert'>
+            <img className = 'cert-img' src = {ccnp}></img>
+            </div>
+            <div className = 'cert'>
+            <img className = 'cert-img' src = {enauto}></img>
+            </div>
+            <div className = 'cert'>
+            <img className = 'cert-img' src = {devassoc}></img>
+            </div>
+            
+          </div>
         </div>
         
-           
+        <div className = 'pg-footer'>
+          
+        </div>
         
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
