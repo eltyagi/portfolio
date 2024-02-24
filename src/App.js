@@ -56,24 +56,15 @@ function App(){
           :
             (<div>
                <div className = 'menu-top'>
-                <Link to = "/about" style={{ textDecoration: 'none', color: 'black' }}>
-                  <div onClick = {onClickTransition} className = 'menu-op op-about'>
-                    ABOUT
+                  <div onClick = {onClickTransition} className = 'menu-op'>
+                    Portfolio '24
                   </div>
-                </Link>
-                </div>
 
-                <div className = 'menu-bottom'>
-                  <div className = 'menu-op op-blog'>
-                    <a style={{ textDecoration: 'none', color: 'black' }} href='https://warriorsway98.wordpress.com/'>
-                      BLOG
+                  <div className = 'menu-op'>
+                    <a style={{ textDecoration: 'none', color: 'black' }} href=''>
+                      Get in Touch
                     </a>
                   </div>
-                  <Link style={{ textDecoration: 'none', color: 'black' }} to = "/contact">
-                  <div onClick = {onClickTransition} className = 'menu-op op-contact'>
-                    CONTACT
-                  </div>
-                  </Link>
                 </div>
             </div>)
         }
@@ -81,8 +72,6 @@ function App(){
         <TransitionGroup>
         <CSSTransition classNames='fade' key={loc.key}>
         <Routes style = {{margin: "0px"}}>
-          <Route style = {{margin: "0px"}} path="/about" element={<About/>}/>
-          <Route style = {{margin: "0px"}} path="/contact" element={<Contact/>}/>
           <Route style = {{margin: "0px"}} path="/" element={<Landingpage/>}/>
         </Routes>
         </CSSTransition>
