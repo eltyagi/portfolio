@@ -177,6 +177,36 @@
   cursor: pointer;
 }
 
+.pg-footer{
+  width: 85%;
+  margin: auto;
+  margin-top: 25%;
+}
+
+.footer-sup-title{
+  font-size: 25px;
+  align-items: center;
+}
+
+.footer-title{
+  font-size: 150px;
+}
+
+.social{
+  margin-right: 100px;
+}
+
+.footer-sub-title{
+  display: flex;
+  justify-content: flex-start;
+  font-size: 20px;
+  margin-top: 5%;
+}
+
+.footer-creds{
+  margin-top: 25%;
+  font-size: 25px;
+}
 
   @media only screen and (max-width: 480px) {
     /* styles for devices with a maximum screen width of 480px */

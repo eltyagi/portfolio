@@ -176,7 +176,25 @@ function LandingPage(){
         </div>
         
         <div className = 'pg-footer'>
-          
+          <div className = 'footer-sup-title'>
+            Want to talk tech, sales, military, life or just say hi?
+          </div>
+
+          <div className = 'footer-title'>
+            GET IN TOUCH!
+          </div>
+
+          <div className = 'footer-sub-title'>
+            <div className = 'social'>Linkedin</div>
+            <div className = 'social'>Instagram</div>
+            <div className = 'social'>Medium</div>
+            <div className = 'social'>Github</div>
+          </div>
+
+          <div className = 'footer-creds'>
+            @ 2024<br/>
+            Lakshya Tyagi
+          </div>
         </div>
         
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
