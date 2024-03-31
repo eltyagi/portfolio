@@ -72,7 +72,7 @@ function App(){
         <TransitionGroup>
         <CSSTransition classNames='fade' key={loc.key}>
         <Routes style = {{margin: "0px"}}>
-          <Route style = {{margin: "0px"}} path="/" element={<Landingpage/>}/>
+          <Route style = {{margin: "0px"}} path="/portfolio" element={<Landingpage/>}/>
         </Routes>
         </CSSTransition>
         </TransitionGroup>
