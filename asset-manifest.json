@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.2f2e5f2b.css",
-    "main.js": "/react-gh-pages/static/js/main.311edc56.js",
+    "main.css": "/react-gh-pages/static/css/main.2def0779.css",
+    "main.js": "/react-gh-pages/static/js/main.a4ae66ef.js",
     "static/media/self.JPG": "/react-gh-pages/static/media/self.8c87acf0b8418dfe1517.JPG",
-    "static/media/link.png": "/react-gh-pages/static/media/link.62e24df7b9fbab4fd653.png",
+    "static/media/ccnp.png": "/react-gh-pages/static/media/ccnp.45472e8fb5c7e601579a.png",
+    "static/media/enauto.png": "/react-gh-pages/static/media/enauto.14245955e957e9e8edaf.png",
+    "static/media/devassoc.png": "/react-gh-pages/static/media/devassoc.4359f25182598add80ac.png",
+    "static/media/encor.png": "/react-gh-pages/static/media/encor.8223d5d0dabb9f07b437.png",
     "index.html": "/react-gh-pages/index.html",
-    "main.2f2e5f2b.css.map": "/react-gh-pages/static/css/main.2f2e5f2b.css.map",
-    "main.311edc56.js.map": "/react-gh-pages/static/js/main.311edc56.js.map"
+    "main.2def0779.css.map": "/react-gh-pages/static/css/main.2def0779.css.map",
+    "main.a4ae66ef.js.map": "/react-gh-pages/static/js/main.a4ae66ef.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f2e5f2b.css",
-    "static/js/main.311edc56.js"
+    "static/css/main.2def0779.css",
+    "static/js/main.a4ae66ef.js"
   ]
 }
