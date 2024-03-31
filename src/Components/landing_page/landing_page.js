@@ -10,6 +10,7 @@ import encor from './icons/encor.png';
 import ccnp from './icons/ccnp.png';
 import enauto from './icons/enauto.png';
 import devassoc from './icons/devassoc.png';
+import "animate.css/animate.min.css";
 
 function LandingPage(){
     return(
@@ -17,7 +18,7 @@ function LandingPage(){
         
         <div className = 'pg-landingPage'>
           <div className = 'sup-title'>
-            Solutions Engineer @ Cisco
+            Solutions Engineer @ GitHub
           </div>
 
           <div className = 'title-nm'>
