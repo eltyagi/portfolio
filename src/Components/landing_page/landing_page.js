@@ -4,13 +4,14 @@ import {Animated} from "react-animated-css";
 import Linkedin from './icons/linkedin.png';
 import Medium from './icons/medium.png'
 import Instagram from './icons/instagram.png';
-import Asterick from './icons/asterick.png';
 import ccna from './icons/ccna.png';
 import encor from './icons/encor.png';
 import ccnp from './icons/ccnp.png';
 import enauto from './icons/enauto.png';
 import devassoc from './icons/devassoc.png';
 import "animate.css/animate.min.css";
+import { motion } from "framer-motion"
+import AboutPage from './about_page/about_page';
 
 function LandingPage(){
     return(
@@ -53,86 +54,7 @@ function LandingPage(){
         </div>
 
         <div className = 'pg-about'>
-          <div className = 'about-sup-title'>
-              WELCOME TO MY<br/>PORTFOLIO!  
-          </div>
-
-          <div className = 'about'>
-            <div className = 'about-label'>
-              About
-            </div>
-            <div className = 'about-desc'>
-              A soldier at heart and an engineer by profession, 
-              I strive daily to persevere, innovate, educate and grow. 
-            </div>
-            <div className = 'about-desc-2'>
-              I started my career at 19 as a cadet training to join the Indian Army.
-              Fast forward 7 years, I now work with organisations across the 
-              globe to facilitate their digital transformation using innovative software.
-            </div>
-
-            <div className = 'about-curr-roles'>
-
-            <div className = 'curr-role-1'>
-                <div className = 'role-name'>
-                  Solutions Engineer @ GitHub
-                </div>
-                <div className = 'role-date'>
-                  May 2024 - Present
-                </div>
-              </div>
-
-              <div className = 'curr-role-1'>
-                <div className = 'role-name'>
-                  Solutions Engineer @ Cisco
-                </div>
-                <div className = 'role-date'>
-                  Aug 2021 - May 2024
-                </div>
-              </div>
-
-              <div className = 'curr-role-2'>
-                <div className = 'role-name'>
-                  Educator @ MyCaptain
-                </div>
-                <div className = 'role-date'>
-                  Apr 2019 - Present
-                </div>
-              </div>
-            </div>
-
-            <div className = 'about-add'>
-              <div className= 'add-interest'>
-                <div className = 'ast'>
-                  <img className = 'ast-img' src = {Asterick}/>
-                </div>
-                <div className = 'add-int-body'>
-                  Based in<br/>
-                  Bengaluru, India
-                </div>
-              </div>
-
-              <div className= 'add-interest'>
-                <div className = 'ast'>
-                  <img className = 'ast-img' src = {Asterick}/>
-                </div>
-                <div className = 'add-int-body'>
-                  Golf<br/>
-                  Basketball, MMA
-                </div>
-              </div>
-
-              <div className= 'add-interest'>
-                <div className = 'ast'>
-                  <img className = 'ast-img' src = {Asterick}/>
-                </div>
-                <div className = 'add-int-body'>
-                  Writer,<br/>
-                  Published Researcher
-                </div>
-              </div>
-            </div>
-          </div>
+          <AboutPage/>
         </div>
 
         <div className = 'pg-accolades'>

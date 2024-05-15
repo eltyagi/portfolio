@@ -1,0 +1,13 @@
+.scroller{
+    width: 500%;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: black;
+    color: white;
+}
+
+.children{
+    margin-left: 2%;
+    font-size: 100px;
+}

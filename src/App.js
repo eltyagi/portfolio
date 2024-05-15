@@ -12,6 +12,7 @@ import {Animated} from "react-animated-css";
 import { TransitionGroup, CSSTransition} from 'react-transition-group'
 import Landingpage from './Components/landing_page/landing_page.js';
 import Trans from './transition.js';
+import { motion } from "framer-motion"
 
 const trackingId = "UA-186285153-3";
 
