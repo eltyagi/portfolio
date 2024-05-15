@@ -10,9 +10,7 @@ import './App.css';
 import ReactGA from 'react-ga';
 import {Animated} from "react-animated-css";
 import { TransitionGroup, CSSTransition} from 'react-transition-group'
-import About from './Components/about/about.js';
 import Landingpage from './Components/landing_page/landing_page.js';
-import Contact from './Components/contact/contact.js';
 import Trans from './transition.js';
 
 const trackingId = "UA-186285153-3";
