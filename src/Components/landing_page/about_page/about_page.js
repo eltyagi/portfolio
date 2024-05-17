@@ -13,6 +13,7 @@ import Asterick from './asterick.png';
 import ParallaxText from './paralax_text/paralax_text.js';
 
 function AboutPage(){
+
     return(
         <div className = 'pg-about'>
           <section className='about-sup-title'>
@@ -21,50 +22,44 @@ function AboutPage(){
           </section>
 
           <div className = 'about'>
-            <motion.div className = 'about-label'>
-              About
-            </motion.div>
-            <motion.div className = 'about-desc'>
-              A soldier at heart and an engineer by profession, 
-              I strive daily to persevere, innovate, educate and grow. 
-            </motion.div>
-            <motion.div className = 'about-desc-2'>
-              I started my career at 19 as a cadet training to join the Indian Army.
-              Fast forward 7 years, I now work with organisations across the 
-              globe to facilitate their digital transformation using innovative software.
-            </motion.div>
-
-            <div className = 'about-curr-roles'>
-
-            <div className = 'curr-role-1'>
-                <div className = 'role-name'>
-                  Solutions Engineer @ GitHub
-                </div>
-                <div className = 'role-date'>
-                  May 2024 - Present
-                </div>
-              </div>
-
-              <div className = 'curr-role-1'>
-                <div className = 'role-name'>
-                  Solutions Engineer @ Cisco
-                </div>
-                <div className = 'role-date'>
-                  Aug 2021 - May 2024
-                </div>
-              </div>
-
-              <div className = 'curr-role-2'>
-                <div className = 'role-name'>
-                  Educator @ MyCaptain
-                </div>
-                <div className = 'role-date'>
-                  Apr 2019 - Present
-                </div>
-              </div>
+            <div className = 'about-sec'>
+              <motion.div 
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: [0, 1] }}
+                className = 'about-label'>
+                about me.
+              </motion.div>
+              <motion.div 
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: [0, 1] }}
+                className = 'about-desc'>
+                A soldier at heart and an engineer by profession, 
+                I strive daily to persevere, innovate, educate and grow. 
+              </motion.div>
+              <motion.div 
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: [0, 1] }}
+                className = 'about-desc-2'>
+                I started my career at 19 as a cadet training to join the Indian Army.
+                Fast forward 7 years, I now work with organisations across the 
+                globe to facilitate their digital transformation using innovative software.
+              </motion.div>
             </div>
 
-            <div className = 'about-add'>
+            <motion.div 
+              className = 'about-img'
+              initial = {{y: 300}}
+              whileInView = {{y: 50,
+                            rotate: -10,
+                            transition: {
+                              type: "spring",
+                              bounce: 0.4,
+                              duration: 0.8
+                            }}}>
+            </motion.div>
+          </div>
+
+          <div className = 'about-add'>
               <div className= 'add-interest'>
                 <div className = 'ast'>
                   <img className = 'ast-img' src = {Asterick}/>
@@ -95,6 +90,89 @@ function AboutPage(){
                 </div>
               </div>
             </div>
+
+          <div className = 'experience'>
+            <motion.div 
+              className = 'experience-title'
+              initial = {{ opacity: 0 }}
+              whileInView={{ opacity: [0, 1] }}
+            >
+              experience.
+            </motion.div>
+
+
+            <div className = 'experience-content'>
+
+                <div className = 'blocks'>
+                  <motion.div 
+                    className = 'block-1'
+                    initial = {{y: 300}}
+                    whileInView = {{y: 50,
+                            rotate: -10,
+                            transition: {
+                              type: "spring",
+                              bounce: 0.4,
+                              duration: 0.8}}}>
+                  </motion.div>
+
+                  <motion.div 
+                    className = 'block-2'
+                    initial = {{y: 200}}
+                    whileInView = {{y: 30,
+                            rotate: -10,
+                            transition: {
+                              type: "spring",
+                              bounce: 0.4,
+                              duration: 0.8}}}>
+                  </motion.div>
+                </div>
+
+                <div className = 'roles'>
+                  <div className = 'role'>
+                    <div className = 'role-details'>
+                      <div className = 'company'>
+                        GitHub
+                      </div>
+                      <div className = 'company-role'>
+                        Solutions Engineer - Corporate
+                      </div>
+                    </div>
+                    <div className = 'role-period'>
+                      May 2024 - Present
+                    </div>
+                  </div>
+
+                  <div className = 'role'>
+                  <div className = 'role-details'>
+                      <div className = 'company'>
+                        Cisco
+                      </div>
+                      <div className = 'company-role'>
+                        Solutions Engineer - DevNet
+                      </div>
+                    </div>
+                    <div className = 'role-period'>
+                      Aug 2021 - May 2024
+                    </div>
+                  </div>
+
+                  <div className = 'role'>
+                  <div className = 'role-details'>
+                      <div className = 'company'>
+                        ZS Associates
+                      </div>
+                      <div className = 'company-role'>
+                        Software Engineer - Intern
+                      </div>
+                    </div>
+                    <div className = 'role-period'>
+                      Jan 2021 - Jun 2021
+                    </div>
+                  </div>
+                </div>
+
+            </div>
+            
           </div>
         </div>
 
@@ -102,3 +180,4 @@ function AboutPage(){
 }
 
 export default AboutPage
+

@@ -45,69 +45,30 @@
   cursor: pointer;
 }
 
-.pg-accolades{
-  width: 65%;
-  margin: auto;
-  margin-top: 25%;
-  
-}
 
-.acco-label{
-  margin-bottom: 7%;
-  font-size: 20px;
-
-}
-
-.acco-nums{
-  margin-bottom: 7%;
-}
-
-.acco-nums-1,.acco-nums-2{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 2%;
-}
-
-.num{
-  font-size: 110px;
-}
-
-.num-context{
-  width: 400px;
-  font-size: 20px;
-}
-
-.cert-label{
-  margin-bottom: 7%;
-  font-size: 20px;
-}
-
-.certs{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.cert-img{
-  width: 120px;
-  height: auto;
-  cursor: pointer;
-}
 
 .pg-footer{
   width: 85%;
   margin: auto;
-  margin-top: 25%;
+  padding-top: 15%;
+  margin-top: 20%;
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+
 }
 
 .footer-sup-title{
   font-size: 25px;
   align-items: center;
+  margin-top: 5%;
+  margin-left: 10%;
 }
 
 .footer-title{
-  font-size: 150px;
+  font-size: 200px;
+  margin-left: 10%;
 }
 
 .social{
@@ -118,12 +79,15 @@
   display: flex;
   justify-content: flex-start;
   font-size: 20px;
-  margin-top: 5%;
+  margin-top: 2%;
+  margin-left: 10%;
 }
 
 .footer-creds{
-  margin-top: 25%;
-  font-size: 25px;
+  margin-top: 10%;
+  font-size: 15px;
+  margin-bottom: 10%;
+  margin-left: 10%;
 }
 
   @media only screen and (max-width: 480px) {

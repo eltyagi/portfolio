@@ -1,0 +1,49 @@
+.pg-accolades{
+    width: 85%;
+    margin: auto;
+    margin-top: 25%;
+    
+  }
+  
+  .acco-label{
+    margin-bottom: 7%;
+    font-size: 200px;
+  
+  }
+  
+  .acco-nums{
+    margin-bottom: 7%;
+  }
+  
+  .acco-nums-1,.acco-nums-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2%;
+  }
+  
+  .num{
+    font-size: 110px;
+  }
+  
+  .num-context{
+    width: 400px;
+    font-size: 20px;
+  }
+  
+  .cert-label{
+    margin-bottom: 7%;
+    font-size: 20px;
+  }
+  
+  .certs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .cert-img{
+    width: 120px;
+    height: auto;
+    cursor: pointer;
+  }  

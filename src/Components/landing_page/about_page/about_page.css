@@ -5,28 +5,108 @@
   .about{
     width: 65%;
     margin: auto;
-    margin-top: 20%;
+    margin-top: 10%;
+    display: flex;
   }
   
+  .about-sup-title{
+    background-color: black;
+    width: 100vw;
+    padding: 3%;
+  }
+
   .about-label{
-    margin-bottom: 5%;
+    margin-bottom: 2%;
     font-size: 20px;
+    font-size: 200px;
   }
   
   .about-desc{
-    margin-bottom: 5%;
-    font-size: 45px;
+    margin-bottom: 1%;
+    font-size: 35px;
   }
   
   .about-desc-2{
     margin-bottom: 2%;
-    font-size: 20px;
+    font-size: 15px;
   }
   
+  .about-img{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(184, 184, 184);
+    border-radius: 10px;
+    z-index: -1000;
+    position: absolute;
+    right: 8%;
+  }
+
+  .experience{
+    margin-top: 20%;
+    width: 100vw;
+  }
+
+  .experience-title{
+    font-size: 200px;
+    margin-left: 20%;
+  }
+
+  .block-1, .block-2{
+    width: 300px;
+    height: 300px;
+    
+  }
+
+  .blocks{
+    margin-left: 15%;
+  }
+
+  .block-1{
+    z-index: -10;
+    position: absolute;
+    background-color: rgb(186, 186, 186);
+    border-radius: 10px;
+  }
+
+  .block-2{
+    z-index: -5;
+    position: absolute;
+    background-color: rgb(85, 85, 85);
+    margin-top: 5%;
+    margin-left: 10%;
+    border-radius: 10px;
+  }
+
+  .roles{
+    margin-left: 50%;
+    margin-top: 10%;
+  }
+
+  .role{
+    display: flex;
+    margin-top: 10%;
+  }
+
+  .company{
+    font-size: 25px;
+    width: 250px;
+  }
+
+  .company-role{
+    font-size: 15px;
+  }
+
+  .role-period{
+    font-size: 25px;
+    margin-left: 80px;
+  }
+
+
   .about-curr-roles{
     margin-top: 10%;
     font-size: 20px;
   }
+    
   
   .curr-role-1, .curr-role-2{
     margin-top: 5%;
@@ -43,6 +123,8 @@
     display: flex;
     justify-content: space-between;
     margin-top: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
   }
   
   .add-interest{

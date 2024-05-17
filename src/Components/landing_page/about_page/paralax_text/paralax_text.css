@@ -1,13 +1,15 @@
 .scroller{
-    width: 500%;
-    overflow: hidden;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 64px;
+    display: flex;
+    white-space: nowrap;
     display: flex;
     flex-wrap: nowrap;
-    background-color: black;
     color: white;
 }
 
 .children{
-    margin-left: 2%;
-    font-size: 100px;
+    display: block;
+    margin-right: 30px;
 }
