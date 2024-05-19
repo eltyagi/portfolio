@@ -52,7 +52,7 @@
   margin: auto;
   padding-top: 15%;
   margin-top: 20%;
-  background-color: black;
+  background-color: #232323;
   width: 100vw;
   height: 100vh;
   color: white;
@@ -92,6 +92,71 @@
 
   @media only screen and (max-width: 480px) {
     /* styles for devices with a maximum screen width of 480px */
+    .pg-landingPage{
+      padding-top: 50%;
+    }
+    
+    .sup-title{
+      font-size: 15px;
+      font-family: "Forum", serif;
+      text-align: center;
+    }
+
+    .title-nm{
+      font-size: 70px;
+      text-align: center;
+    }
+    
+    .title-fn, .title-ln{
+      margin: 0px;
+    }
+    
+    .sub-title{
+      font-size: 10px;
+      text-align: center;
+      margin: auto;
+      width: 50%;
+    }
+    
+    .social-icons{
+      text-align: center;
+      margin: auto;
+      width: 50%;
+      margin-top: 3%;
+      display: flex;
+      justify-content: space-around;
+    }
+    
+    .icon-socials{
+      width: 20px;
+      height: 20px;
+      cursor: pointer;
+    }
+
+    .footer-title{
+      font-size: 60px;
+      margin-left: 5%;
+    }
+
+    .footer-sup-title{
+      font-size: 15px;
+      align-items: center;
+      margin-top: 5%;
+      margin-left: 5%;
+    }
+
+    .social{
+      margin-right: 20px;
+    }
+    
+    .footer-sub-title{
+      display: flex;
+      justify-content: flex-start;
+      font-size: 10px;
+      margin-top: 2%;
+      margin-left: 5%;
+    }
+
    
     
   }

@@ -20,6 +20,7 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 2%;
+    width: 350px;
   }
   
   .num{
@@ -47,3 +48,36 @@
     height: auto;
     cursor: pointer;
   }  
+
+
+
+  @media only screen and (max-width: 480px) {
+    /* styles for devices with a maximum screen width of 480px */
+
+    .acco-label{
+      margin-bottom: 7%;
+      font-size: 60px;
+    
+    }
+
+    .num{
+      font-size: 30px;
+    }
+
+    .num-context{
+      width: 200px;
+      font-size: 10px;
+    }
+
+    .cert-label{
+      font-size: 15px;
+    }
+
+    .cert-img{
+      width: 20px;
+      height: auto;
+      cursor: pointer;
+    }  
+
+
+  }
