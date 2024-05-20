@@ -34,13 +34,13 @@ function LandingPage(){
 
           <div className = 'social-icons'>
             <div className = 'icon linkedin'>
-              <img className = 'icon-socials' src = {Linkedin}></img>
+              <a href = "https://www.linkedin.com/in/lakshyatyagi"><img className = 'icon-socials' src = {Linkedin}/></a>
             </div>
             <div className = 'icon medium'>
-              <img className = 'icon-socials' src = {Medium}></img>
+              <a href = "https://medium.com/@lakshya_tyagi"><img className = 'icon-socials' src = {Medium}/></a>
             </div>
             <div className = 'icon linkedin'>
-              <img className = 'icon-socials' src = {Instagram}></img>
+              <a href = "https://www.instagram.com/lakshya.rus?igsh=MXB0Z2E2anQwMm1mdA%3D%3D&utm_source=qr"><img className = 'icon-socials' src = {Instagram}/></a>
             </div>
           </div>
 
@@ -68,10 +68,10 @@ function LandingPage(){
           </div>
 
           <div className = 'footer-sub-title'>
-            <div className = 'social'>Linkedin</div>
-            <div className = 'social'>Instagram</div>
-            <div className = 'social'>Medium</div>
-            <div className = 'social'>Github</div>
+            <div className = 'social'><a style = {{textDecoration:'none', color: "white"}} href = "https://www.linkedin.com/in/lakshyatyagi">Linkedin</a></div>
+            <div className = 'social'><a style = {{textDecoration:'none', color: "white"}} href = "https://www.instagram.com/lakshya.rus?igsh=MXB0Z2E2anQwMm1mdA%3D%3D&utm_source=qr">Instagram</a></div>
+            <div className = 'social'><a style = {{textDecoration:'none', color: "white"}} href = "https://medium.com/@lakshya_tyagi">Medium</a></div>
+            <div className = 'social'><a style = {{textDecoration:'none', color: "white"}} href = "https://github.com/eltyagi">Github</a></div>
           </div>
 
           <div className = 'footer-creds'>
