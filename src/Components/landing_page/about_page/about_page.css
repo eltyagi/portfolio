@@ -160,6 +160,14 @@
 
   @media only screen and (max-width: 480px) {
     /* styles for devices with a maximum screen width of 480px */
+    .pg-about{
+      margin-top: 40%;
+    }
+
+    .about-sup-title{
+      margin-bottom: 40%;
+    }
+
     .about-label{
       margin-bottom: 3%;
       font-size: 80px;

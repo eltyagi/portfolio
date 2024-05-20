@@ -20,7 +20,7 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 2%;
-    width: 350px;
+    width: 1000px;
   }
   
   .num{
@@ -39,7 +39,8 @@
   
   .certs{
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-around;
     align-items: center;
   }
   
@@ -53,6 +54,14 @@
 
   @media only screen and (max-width: 480px) {
     /* styles for devices with a maximum screen width of 480px */
+
+    .pg-accolades{
+      width: 100%;
+      margin: auto;
+      margin-top: 40%;
+      padding-left: 10px;
+      
+    }
 
     .acco-label{
       margin-bottom: 7%;
@@ -71,13 +80,22 @@
 
     .cert-label{
       font-size: 15px;
+
     }
 
     .cert-img{
-      width: 20px;
+      width: 50px;
       height: auto;
       cursor: pointer;
     }  
+
+    .acco-nums-1,.acco-nums-2{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 2%;
+      width: 380px;
+    }
 
 
   }

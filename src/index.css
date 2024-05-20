@@ -6,7 +6,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #ffffff;
-  overflow: visible;
+  overflow:visible;
+  overflow-x: hidden;
 }
 
 
@@ -23,6 +24,5 @@ a{
 .center {
   margin: auto;
   width: 50%;
-  padding: 10px;
 }
 

@@ -22,40 +22,14 @@ function App(){
     ReactGA.pageview(window.location.pathname + window.location.search);
 
     const loc = useLocation()
-    const [enableTransition, setEnableTransition] = useState(false)
-    
-    useEffect(() => {
-      setEnableTransition(true);
-      setTimeout(() => {
-        setEnableTransition(false);
-      }, 2000);
-    }, []);
-
-    const onClickTransition = useCallback(async() => {
-      setEnableTransition(true);
-      setTimeout(() => {
-        setEnableTransition(false);
-      }, 2000);
-    }, [])
 
     return (      
-      <div style = {{margin: "0px"}} className = 'App'>
+      <div style = {{margin: "0px"}} className = 'App center'>
 
-          {
-            enableTransition 
-            ?
-            (<div>
-              <CSSTransition
-                in = {enableTransition}
-                timeout = {1500}
-                classNames = "loaderTransition">
-                <Trans duration = {enableTransition}/>
-              </CSSTransition>
-            </div>)  
-          :
-            (<div>
-               <div className = 'menu-top'>
-                  <div onClick = {onClickTransition} className = 'menu-op'>
+         
+        <div>
+              <div className = 'menu-top'>
+                  <div className = 'menu-op'>
                     Portfolio '24
                   </div>
 
@@ -64,17 +38,13 @@ function App(){
                       Get in Touch
                     </a>
                   </div>
-                </div>
-            </div>)
-        }
+              </div>
+        </div>
+        
 
-        <TransitionGroup>
-        <CSSTransition classNames='fade' key={loc.key}>
         <Routes style = {{margin: "0px"}}>
-          <Route style = {{margin: "0px"}} path="/portfolio" element={<Landingpage/>}/>
+          <Route style = {{margin: "0px"}} className = 'center' path="/portfolio" element={<Landingpage/>}/>
         </Routes>
-        </CSSTransition>
-        </TransitionGroup>
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/>
         <link rel="preconnect" href="https://fonts.googleapis.com"/>

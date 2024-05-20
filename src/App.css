@@ -3,7 +3,6 @@
   height: 100vh;
   font-size: 25px;
   font-family: 'Tenor Sans', sans-serif;
-  margin-left: 20%;
   margin-top: 10%;
 }
 
@@ -25,31 +24,7 @@
   margin-right: 2%;
 }
 
-.loaderTransition-enter{
-  opacity: 0;
-}
 
-.loaderTransition-enter-active{
-  opacity: .5;
-  transition: opacity 300ms ease-in;
-}
-
-.loaderTransition-enter-done{
-  opacity: 1;
-}
-
-.loaderTransition-exit{
-  opacity: 1;
-}
-
-.loaderTransition-exit-active{
-  opacity: .5;
-  transition: opacity 300ms ease-out;
-}
-
-.loaderTransition-exit-done{
-  opacity: 0;
-}
 
 
 @media only screen and (max-width: 480px) {
