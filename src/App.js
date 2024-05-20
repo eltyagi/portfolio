@@ -43,7 +43,7 @@ function App(){
         
 
         <Routes style = {{margin: "0px"}}>
-          <Route style = {{margin: "0px"}} className = 'center' path="/portfolio" element={<Landingpage/>}/>
+          <Route style = {{margin: "0px"}} className = 'center' path="/" element={<Landingpage/>}/>
         </Routes>
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/>
